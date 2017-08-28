@@ -1,0 +1,52 @@
+{{#if message}}
+    <div id="alertScore" class="alert alert-success alert-dismissible fade show" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      {{message}}
+    </div>
+{{/if}}
+
+<form id="formScore" class="oxy adminForm col-6 col-sm-5 text-center container-fluid" action="/admin" method="post">
+    <div class="form-group">
+      <h3 class="viga" style="margin-bottom: 1em">Modification des scores</h3>
+      <label for="inputFamille">Famille</label>
+      <select class="form-control form-control-sm" name="inputFamille">
+        <option>Dragonwing</option>
+        <option>Eaglescream</option>
+        <option>Tigerblood</option>
+        <option>Wolfeye</option>
+        <option>Foxpaw</option>
+        <option>Owlclaw</option>
+        <option>Lionskin</option>
+        <option>Phoenixtear</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="inputPoints">Point(s) à ajouter</label>
+      <input class="form-control form-control-sm" name="inputPoints" type="text" value="0">
+    </div>
+    <input name="inputScore" class="btn btn-dark" type="submit" value="Modifier">
+</form>
+
+<form id="formPartenaire" class="oxy adminForm col-6 col-sm-5 text-center container-fluid" action="/admin" method="post">
+    <h3 class="viga" style="margin-bottom: 1em">Ajout d'un partenaire</h3>
+    <div class="form-group">
+      <label for="inputId">Nom</label>
+      <input class="form-control form-control-sm" name="inputId" type="text" value="">
+    </div>
+    <div class="form-group">
+      <label for="inputDescription">Description</label>
+      <textarea class="form-control form-control-sm" name="inputDescription" type="text" value="">
+      </textarea>
+    </div>
+    <div class="form-group">
+      <label for="inputLogo">Logo</label>
+      <input class="form-control form-control-sm" name="inputLogo" type="text" value="">
+    </div>
+    <div class="form-group">
+      <label for="inputLink">Link</label>
+      <input class="form-control form-control-sm" name="inputLink" type="text" value="">
+    </div>
+    <input name="inputPartenaire" class="btn btn-dark" type="submit" value="Ajouter">
+</form>

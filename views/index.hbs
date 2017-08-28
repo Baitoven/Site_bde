@@ -1,0 +1,20 @@
+<div class="container-fluid wrapper">
+    <!-- <section class="row text-center">
+        <div class="col-12">
+            <img src="/images/logoBeeDjinn.jpg" width="300" height="300" class="img-fluid" alt="Logo Bee Djinn">
+        </div>
+    </section> -->
+
+    <h2 id="leaderBoardHeader" class="viga text-dark text-center">Leaderboard</h2>
+    <div id="leaderBoard" class="container">
+        <section class="row text-center">
+            {{#each familles}}
+                <div class="col-12 col-sm-6 col-md-3 famille">
+                  <img src={{this.logo}} width="180" height="180" class="img-fluid rounded-circle" alt={{this.name}}>
+                  <h4>{{this.name}}</h4>
+                  <div class="text-muted">{{this.score}} point(s)</div>
+                </div>
+            {{/each}}
+        </section>
+    </div>
+</div>

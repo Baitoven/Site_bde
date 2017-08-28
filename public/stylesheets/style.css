@@ -1,0 +1,82 @@
+body {
+    padding-top: 3.5em
+}
+
+/* Fonts from GoogleFonts */
+
+.oxy {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.viga {
+    font-family: 'Viga', sans-serif;
+}
+
+/* Index */
+
+#leaderBoard {
+    padding-top: 2em;
+    margin-top: 2em;
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color: white;
+
+}
+#leaderBoardHeader {
+    margin-top: 0.7em
+}
+
+#footer {
+    padding-top: 1.7em;
+    padding-bottom: 1em
+}
+
+.footerBloc {
+    margin-bottom: 1em
+}
+
+.footerBloc > ul {
+    list-style-type: none;
+    margin-left: -2em !important;
+}
+
+.socialIcon {
+    margin-top: 0.15em;
+    color: white !important;
+}
+
+.famille {
+    margin-bottom: 2em
+}
+
+
+/* Partenaires */
+
+@media (min-width: 990px) {
+    .partenaires {
+        width: 70%;
+    }
+}
+
+.card {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.card:hover {
+    border: 1.5px solid grey;
+}
+
+.wrapper {
+    padding-top: 1em;
+    background-color: lightgrey;
+    padding-bottom: 2em;
+}
+
+
+/* Admin */
+
+.adminForm {
+    padding: 2em 0 2.3em 0;
+    border-bottom: 2px solid grey
+}
