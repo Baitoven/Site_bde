@@ -1,4 +1,14 @@
-<form id="formLogin" class="oxy adminForm col-6 col-sm-3 text-center container-fluid" action="/admin" method="post">
+{{#if message}}
+    <div id="alertLogin" class="alert alert-warning alert-dismissible fade show" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      {{message}}
+    </div>
+{{/if}}
+
+
+<form id="formLogin" class="oxy col-6 col-sm-3 text-center container-fluid" action="/admin" method="post">
     <h3 class="viga" style="margin-bottom: 1em">Log in Admin</h3>
     <div class="form-group">
       <label for="inputPassword">Password</label>
