@@ -2,85 +2,85 @@
     {
         "id": "",
         "description": "Tu notes ton appart, et tu fais gagner de la thune au BDE qui part en vacances à Amsterdam te fait des événements stylés avec !",
-        "logo": "https://pbs.twimg.com/profile_images/724153498036768768/nAnthp0L.jpg",
+        "logo": "/images/happyrenting.jpg",
         "link": "https://happyrenting.fr/"
     },
     {
         "id": "",
         "description": "Pas de frais administratifs (d’une valeur de 450 euros !) pour la location d’un studio !",
-        "logo": "http://s3.amazonaws.com/assets.ehpad-invest/ehpad_invest/pictures/356/show.jpg?1472031402",
+        "logo": "/images/studea.jpg",
         "link": "http://www.nexity-studea.com/"
     },
     {
         "id": "",
         "description": "C'est un site qui te permet de souscrire et gérer l'électricité, le gaz, la box internet, et bientôt la caf ! C’est hyper pratique, et ça ne te coute pas plus cher que si tu prenais chaque abonnement individuellement ! Pour chaque abonnement souscrit, tu gagnes 10€ sur le premier mois ! Pense à indiquer le code promo : AECN",
-        "logo": "http://blog.trouvetontransport.com/wp-content/uploads/2017/06/logo_domoskit-01-01.jpg",
+        "logo": "/images/domoskit.jpg",
         "link": "https://www.domoskit.com/home/index/"
     },
     {
         "id": "",
         "description": "Pas de frais administratifs.",
-        "logo": "https://www.estudines.com/images/logogd.png",
+        "logo": "/images/estudines.png",
         "link": "https://www.estudines.com/"
     },
     {
         "id": "",
         "description": "Réductions (jusqu'à 60%) grâce à notre code BDEECN !",
-        "logo": "http://www.underconsideration.com/brandnew/archives/dell_2016_logo.png",
+        "logo": "/images/dell.png",
         "link": "http://www.portable-etudiant.com/?Id=9JQYO21CNZSEQ1KRE5CS"
     },
     {
         "id": "",
         "description": "Réductions sur le matériel informatique pour les étudiants !",
-        "logo": "https://seeklogo.com/images/H/hp-logo-EEECF99DCE-seeklogo.com.png",
+        "logo": "/images/hp.png",
         "link": "https://store.hp.com/fr/students"
     },
     {
         "id": "",
         "description": "Un resto qui fait des Hamburgers, et qui nous donne des frites A VOLONTÉ les soirs d’évènements pour les Centraliens !",
-        "logo": "http://2.bp.blogspot.com/-vB6r8cC5Iik/USI5alhgbxI/AAAAAAAAAI4/Omkn8zKUWCw/s1600/vf.jpg",
+        "logo": "/images/vf.png",
         "link": "http://www.restaurantvf.fr/"
     },
     {
         "id": "",
         "description": "Un petit nouveau : tu t’éclates le bide avec des flammekueches à volontés pour seulement 11€ (formule Terroir : choix parmi 4 Flam’s +dessert OU entrée OU boisson) ou 13€ (Formule Flam’Seur : choix parmi toutes les Flam’s + entrée OU dessert OU boisson)",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/e/e7/Logo_de_Flams.jpg",
+        "logo": "/images/flams.jpg",
         "link": "http://www.flams.fr/"
     },
     {
         "id": "",
         "description": "Pizza Medium à 6.90€, XL et Chessy Crust à 8.90€ (Minimum 4 pizzas si tu veux te faire livrer)",
-        "logo": "http://vignette2.wikia.nocookie.net/logopedia/images/b/b3/Pizza_Hut_Logo_2.png/revision/latest?cb=20161129133747",
+        "logo": "/images/pizzahut.png",
         "link": "https://www.pizzahut.fr/"
     },
     {
         "id": "",
         "description": "Jeu de 32 cartes avec plein de réducs dans les bars / boites / restos, qui s'amortie en 2 cartes ! A venir chercher au BDE pour 9 €",
-        "logo": "https://www.nightfallcards.fr/wp-content/uploads/2014/12/jeu-de-carte-nantes.png",
+        "logo": "/images/nightfall.png",
         "link": "https://www.nightfallcards.fr/produit/jeu-de-cartes-nantes/"
     },
     {
         "id": "",
         "description": "-10% sur tout ce que tu achètes ! (Sur présentation de la carte étudiant)",
-        "logo": "http://www.mister-events.fr/wp-content/uploads/2015/05/logomiecaline.png",
+        "logo": "/images/miecaline.png",
         "link": "http://www.lamiecaline.com/fr/"
     },
     {
         "id": "",
         "description": "Menu SUB15 à 5.50€ et SUB30 à 7.50€ sur présentation de la carte étudiante",
-        "logo": "https://www.logodesignlove.com/images/wordmarks/subway-logo-02.jpg",
+        "logo": "/images/subway.jpg",
         "link": "http://subwayfrance.fr/"
     },
     {
         "id": "",
         "description": "Pour donner des cours particuliers et te faire la masse de thune ! Le BDE reçois de l’argent si tu t’inscris chez eux, et ça peut lui permettre de te faire des tonus stylés, ou de partir en vacances grâce à toi !",
-        "logo": "https://entreprise.pole-emploi.fr/static//img/minisite/NOaysufFgtBZtkRyhMfCMNNUw4Rs5W1D.jpg",
+        "logo": "/images/acadomia.jpg",
         "link": "https://www.acadomia.fr/"
     },
     {
         "id": "",
         "description": "Là aussi, tu peux donner des cours particuliers et te faire la masse de thune !",
-        "logo": "http://www.24presse.com/ckfinder/userfiles/images/illustration%20compl%C3%A9tude(1).jpg",
+        "logo": "/images/complétude.jpg",
         "link": "http://www.completude.com/"
     }
 ]
