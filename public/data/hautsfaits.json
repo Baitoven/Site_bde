@@ -1,0 +1,13 @@
+[
+    {
+        "mission": "Se prendre en selfie avec exactement 7 moutons",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Offrir un bouquet de fleurs à Poirson",
+        "points": 50,
+        "done": false
+    }
+
+]

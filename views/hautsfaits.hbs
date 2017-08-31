@@ -1,0 +1,22 @@
+<div class="container-fluid wrapper oxy">
+    <table id="Hautsfaits" class="table table-bordered bg-light mx-auto">
+      <thead>
+        <tr>
+          <th class="text-center">Mission</th>
+          <th class="text-center">Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each hautsfaits}}
+            {{#if this.done}}
+            <tr class="table-success" style="text-decoration: line-through;">
+            {{else}}
+            <tr class="table">
+            {{/if}}
+              <td class="text-center">{{this.mission}}</td>
+              <th class="text-center">{{this.points}}</th>
+            </tr>
+        {{/each}}
+      </tbody>
+    </table>
+</div>

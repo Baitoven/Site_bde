@@ -34,6 +34,11 @@ app.get('/partenaires', (req, res) => {
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
 });
 
+app.get('/hautsfaits', (req, res) => {
+    hautsfaits = JSON.parse(fs.readFileSync('./public/data/hautsfaits.json', 'utf8'));
+    res.render('hautsfaits', { title: "BDE | Hauts Faits", hautsfaits: hautsfaits})
+});
+
 app.get('/admin', (req, res) => {
     if (req.session.isAdmin) {
         res.render('admin', { title: "BDE | Admin" })
@@ -53,6 +58,14 @@ app.post('/admin', (req, res) => {
         familles[req.body.inputFamille].score += Number(req.body.inputPoints);
         message = 'Les membres de la famille ' + req.body.inputFamille + ' viennent de gagner ' + Number(req.body.inputPoints) + ' point(s) !'
         fs.writeFileSync('./public/data/familles.json', JSON.stringify(familles, null, 4));
+        res.render('admin', { title: "BDE | Admin", message: message})
+    }
+    if (req.body.inputHautsfaits) {
+        familles = JSON.parse(fs.readFileSync('./public/data/familles.json', 'utf8'));
+        hautsfaits = JSON.parse(fs.readFileSync('./public/data/hautsfaits.json', 'utf8'));
+        hautsfaits[req.body.inputNumber].done = req.body.inputDone == "Oui" ? true : false;
+        message = 'Haut fait actualisé !'
+        fs.writeFileSync('./public/data/hautsfaits.json', JSON.stringify(hautsfaits, null, 4));
         res.render('admin', { title: "BDE | Admin", message: message})
     }
     if (req.body.inputPartenaire) {
