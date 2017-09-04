@@ -39,6 +39,26 @@ app.get('/hautsfaits', (req, res) => {
     res.render('hautsfaits', { title: "BDE | Hauts Faits", hautsfaits: hautsfaits})
 });
 
+app.get('/killer/kill', (req, res) => {
+    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
+    res.render('kill', { title: "BDE | Kill", players: players })
+});
+
+app.post('/killer/kill', (req, res) => {
+    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
+    if (players[req.body.inputKillerId] && players[req.body.inputKillerId].cible === req.body.inputTargetId) {
+      res.render('kill', { title: "BDE | Kill", players: players, message: "Votre kill a bien été validé! Bravo :)" })
+    } else {
+      res.render('kill', { title: "BDE | Kill", players: players, message: "Arnaqueur, tu ne vas pas nous la faire à l'envers ! :)" })
+    }
+    res.render('kill', { title: "BDE | Kill", players: players })
+});
+
+app.get('/killer/joueurs', (req, res) => {
+    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
+    res.render('joueurs', { title: "BDE | Joueurs", players: players })
+});
+
 app.get('/admin', (req, res) => {
     if (req.session.isAdmin) {
         res.render('admin', { title: "BDE | Admin" })

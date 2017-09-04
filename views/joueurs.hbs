@@ -1,0 +1,17 @@
+<div class="container-fluid wrapper oxy">
+    <table class="table table-bordered bg-light mx-auto">
+      <tbody>
+        {{#each players}}
+              {{#if this.mort}}
+              <tr class="table-danger" style="text-decoration: line-through;">
+              {{else if this.cible_morte}}
+              <tr class="table-success">
+              {{else}}
+              <tr class="table">
+              {{/if}}
+                <td class="text-center">{{this.prénom}} {{this.nom}}</td>
+              </tr>
+        {{/each}}
+      </tbody>
+    </table>
+</div>

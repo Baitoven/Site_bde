@@ -1,0 +1,24 @@
+{
+  "banane17": {
+    "nom": "Avequin",
+    "prénom": "Damien",
+    "famille": "Foxpaw",
+    "id": "banane17",
+    "année": "ei2",
+    "cible": "mirtille52",
+    "mission": "Faire chanter le générique d'Harry Potter",
+    "mort": false,
+    "cible_morte": true
+  },
+  "mirtille52": {
+    "nom": "Perrin",
+    "prénom": "Charly",
+    "famille": "Wolfeye",
+    "id": "mirtille52",
+    "année": "ei2",
+    "cible": "banane17",
+    "mission": "Lancer un sort interdit",
+    "mort": true,
+    "cible_morte": true
+  }
+}
