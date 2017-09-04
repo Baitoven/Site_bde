@@ -8,5 +8,100 @@
         "mission": "Offrir un bouquet de fleurs à Poirson",
         "points": 50,
         "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Dragonwing",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Eaglescream",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Tigerblood",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Wolfeye",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Foxpaw",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Owlclaw",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Lionskin",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le code secret des Phoenixtear",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le 1er Horcruxe",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le 2ème Horcruxe",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le 3ème Horcruxe",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le 4ème Horcruxe",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le 5ème Horcruxe",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le 6ème Horcruxe",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le 7ème Horcruxe",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Venir en amphi déguisé.e en Harry Potter (lunettes, cicatritrice, cape, baguette) et publier la photo sur Centrale Nantes 2017-2018",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Publier 'Je jure solenellement que mes intentions sont mauvaises' sur la page Centrale Nantes (A CRYPTER)",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Se déguiser en jumeaux Weasley entre fillot et parrain (perruques, baguettes) et venir au BDE",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Se prendre en vidéo en train de courir du batiment B jusqu'au L avec un balais entre les jambes",
+        "points": 50,
+        "done": false
     }
 ]
