@@ -39,6 +39,18 @@ app.get('/hautsfaits', (req, res) => {
     res.render('hautsfaits', { title: "BDE | Hauts Faits", hautsfaits: hautsfaits})
 });
 
+app.get('/killer/instructions', (req, res) => {
+    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
+    res.render('instructions', { title: "BDE | Instructions", players: players })
+});
+
+app.post('/killer/instructions', (req, res) => {
+    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
+    cible = players[req.body.inputId].cible;
+    message = players[req.body.inputId].mission + " - " + players[cible].prénom + " " + players[cible].nom + " " + players[cible].famille;
+    res.render('instructions', { title: "BDE | Instructions", players: players, message: message  })
+});
+
 app.get('/killer/kill', (req, res) => {
     players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
     res.render('kill', { title: "BDE | Kill", players: players })
