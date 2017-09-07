@@ -1,7 +1,9 @@
 ### Website of the students association of ECN
 
-# Requirements :
+# Requirements
 - Node.JS
 
 # Setup
-- git clone / npm install / npm start
+- git clone
+- npm install
+- npm start
