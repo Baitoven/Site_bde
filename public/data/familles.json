@@ -1,42 +1,42 @@
 {
     "Dragonwing": {
         "name": "Dragonwing",
-        "score": 0,
+        "score": 350,
         "logo": "/images/logoDragonwing.png"
     },
     "Eaglescream": {
         "name": "Eaglescream",
-        "score": 0,
+        "score": 300,
         "logo": "/images/logoEaglescream.png"
     },
     "Tigerblood ": {
         "name": "Tigerblood",
-        "score": 0,
+        "score": 200,
         "logo": "/images/logoTigerblood.png"
     },
     "Wolfeye": {
         "name": "Wolfeye",
-        "score": 0,
+        "score": 150,
         "logo": "/images/logoWolfeye.png"
     },
     "Foxpaw": {
         "name": "Foxpaw",
-        "score": 0,
+        "score": 500,
         "logo": "/images/logoFoxpaw.png"
     },
     "Owlclaw": {
         "name": "Owlclaw",
-        "score": 0,
+        "score": 250,
         "logo": "/images/logoOwlclaw.png"
     },
     "Lionskin": {
         "name": "Lionskin",
-        "score": 0,
+        "score": 450,
         "logo": "/images/logoLionskin.png"
     },
     "Phoenixtear": {
         "name": "Phoenixtear",
-        "score": 0,
+        "score": 400,
         "logo": "/images/logoPhoenixtear.png"
     }
 }
