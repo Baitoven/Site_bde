@@ -50,42 +50,12 @@
         "done": false
     },
     {
-        "mission": "Trouver le 1er Horcruxe",
-        "points": 50,
-        "done": false
-    },
-    {
-        "mission": "Trouver le 2ème Horcruxe",
-        "points": 50,
-        "done": false
-    },
-    {
-        "mission": "Trouver le 3ème Horcruxe",
-        "points": 50,
-        "done": false
-    },
-    {
-        "mission": "Trouver le 4ème Horcruxe",
-        "points": 50,
-        "done": false
-    },
-    {
-        "mission": "Trouver le 5ème Horcruxe",
-        "points": 50,
-        "done": false
-    },
-    {
-        "mission": "Trouver le 6ème Horcruxe",
-        "points": 50,
-        "done": false
-    },
-    {
-        "mission": "Trouver le 7ème Horcruxe",
-        "points": 50,
-        "done": false
-    },
-    {
         "mission": "Venir en amphi déguisé.e en Harry Potter (lunettes, cicatritrice, cape, baguette) et publier la photo sur Centrale Nantes 2017-2018",
+        "points": 50,
+        "done": false
+    },
+    {
+        "mission": "Trouver le mangemort infiltré",
         "points": 50,
         "done": false
     },
