@@ -46,9 +46,14 @@ app.get('/killer/instructions', (req, res) => {
 
 app.post('/killer/instructions', (req, res) => {
     players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
-    cible = players[req.body.inputId].cible.key;
-    message = players[req.body.inputId].cible.mission + " - " + players[cible].prenom + " " + players[cible].nom + " " + players[cible].famille;
-    res.render('instructions', { title: "BDE | Instructions", players: players, message: message  })
+    if (players[req.body.inputId]) {
+        cible = players[req.body.inputId].cible.key;
+        message = players[req.body.inputId].cible.mission + " - " + players[cible].prenom + " " + players[cible].nom + " - " + players[cible].famille;
+        res.render('instructions', { title: "BDE | Instructions", players: players, message: message  })
+    }
+    else {
+        res.render('instructions', { title: "BDE | Instructions", players: players, message: "Cette clé n'existe pas, si tu ne t'en souviens pas contacte Damien Djinn"  })
+    }
 });
 
 app.get('/killer/kill', (req, res) => {
