@@ -1,19 +1,34 @@
-{{#if message}}
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-      </button>
-      {{message}}
-    </div>
-{{/if}}
+<div class="container-fluid wrapper oxy">
+    {{#if message}}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+          {{message}}
+        </div>
+    {{/if}}
 
-<form class="oxy adminForm col-6 col-sm-5 text-center container-fluid" action="/killer/instructions" method="post" style="margin-bottom: 18.3em">
-    <div class="form-group">
-      <h3 class="viga" style="margin-bottom: 1em">Trouve ta cible !</h3>
+    <form class="oxy adminForm col-6 col-sm-5 text-center container-fluid" action="/killer/instructions" method="post">
+        <div class="form-group">
+          <h3 class="viga" style="margin-bottom: 1em">Trouve ta cible !</h3>
+        </div>
+        <div class="form-group">
+          <label for="inputId">Ton id</label>
+          <input class="form-control form-control-sm" name="inputId" type="text" value="">
+        </div>
+        <input name="inputInstructions" class="btn btn-dark" type="submit" value="Valider">
+    </form>
+
+    <div class="jumbotron">
+      <h1 class="text-center viga">Règles</h1> </br>
+      <p class="lead oxy">Les règles sont simples. Tu as reçu une cible et une mission. Tu dois d’abord repérer ta cible si tu ne la connais pas. Étudie tous ses mouvements et ses habitudes, tu en auras peut-être besoin pour la coincer... </br>
+      Ensuite, tu dois remplir ta mission auprès de ta cible. Mais attention sois discret, si elle te grille elle sera sur ses aguets et tu auras beaucoup plus de mal à la tuer. Chaque personne n’a qu’une cible donc ne te précipites pas. </br> </br>
+
+      Si tu réussis à remplir ta mission, tu as tué ta cible. Montre-lui bien ta mission pour lui prouver que tu ne triches pas. Elle doit ensuite te donner son code secret (la fameuse clé qu’il fallait indiquer lors des inscriptions). Rendez-vous sur le site du BDE pour rendre ta mission... bravo, tu viens de gagner 100 points pour ta maison. </br>
+      Une fois que tu as fini ton kill, tu n’en récupères pas un nouveau comme dans un killer classique. Maintenant, tu dois aider tes collègues de ta maison à réaliser les leurs, pour gagner le plus de points possible. L’entraide sera de mise, les conversations de maisons sont là pour ça... </br></br>
+
+      Enfin, si tu te fais tuer avant d’avoir effectué ton kill, j’ai le regret de t’annoncer que le jeu s’arrête pour toi. Alors sois prudent, et ne fais confiance à personne en dehors de ta maison.</br></br>
+
+      Attention, le killer commence maintenant, vous n’êtes plus en sécurité jusqu’à nouvel ordre.</p>
     </div>
-    <div class="form-group">
-      <label for="inputId">Ton id</label>
-      <input class="form-control form-control-sm" name="inputId" type="text" value="">
-    </div>
-    <input name="inputInstructions" class="btn btn-dark" type="submit" value="Valider">
-</form>
+</div>
