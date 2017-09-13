@@ -1,2626 +1,2314 @@
 {
-    "Dragonwing": [
-        {
+    "Dragonwing": {
+        "5x448ohoh": {
             "prenom": "Mathieu",
             "nom": "PVC",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "5x448ohoh"
+            "haskilled": false
         },
-        {
+        "Cacaprout": {
             "prenom": "Clémence ",
             "nom": "Pétillion ",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Cacaprout"
+            "haskilled": false
         },
-        {
+        "Integration": {
             "prenom": "Gauthier",
             "nom": "Frécon ",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Integration"
+            "haskilled": false
         },
-        {
+        "Txotxo": {
             "prenom": "Txomin",
             "nom": "Mesplou",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Txotxo"
+            "haskilled": false
         },
-        {
+        "Abzegada": {
             "prenom": "Raphaël ",
             "nom": "Vayssié ",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Abzegada"
+            "haskilled": false
         },
-        {
+        "France": {
             "prenom": "Flavien",
             "nom": "Alonzo",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "France"
+            "haskilled": false
         },
-        {
+        "Bicloo": {
             "prenom": "Lucas",
             "nom": "Metzger",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Bicloo"
+            "haskilled": false
         },
-        {
+        "Cafetière": {
             "prenom": "Thomas ",
             "nom": "Bedouret ",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Cafetière"
+            "haskilled": false
         },
-        {
+        "Chocapic": {
             "prenom": "Oualid",
             "nom": "Cheriaf",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Chocapic"
+            "haskilled": false
         },
-        {
+        "Natationjds": {
             "prenom": "Léa",
             "nom": "Roussel",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Natationjds"
+            "haskilled": false
         },
-        {
+        "Poire": {
             "prenom": "Léo",
             "nom": "Coquand",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Poire"
+            "haskilled": false
         },
-        {
+        "Grêmio": {
             "prenom": "Guilherme",
             "nom": "Beche Lopes",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Grêmio"
+            "haskilled": false
         },
-        {
+        "Clé716": {
             "prenom": "Arthur",
             "nom": "Lemasson",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Clé"
+            "haskilled": false
         },
-        {
+        "Manon": {
             "prenom": "Antoine",
             "nom": "Laroye",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Manon"
+            "haskilled": false
         },
-        {
+        "Grenadine": {
             "prenom": "Hugo",
             "nom": "David",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Grenadine"
+            "haskilled": false
         },
-        {
+        "Duplex": {
             "prenom": "Thibaut",
             "nom": "Pasquet ",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Duplex"
+            "haskilled": false
         },
-        {
+        "Pomme": {
             "prenom": "Nicolas",
             "nom": "Le Berr",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Pomme"
+            "haskilled": false
         },
-        {
+        "Sport": {
             "prenom": "Vincent",
             "nom": "Meslier",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Sport"
+            "haskilled": false
         },
-        {
+        "Shylmagoghnar": {
             "prenom": "Louis",
             "nom": "Forgues",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Shylmagoghnar"
+            "haskilled": false
         },
-        {
+        "Titi44": {
             "prenom": "Thibaud ",
             "nom": "Launay ",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Titi44"
+            "haskilled": false
         },
-        {
+        "COV": {
             "prenom": "Lise",
             "nom": "Rodde",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "COV"
+            "haskilled": false
         },
-        {
+        "Poney": {
             "prenom": "Olivia",
             "nom": "Bonjour",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Poney"
+            "haskilled": false
         },
-        {
+        "chocolatine": {
             "prenom": "Guillaume",
             "nom": "Fromentin",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "chocolatine"
+            "haskilled": false
         },
-        {
+        "KTdrale": {
             "prenom": "Théo",
             "nom": "Lecointre",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "KTdrale"
+            "haskilled": false
         },
-        {
+        "piano": {
             "prenom": "François",
             "nom": "de Rochette",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "piano"
+            "haskilled": false
         },
-        {
+        "Charot": {
             "prenom": "Rayane",
             "nom": "El Bouziani",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Charot"
+            "haskilled": false
         },
-        {
+        "vodkavodka": {
             "prenom": "Victor",
             "nom": "Michelot",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "vodkavodka"
+            "haskilled": false
         },
-        {
+        "Manteau": {
             "prenom": "Stan",
             "nom": "Bromberg",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Manteau"
+            "haskilled": false
         },
-        {
+        "Sombre": {
             "prenom": "Paul",
-            "nom": "Durand--Lupinski",
+            "nom": "Durand-Lupinski",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Sombre"
+            "haskilled": false
         },
-        {
+        "poop": {
             "prenom": "Zoé",
             "nom": "Barjot",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "poop"
+            "haskilled": false
         },
-        {
+        "Brio": {
             "prenom": "Olivia ",
             "nom": "Delattre",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Brio"
+            "haskilled": false
         },
-        {
+        "Cazaros55#66": {
             "prenom": "Paul",
             "nom": "Asquin",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "Cazaros55#66"
+            "haskilled": false
         },
-        {
+        "noir": {
             "prenom": "Guilherme Tadashi",
             "nom": "Ishida",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "noir"
+            "haskilled": false
         },
-        {
+        "clé78": {
             "prenom": "Lucie",
             "nom": "Hervé",
             "famille": "Dragonwing",
             "dead": false,
-            "haskilled": false,
-            "key": "clé"
+            "haskilled": false
         }
-    ],
-    "Eaglescream": [
-        {
-            "prenom": "Anthony",
-            "nom": "Saliou",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Ventilateur"
-        },
-        {
-            "prenom": "Maude",
-            "nom": "Vincent",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Double"
-        },
-        {
-            "prenom": "Guillaume",
-            "nom": "Tollini",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "dems"
-        },
-        {
-            "prenom": "Maxime",
-            "nom": "Rapp",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Tartiflette"
-        },
-        {
-            "prenom": "Josselyn",
-            "nom": "Baumer",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Henry"
-        },
-        {
-            "prenom": "Alix",
-            "nom": "Simon",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Côtelette"
-        },
-        {
-            "prenom": "Alicia",
-            "nom": "Maravat",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "ali"
-        },
-        {
-            "prenom": "Julien",
-            "nom": "Relet",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Jimini"
-        },
-        {
-            "prenom": "Pierre",
-            "nom": "Gout",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Marsupilami"
-        },
-        {
-            "prenom": "thibaud",
-            "nom": "Ritoux",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "meures"
-        },
-        {
-            "prenom": "Maxence",
-            "nom": "Collard",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "killer"
-        },
-        {
-            "prenom": "Pierlou",
-            "nom": "Ramade",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Jayz"
-        },
-        {
-            "prenom": "Gaël",
-            "nom": "Vignes",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Malaise"
-        },
-        {
-            "prenom": "Cléo",
-            "nom": "Deroo",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Potiron"
-        },
-        {
-            "prenom": "Robin",
-            "nom": "TROESCH",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Kougelhopf"
-        },
-        {
-            "prenom": "Lucas",
-            "nom": "Rémond",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "KeenVFanClubOfficiel"
-        },
-        {
-            "prenom": "Clément",
-            "nom": "LABBE",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Boulet"
-        },
-        {
-            "prenom": "Titouan",
-            "nom": "Cazeneuve",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Sacrebleu"
-        },
-        {
-            "prenom": "Anna",
-            "nom": "Diop",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Goujat"
-        },
-        {
-            "prenom": "Gilles",
-            "nom": "Fang",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "COQ"
-        },
-        {
-            "prenom": "Rémi ",
-            "nom": "Fallon ",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "bananiiaa"
-        },
-        {
-            "prenom": "Florian",
-            "nom": "Bartocci",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "AvadaKedavra"
-        },
-        {
-            "prenom": "hugo",
-            "nom": "Jayle",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Napoléon"
-        },
-        {
-            "prenom": "Camille",
-            "nom": "Petit",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "chaise"
-        },
-        {
-            "prenom": "Vincent",
-            "nom": "Espinasse",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Fauteuil"
-        },
-        {
-            "prenom": "Hugo",
-            "nom": "Thuilliez",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "russe"
-        },
-        {
-            "prenom": "Jason",
-            "nom": "Perrin",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "zut"
-        },
-        {
-            "prenom": "Abdelhadi",
-            "nom": "Louah",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Sata"
-        },
-        {
-            "prenom": "Léa",
-            "nom": "Guipouy",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Pandore"
-        },
-        {
-            "prenom": "Victor",
-            "nom": "Graff",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "hx2"
-        },
-        {
-            "prenom": "Thomas",
-            "nom": "Barthélemy",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Sheraf"
-        },
-        {
-            "prenom": "Tamara Géssica",
-            "nom": "GADELHA MEDEIROS",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "I'llbeback"
-        },
-        {
-            "prenom": "Maxence",
-            "nom": "Aubé",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "lolodusale"
-        },
-        {
-            "prenom": "Jérôme",
-            "nom": "Germain",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Pangolin"
-        },
-        {
-            "prenom": "Jean-Baptiste",
-            "nom": "de Beco",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "halo"
-        },
-        {
-            "prenom": "Paul",
-            "nom": "Jacquemard",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "mamou"
-        },
-        {
-            "prenom": "Pierre",
-            "nom": "Puppinck",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Aigle"
-        },
-        {
-            "prenom": "Daniel",
-            "nom": "Moussa",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "michel"
-        },
-        {
-            "prenom": "Emilien",
-            "nom": "Sopetti",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Casino"
-        },
-        {
-            "prenom": "Victorien",
-            "nom": "Bernat",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Perdu"
-        },
-        {
-            "prenom": "Lucas",
-            "nom": "Sanciet--Munier",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "Reblochon"
-        },
-        {
-            "prenom": "Rémi",
-            "nom": "Vassileff",
-            "famille": "Eaglescream",
-            "dead": false,
-            "haskilled": false,
-            "key": "quimper"
-        }
-    ],
-    "Foxpaw": [
-        {
-            "prenom": "Eléonore",
-            "nom": "Bernet",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "saperlipopette"
-        },
-        {
-            "prenom": "Benoit",
-            "nom": "de Renty",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "gitan"
-        },
-        {
-            "prenom": "marie",
-            "nom": "wouts",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "chateau"
-        },
-        {
-            "prenom": "Pas de prénom au rugby",
-            "nom": "Soulard",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Alcool"
-        },
-        {
-            "prenom": "Romain",
-            "nom": "Olla",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Vodka"
-        },
-        {
-            "prenom": "Victor",
-            "nom": "Beucler",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "cosi"
-        },
-        {
-            "prenom": "Alexis",
-            "nom": "Gaziello",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Mouton"
-        },
-        {
-            "prenom": "Lohan",
-            "nom": "Le Berrigaud",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Fanfrale"
-        },
-        {
-            "prenom": "Quentin ",
-            "nom": "Ferret",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Truite"
-        },
-        {
-            "prenom": "Pierre",
-            "nom": "Le Jeune",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "311079"
-        },
-        {
-            "prenom": "Antoine",
-            "nom": "Marullaz",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Colibri"
-        },
-        {
-            "prenom": "antoine",
-            "nom": "colson",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "panzani"
-        },
-        {
-            "prenom": "Yohann",
-            "nom": "Reveillon",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Jambon"
-        },
-        {
-            "prenom": "Bich-Anh",
-            "nom": "Han",
-            "famille": "Foxpaw",
-            "dead": false,
-            "haskilled": false,
-            "key": "Pastèque"
-        },
-        {
+    },
+    "Foxpaw": {
+        "9856": {
             "prenom": "Corentin",
             "nom": "Hattier",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "9856"
+            "haskilled": false
         },
-        {
+        "311079": {
+            "prenom": "Pierre",
+            "nom": "Le Jeune",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Chevalier": {
+            "prenom": "Adrien ",
+            "nom": "Bersier ",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "saperlipopette": {
+            "prenom": "Eléonore",
+            "nom": "Bernet",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "gitan": {
+            "prenom": "Benoit",
+            "nom": "de Renty",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "chateau": {
+            "prenom": "marie",
+            "nom": "wouts",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Alcool": {
+            "prenom": "Pas de prénom au rugby",
+            "nom": "Soulard",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Vodka": {
+            "prenom": "Romain",
+            "nom": "Olla",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "cosi": {
+            "prenom": "Victor",
+            "nom": "Beucler",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Mouton38": {
+            "prenom": "Alexis",
+            "nom": "Gaziello",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Fanfrale": {
+            "prenom": "Lohan",
+            "nom": "Le Berrigaud",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Truite": {
+            "prenom": "Quentin ",
+            "nom": "Ferret",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Colibri": {
+            "prenom": "Antoine",
+            "nom": "Marullaz",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "panzani": {
+            "prenom": "antoine",
+            "nom": "colson",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Jambon": {
+            "prenom": "Yohann",
+            "nom": "Reveillon",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Pastèque": {
+            "prenom": "Bich-Anh",
+            "nom": "Han",
+            "famille": "Foxpaw",
+            "dead": false,
+            "haskilled": false
+        },
+        "Hibou": {
             "prenom": "Chloé",
             "nom": "Bensoussan",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Hibou"
+            "haskilled": false
         },
-        {
+        "Carotte": {
             "prenom": "Thomas",
             "nom": "Bideux",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Carotte"
+            "haskilled": false
         },
-        {
+        "cannelle": {
             "prenom": "Mehdi",
             "nom": "Abou",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "cannelle"
+            "haskilled": false
         },
-        {
+        "DreamTeam": {
             "prenom": "Vincent",
             "nom": "Mauduit",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "DreamTeam"
+            "haskilled": false
         },
-        {
+        "Narcos": {
             "prenom": "Victor",
             "nom": "Lhoste",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Narcos"
+            "haskilled": false
         },
-        {
+        "Coq": {
             "prenom": "Emmanuel ",
             "nom": "BOCQUILLON",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Coq"
+            "haskilled": false
         },
-        {
+        "famille": {
             "prenom": "Oussama",
             "nom": "Kamal",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "famille"
+            "haskilled": false
         },
-        {
+        "Sevilla": {
             "prenom": "Cristina",
             "nom": "Villanueva García",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Sevilla"
+            "haskilled": false
         },
-        {
+        "Mantequilla": {
             "prenom": "Antonio",
             "nom": "Pillot",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Mantequilla"
+            "haskilled": false
         },
-        {
+        "clé13": {
             "prenom": "Nicolas",
             "nom": "Bouchet",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "clé"
+            "haskilled": false
         },
-        {
+        "Tête de poulpe": {
             "prenom": "Pierre-Antoine",
             "nom": "Castellani",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Tête de poulpe"
+            "haskilled": false
         },
-        {
+        "Roland": {
             "prenom": "Yasmine",
             "nom": "Moussi",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Roland"
+            "haskilled": false
         },
-        {
+        "tripalium": {
             "prenom": "Pierre",
             "nom": "BLAIN",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "tripalium"
+            "haskilled": false
         },
-        {
+        "Prince": {
             "prenom": "Clémence",
             "nom": "GESTAT",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Prince"
+            "haskilled": false
         },
-        {
+        "gnoux": {
             "prenom": "Héloïse",
             "nom": "Fruchard",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "gnoux"
+            "haskilled": false
         },
-        {
+        "123deoliveira4": {
             "prenom": "Isabel",
             "nom": "Carneiro",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "123deoliveira4"
+            "haskilled": false
         },
-        {
+        "lutin": {
             "prenom": "Andrei",
             "nom": "Furtuna",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "lutin"
+            "haskilled": false
         },
-        {
+        "rapcore": {
             "prenom": "Anaëlle",
             "nom": "Gilot",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "rapcore"
+            "haskilled": false
         },
-        {
+        "Crème": {
             "prenom": "Thomas",
             "nom": "Lucaora ",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Crème"
+            "haskilled": false
         },
-        {
+        "Ananas432": {
             "prenom": "Camille",
             "nom": "Leprat",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Ananas"
+            "haskilled": false
         },
-        {
+        "botch": {
             "prenom": "Moignon",
             "nom": "Metge",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "botch"
+            "haskilled": false
         },
-        {
+        "Aubergine": {
             "prenom": "Elsa",
             "nom": "Thiaville",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Aubergine"
+            "haskilled": false
         },
-        {
+        "ridiculus": {
             "prenom": "Geoffroy",
             "nom": "Leconte",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "ridiculus"
+            "haskilled": false
         },
-        {
+        "goutap": {
             "prenom": "Magali",
             "nom": "Sébastien",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "goutap"
+            "haskilled": false
         },
-        {
+        "Koro-sensei": {
             "prenom": "Corentin",
             "nom": "Bourdeix",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Koro-sensei"
+            "haskilled": false
         },
-        {
+        "Peugeot": {
             "prenom": "André",
             "nom": "Pedrosa Rodrigues",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Peugeot"
+            "haskilled": false
         },
-        {
+        "Papi": {
             "prenom": "Côme",
             "nom": "Keranflec'h",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Papi"
+            "haskilled": false
         },
-        {
+        "Jauretch": {
             "prenom": "Florian",
             "nom": "Castillo",
             "famille": "Foxpaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Jauretch"
+            "haskilled": false
         }
-    ],
-    "Lionskin": [
-        {
-            "prenom": "Amandine",
-            "nom": "Godet",
-            "famille": "Lionskin",
+    },
+    "Eaglescream": {
+        "Dteplrdmv1": {
+            "prenom": "Daniel ",
+            "nom": "Moussa ",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "trapèze"
+            "haskilled": false
         },
-        {
-            "prenom": "Chloé",
-            "nom": "Delmer",
-            "famille": "Lionskin",
+        "Ventilateur": {
+            "prenom": "Anthony",
+            "nom": "Saliou",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "rillettes02757244"
+            "haskilled": false
         },
-        {
-            "prenom": "Benoît ",
-            "nom": "Billard ",
-            "famille": "Lionskin",
+        "Double": {
+            "prenom": "Maude",
+            "nom": "Vincent",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Animal"
+            "haskilled": false
         },
-        {
-            "prenom": "Aliette",
-            "nom": "Ravillion",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "chamalloc"
-        },
-        {
-            "prenom": "Andrianirina ",
-            "nom": "RAKOTOHARISOA ",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Keanespot"
-        },
-        {
-            "prenom": "Brian",
-            "nom": "Tang",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Séraphin"
-        },
-        {
-            "prenom": "Yohann",
-            "nom": "DAUTREY",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Marmotte"
-        },
-        {
-            "prenom": "Tugdual",
-            "nom": "Adam",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "jaune"
-        },
-        {
-            "prenom": "Julien",
-            "nom": "Boulé",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Kaamelott"
-        },
-        {
-            "prenom": "LuisDa",
-            "nom": "Domínguez",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "ballantines"
-        },
-        {
-            "prenom": "Hugo",
-            "nom": "Stalin",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "radjaidja"
-        },
-        {
-            "prenom": "Hugo",
-            "nom": "Madeira",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Clé"
-        },
-        {
-            "prenom": "Samuel",
-            "nom": "Pelisson",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Bite"
-        },
-        {
-            "prenom": "Alexandre ",
-            "nom": "Chamley",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Drop"
-        },
-        {
-            "prenom": "Pauline",
-            "nom": "Buttard",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Licorne"
-        },
-        {
+        "dems": {
             "prenom": "Guillaume",
-            "nom": "Cnapelynck",
-            "famille": "Lionskin",
+            "nom": "Tollini",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "tacle"
+            "haskilled": false
         },
-        {
-            "prenom": "Andrea",
-            "nom": "Domínguez",
-            "famille": "Lionskin",
+        "Tartiflette": {
+            "prenom": "Maxime",
+            "nom": "Rapp",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Killer"
+            "haskilled": false
         },
-        {
-            "prenom": "Bastien",
-            "nom": "Haas",
-            "famille": "Lionskin",
+        "Henry": {
+            "prenom": "Josselyn",
+            "nom": "Baumer",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Bretzel"
+            "haskilled": false
         },
-        {
-            "prenom": "Mitsi",
-            "nom": "RAMANDANIAINA",
-            "famille": "Lionskin",
+        "Côtelette": {
+            "prenom": "Alix",
+            "nom": "Simon",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Chocodawn"
+            "haskilled": false
         },
-        {
-            "prenom": "Victor",
+        "ali": {
+            "prenom": "Alicia",
+            "nom": "Maravat",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Jimini": {
+            "prenom": "Julien",
+            "nom": "Relet",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Marsupilami": {
+            "prenom": "Pierre",
+            "nom": "Gout",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "meures": {
+            "prenom": "thibaud",
+            "nom": "Ritoux",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "killer": {
+            "prenom": "Maxence",
+            "nom": "Collard",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Jayz": {
+            "prenom": "Pierlou",
+            "nom": "Ramade",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Malaise": {
+            "prenom": "Gaël",
+            "nom": "Vignes",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Potiron": {
+            "prenom": "Cléo",
+            "nom": "Deroo",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Kougelhopf": {
+            "prenom": "Robin",
+            "nom": "TROESCH",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "KeenVFanClubOfficiel": {
+            "prenom": "Lucas",
+            "nom": "Rémond",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Boulet": {
+            "prenom": "Clément",
+            "nom": "LABBE",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Sacrebleu": {
+            "prenom": "Titouan",
+            "nom": "Cazeneuve",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Goujat": {
+            "prenom": "Anna",
+            "nom": "Diop",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "COQ": {
+            "prenom": "Gilles",
+            "nom": "Fang",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "bananiiaa": {
+            "prenom": "Rémi ",
+            "nom": "Fallon ",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "AvadaKedavra": {
+            "prenom": "Florian",
+            "nom": "Bartocci",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Napoléon": {
+            "prenom": "hugo",
+            "nom": "Jayle",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "chaise": {
+            "prenom": "Camille",
             "nom": "Petit",
-            "famille": "Lionskin",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Andaine"
+            "haskilled": false
         },
-        {
-            "prenom": "Alexandre",
-            "nom": "Blondel",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Ananas"
-        },
-        {
-            "prenom": "Hakim",
-            "nom": "Cheikh",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Matador"
-        },
-        {
-            "prenom": "Elmer ",
-            "nom": "Frdm",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Okupat"
-        },
-        {
+        "Fauteuil": {
             "prenom": "Vincent",
-            "nom": "Raffault",
-            "famille": "Lionskin",
+            "nom": "Espinasse",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Gondin"
+            "haskilled": false
         },
-        {
-            "prenom": "Tuc",
-            "nom": "Nguyen",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Pécari"
-        },
-        {
-            "prenom": "Pierre-Louis",
-            "nom": "Antonsanti",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "lagrotte"
-        },
-        {
-            "prenom": "Valentin",
-            "nom": "Villedieu",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "bueno"
-        },
-        {
-            "prenom": "Morgan",
-            "nom": "Louédec",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Patatouille"
-        },
-        {
-            "prenom": "Ophélie",
-            "nom": "Leprévost",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "pokemon"
-        },
-        {
-            "prenom": "julien",
-            "nom": "oiknine",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "tarama"
-        },
-        {
-            "prenom": "Alba",
-            "nom": "Thió I Pera",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Lionskin"
-        },
-        {
-            "prenom": "Paul-Henri",
-            "nom": "François",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Jesuispaulhenrifrancois"
-        },
-        {
-            "prenom": "lucas",
-            "nom": "deswarte",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "blanche-neige"
-        },
-        {
-            "prenom": "Antoine",
-            "nom": "Hurard",
-            "famille": "Lionskin",
-            "dead": false,
-            "haskilled": false,
-            "key": "Ah!"
-        },
-        {
+        "russe": {
             "prenom": "Hugo",
-            "nom": "Gayrard",
-            "famille": "Lionskin",
+            "nom": "Thuilliez",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "avalanche"
+            "haskilled": false
         },
-        {
-            "prenom": "Yvan",
-            "nom": "Avdeew",
-            "famille": "Lionskin",
+        "zut": {
+            "prenom": "Jason",
+            "nom": "Perrin",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Charlycestleplusbeau"
+            "haskilled": false
         },
-        {
-            "prenom": "Mathilde",
-            "nom": "Puche",
-            "famille": "Lionskin",
+        "Sata": {
+            "prenom": "Abdelhadi",
+            "nom": "Louah",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Panda"
+            "haskilled": false
         },
-        {
-            "prenom": "Adrien",
-            "nom": "Dinard",
-            "famille": "Lionskin",
+        "Pandore": {
+            "prenom": "Léa",
+            "nom": "Guipouy",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "camion"
+            "haskilled": false
         },
-        {
-            "prenom": "Nicolas ",
-            "nom": "Collot ",
-            "famille": "Lionskin",
+        "hx2": {
+            "prenom": "Victor",
+            "nom": "Graff",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "Cucurbitacée"
+            "haskilled": false
         },
-        {
-            "prenom": "Marion",
-            "nom": "Narbeburu",
-            "famille": "Lionskin",
+        "Sheraf": {
+            "prenom": "Thomas",
+            "nom": "Barthélemy",
+            "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false,
-            "key": "paillasson"
+            "haskilled": false
+        },
+        "I'llbeback": {
+            "prenom": "Tamara Géssica",
+            "nom": "GADELHA MEDEIROS",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "lolodusale": {
+            "prenom": "Maxence",
+            "nom": "Aubé",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Pangolin": {
+            "prenom": "Jérôme",
+            "nom": "Germain",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "halo": {
+            "prenom": "Jean-Baptiste",
+            "nom": "de Beco",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "mamou": {
+            "prenom": "Paul",
+            "nom": "Jacquemard",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Aigle": {
+            "prenom": "Pierre",
+            "nom": "Puppinck",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "michel": {
+            "prenom": "Daniel",
+            "nom": "Moussa",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Casino": {
+            "prenom": "Emilien",
+            "nom": "Sopetti",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Perdu": {
+            "prenom": "Victorien",
+            "nom": "Bernat",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "Reblochon": {
+            "prenom": "Lucas",
+            "nom": "Sanciet--Munier",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
+        },
+        "quimper": {
+            "prenom": "Rémi",
+            "nom": "Vassileff",
+            "famille": "Eaglescream",
+            "dead": false,
+            "haskilled": false
         }
-    ],
-    "Tigerblood": [
-        {
+    },
+    "Tigerblood": {
+        "tchikita666": {
             "prenom": "Pacôme",
             "nom": "Rivier",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "tchikita666"
+            "haskilled": false
         },
-        {
+        "Pousseur2fonte": {
             "prenom": "Nahel",
             "nom": "Zidi",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Pousseur2fonte"
+            "haskilled": false
         },
-        {
+        "Fluffy": {
             "prenom": "Thierry",
             "nom": "Pallière",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Fluffy"
+            "haskilled": false
         },
-        {
+        "Rossignol": {
             "prenom": "Céline",
             "nom": "Perrot",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Rossignol"
+            "haskilled": false
         },
-        {
+        "surimi": {
             "prenom": "Alexandre",
             "nom": "Anchyse",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "surimi"
+            "haskilled": false
         },
-        {
+        "USB": {
             "prenom": "Ban",
             "nom": "Bi",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "USB"
+            "haskilled": false
         },
-        {
+        "Bachi-bouzouk": {
             "prenom": "Abel",
             "nom": "Pruchon",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Bachi-bouzouk"
+            "haskilled": false
         },
-        {
+        "Éléphant": {
             "prenom": "Célia",
             "nom": "Detrez",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Éléphant"
+            "haskilled": false
         },
-        {
+        "Caluche": {
             "prenom": "Theo",
             "nom": "Lamblib",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Caluche"
+            "haskilled": false
         },
-        {
+        "Raoul": {
             "prenom": "Anissa",
             "nom": "Le Scornet",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Raoul"
+            "haskilled": false
         },
-        {
+        "Easy Peasy": {
             "prenom": "Mehdi",
             "nom": "Kaabache",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Easy Peasy"
+            "haskilled": false
         },
-        {
+        "Maroilles": {
             "prenom": "Rémi",
             "nom": "Lantoine",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Maroilles"
+            "haskilled": false
         },
-        {
+        "Ivre": {
             "prenom": "Marin",
             "nom": "Six",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Ivre"
+            "haskilled": false
         },
-        {
+        "Renecoty": {
             "prenom": "Simon",
             "nom": "Lecestre",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Renecoty"
+            "haskilled": false
         },
-        {
+        "mechant": {
             "prenom": "Emma",
             "nom": "Biard ",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "mechant"
+            "haskilled": false
         },
-        {
+        "crossover": {
             "prenom": "Igor",
             "nom": "Haas Sehn",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "crossover"
+            "haskilled": false
         },
-        {
+        "ei3aigri": {
             "prenom": "Jimmy",
             "nom": "Coppin",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "ei3aigri"
+            "haskilled": false
         },
-        {
+        "Noisette": {
             "prenom": "Samuel",
             "nom": "Trebaul",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Noisette"
+            "haskilled": false
         },
-        {
+        "Another": {
             "prenom": "Rachid",
             "nom": "Benfoughal",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Another"
+            "haskilled": false
         },
-        {
+        "Goutap": {
             "prenom": "Joséphine",
             "nom": "Anquez",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Goutap"
+            "haskilled": false
         },
-        {
+        "Énorme": {
             "prenom": "Jacques",
             "nom": "Michel",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Énorme"
+            "haskilled": false
         },
-        {
+        "Lilian": {
             "prenom": "sylvain",
             "nom": "petit",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Lilian"
+            "haskilled": false
         },
-        {
+        "PetitPapillon": {
             "prenom": "Ombeline",
             "nom": "Prade",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "PetitPapillon"
+            "haskilled": false
         },
-        {
+        "PTSI Suprématie": {
             "prenom": "Grégoire",
             "nom": "Lebreton",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "PTSI Suprématie"
+            "haskilled": false
         },
-        {
+        "Banane716": {
             "prenom": "Lara",
             "nom": "Cochet",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Banane"
+            "haskilled": false
         },
-        {
+        "Mot": {
             "prenom": "Daniel",
             "nom": "Álvaro",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Mot"
+            "haskilled": false
         },
-        {
+        "Rugissement": {
             "prenom": "Cindel",
             "nom": "DELEHEDDE",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Rugissement"
+            "haskilled": false
         },
-        {
+        "Tequila": {
             "prenom": "Laurane",
             "nom": "Freour",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Tequila"
+            "haskilled": false
         },
-        {
+        "Banane515": {
             "prenom": "Sébastien ",
             "nom": "Villa",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Banane"
+            "haskilled": false
         },
-        {
+        "Perroquet": {
             "prenom": "YANG",
             "nom": "XU",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Perroquet"
+            "haskilled": false
         },
-        {
+        "piscine": {
             "prenom": "Claudine",
             "nom": "Neveu",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "piscine"
+            "haskilled": false
         },
-        {
+        "Mouton26": {
             "prenom": "Alexandre",
             "nom": "Bleuzé",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Mouton"
+            "haskilled": false
         },
-        {
+        "Porte clé45": {
             "prenom": "Nathan",
             "nom": "Langlois",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Porte clé"
+            "haskilled": false
         },
-        {
+        "Habile": {
             "prenom": "Thomas",
             "nom": "Filhon",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "Habile"
+            "haskilled": false
         },
-        {
+        "nougat": {
             "prenom": "Maud",
             "nom": "Ordener",
             "famille": "Tigerblood",
             "dead": false,
-            "haskilled": false,
-            "key": "nougat"
+            "haskilled": false
         }
-    ],
-    "Phoenixtear": [
-        {
+    },
+    "Lionskin": {
+        "trapèze": {
+            "prenom": "Amandine",
+            "nom": "Godet",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "rillettes02757244": {
+            "prenom": "Chloé",
+            "nom": "Delmer",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Animal": {
+            "prenom": "Benoît ",
+            "nom": "Billard ",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "chamalloc": {
+            "prenom": "Aliette",
+            "nom": "Ravillion",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Keanespot": {
+            "prenom": "Andrianirina ",
+            "nom": "RAKOTOHARISOA ",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Séraphin": {
+            "prenom": "Brian",
+            "nom": "Tang",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Marmotte": {
+            "prenom": "Yohann",
+            "nom": "DAUTREY",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "jaune": {
+            "prenom": "Tugdual",
+            "nom": "Adam",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Kaamelott": {
+            "prenom": "Julien",
+            "nom": "Boulé",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "ballantines": {
+            "prenom": "LuisDa",
+            "nom": "Domínguez",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "radjaidja": {
+            "prenom": "Hugo",
+            "nom": "Stalin",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Clé932": {
+            "prenom": "Hugo",
+            "nom": "Madeira",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Bite": {
+            "prenom": "Samuel",
+            "nom": "Pelisson",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Drop": {
+            "prenom": "Alexandre ",
+            "nom": "Chamley",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Licorne": {
+            "prenom": "Pauline",
+            "nom": "Buttard",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "tacle": {
+            "prenom": "Guillaume",
+            "nom": "Cnapelynck",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Killer": {
+            "prenom": "Andrea",
+            "nom": "Domínguez",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Bretzel": {
+            "prenom": "Bastien",
+            "nom": "Haas",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Chocodawn": {
+            "prenom": "Mitsi",
+            "nom": "RAMANDANIAINA",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Andaine": {
+            "prenom": "Victor",
+            "nom": "Petit",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Ananas178": {
+            "prenom": "Alexandre",
+            "nom": "Blondel",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Matador": {
+            "prenom": "Hakim",
+            "nom": "Cheikh",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Okupat": {
+            "prenom": "Elmer ",
+            "nom": "Frdm",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Gondin": {
+            "prenom": "Vincent",
+            "nom": "Raffault",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Pécari": {
+            "prenom": "Tuc",
+            "nom": "Nguyen",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "lagrotte": {
+            "prenom": "Pierre-Louis",
+            "nom": "Antonsanti",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "bueno": {
+            "prenom": "Valentin",
+            "nom": "Villedieu",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Patatouille": {
+            "prenom": "Morgan",
+            "nom": "Louédec",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "pokemon": {
+            "prenom": "Ophélie",
+            "nom": "Leprévost",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "tarama": {
+            "prenom": "julien",
+            "nom": "oiknine",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Lionskin": {
+            "prenom": "Alba",
+            "nom": "Thió I Pera",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Jesuispaulhenrifrancois": {
+            "prenom": "Paul-Henri",
+            "nom": "François",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "blanche-neige": {
+            "prenom": "lucas",
+            "nom": "deswarte",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Ah!": {
+            "prenom": "Antoine",
+            "nom": "Hurard",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "avalanche": {
+            "prenom": "Hugo",
+            "nom": "Gayrard",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Charlycestleplusbeau": {
+            "prenom": "Yvan",
+            "nom": "Avdeew",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Panda": {
+            "prenom": "Mathilde",
+            "nom": "Puche",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "camion": {
+            "prenom": "Adrien",
+            "nom": "Dinard",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "Cucurbitacée": {
+            "prenom": "Nicolas ",
+            "nom": "Collot ",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        },
+        "paillasson": {
+            "prenom": "Marion",
+            "nom": "Narbeburu",
+            "famille": "Lionskin",
+            "dead": false,
+            "haskilled": false
+        }
+    },
+    "Phoenixtear": {
+        "Béquille": {
             "prenom": "Thibault",
             "nom": "Guyon",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Béquille"
+            "haskilled": false
         },
-        {
+        "ASM": {
             "prenom": "Nicolas",
             "nom": "Cheradame",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "ASM"
+            "haskilled": false
         },
-        {
+        "Clai": {
             "prenom": "Emile",
             "nom": "Brisset",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Clai"
+            "haskilled": false
         },
-        {
+        "Manger": {
             "prenom": "Roman",
             "nom": "Allais",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Manger"
+            "haskilled": false
         },
-        {
+        "baguette": {
             "prenom": "Nathan",
             "nom": "Rossi",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "baguette"
+            "haskilled": false
         },
-        {
+        "Mangue": {
             "prenom": "Axel",
             "nom": "Malara",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Mangue"
+            "haskilled": false
         },
-        {
+        "2stepsfromhell": {
             "prenom": "Thomas",
             "nom": "Duchemin",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "2stepsfromhell"
+            "haskilled": false
         },
-        {
+        "lohan": {
             "prenom": "Arnau",
             "nom": "Güiza",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "lohan"
+            "haskilled": false
         },
-        {
+        "chausson": {
             "prenom": "Cyril",
             "nom": "DE CATHEU",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "chausson"
+            "haskilled": false
         },
-        {
+        "Fumseck": {
             "prenom": "Maxime",
             "nom": "Bahuau",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Fumseck"
+            "haskilled": false
         },
-        {
+        "FromHell": {
             "prenom": "Audrey",
             "nom": "Philipponneau",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "FromHell"
+            "haskilled": false
         },
-        {
+        "Banane99": {
             "prenom": "Maxime",
             "nom": "Masson",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Banane"
+            "haskilled": false
         },
-        {
+        "gitan2": {
             "prenom": "Charly",
             "nom": "PERRIN",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "gitan2"
+            "haskilled": false
         },
-        {
+        "némo": {
             "prenom": "Loïc ",
             "nom": "Toux",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "némo"
+            "haskilled": false
         },
-        {
+        "westcoast": {
             "prenom": "Matthieu ",
             "nom": "Lamielle ",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "westcoast"
+            "haskilled": false
         },
-        {
+        "saucisson": {
             "prenom": "Oriane",
             "nom": "Jourdan",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "saucisson"
+            "haskilled": false
         },
-        {
+        "cali": {
             "prenom": "Hugo",
             "nom": "Riou",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "cali"
+            "haskilled": false
         },
-        {
+        "pixel": {
             "prenom": "Arnold",
             "nom": "Kibiadi",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "pixel"
+            "haskilled": false
         },
-        {
+        "dungeonnideaiwomotomerunowamachigateirudarouka": {
             "prenom": "Manon",
             "nom": "Vlieghe",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "dungeonnideaiwomotomerunowamachigateirudarouka"
+            "haskilled": false
         },
-        {
+        "papillon": {
             "prenom": "Lola",
             "nom": "Rousseau",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "papillon"
+            "haskilled": false
         },
-        {
+        "Fromage": {
             "prenom": "Leonardo",
             "nom": "Ramírez Baeza",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Fromage"
+            "haskilled": false
         },
-        {
+        "OUS123": {
             "prenom": "Oussama",
             "nom": "BENLALOU",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "OUS123"
+            "haskilled": false
         },
-        {
+        "Drôle": {
             "prenom": "Leonardo",
             "nom": "Almeida",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Drôle"
+            "haskilled": false
         },
-        {
+        "titiz": {
             "prenom": "Nessreddine",
             "nom": "Loudiy",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "titiz"
+            "haskilled": false
         },
-        {
+        "Aïe": {
             "prenom": "Bastien",
             "nom": "Francomme",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Aïe"
+            "haskilled": false
         },
-        {
+        "Anges": {
             "prenom": "Marie",
             "nom": "Lanza",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Anges"
+            "haskilled": false
         },
-        {
+        "Ornithorynque": {
             "prenom": "Samuel",
             "nom": "Delabre",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Ornithorynque"
+            "haskilled": false
         },
-        {
+        "flavie": {
             "prenom": "nan",
             "nom": "zhang",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "flavie"
+            "haskilled": false
         },
-        {
+        "spordi": {
             "prenom": "Antoine",
             "nom": "BEDANIAN",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "spordi"
+            "haskilled": false
         },
-        {
+        "Castagne": {
             "prenom": "Hugo",
             "nom": "Wetter",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Castagne"
+            "haskilled": false
         },
-        {
+        "carapace": {
             "prenom": "Charles",
             "nom": "Dowlat",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "carapace"
+            "haskilled": false
         },
-        {
+        "Sopalin": {
             "prenom": "Oscar",
             "nom": "Mallet",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Sopalin"
+            "haskilled": false
         },
-        {
+        "bretagne": {
             "prenom": "Pauline",
             "nom": "Rault",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "bretagne"
+            "haskilled": false
         },
-        {
+        "Clope": {
             "prenom": "Evan",
             "nom": "Gueguen",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Clope"
+            "haskilled": false
         },
-        {
+        "Anticonstitutionnellement": {
             "prenom": "Valentine",
             "nom": "Aguiar",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Anticonstitutionnellement"
+            "haskilled": false
         },
-        {
+        "smeagol": {
             "prenom": "Antonin",
             "nom": "LE GARREC",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "smeagol"
+            "haskilled": false
         },
-        {
+        "brio": {
             "prenom": "Hector",
             "nom": "de Beaugrenier",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "brio"
+            "haskilled": false
         },
-        {
+        "Café": {
             "prenom": "Sarah",
             "nom": "Le Portz ",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Café"
+            "haskilled": false
         },
-        {
+        "cubis": {
             "prenom": "Pierre",
             "nom": "Bernigaud",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "cubis"
+            "haskilled": false
         },
-        {
+        "Pied": {
             "prenom": "Agathe",
             "nom": "Guénot",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Pied"
+            "haskilled": false
         },
-        {
+        "Granger": {
             "prenom": "Arsène",
             "nom": "Amoureux",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Granger"
+            "haskilled": false
         },
-        {
+        "Cle": {
             "prenom": "Valentine",
             "nom": "Mas",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Cle"
+            "haskilled": false
         },
-        {
+        "Neymar": {
             "prenom": "Adrien",
             "nom": "Marion",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Neymar"
+            "haskilled": false
         },
-        {
+        "Rital": {
             "prenom": "Vincent",
             "nom": "Biscaccianti",
             "famille": "Phoenixtear",
             "dead": false,
-            "haskilled": false,
-            "key": "Rital"
+            "haskilled": false
         }
-    ],
-    "Owlclaw": [
-        {
+    },
+    "Owlclaw": {
+        "ecoeuring": {
             "prenom": "Thomas",
             "nom": "Planes",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "ecoeuring"
+            "haskilled": false
         },
-        {
+        "Elgiro": {
             "prenom": "Eliot",
             "nom": "Giraud",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Elgiro"
+            "haskilled": false
         },
-        {
+        "Plantuleux": {
             "prenom": "Nicolas",
             "nom": "Piecko",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Plantuleux"
+            "haskilled": false
         },
-        {
+        "Vasistas": {
             "prenom": "Adrien",
             "nom": "VIN",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Vasistas"
+            "haskilled": false
         },
-        {
+        "Jeudi": {
             "prenom": "Thomas",
             "nom": "Clément",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Jeudi"
+            "haskilled": false
         },
-        {
+        "banane17": {
             "prenom": "Damien",
             "nom": "Avequin",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "banane17"
+            "haskilled": false
         },
-        {
+        "Deschamps": {
             "prenom": "Paul",
             "nom": "BRUNEAU",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Deschamps"
+            "haskilled": false
         },
-        {
+        "REyDA": {
             "prenom": "Abderrahmane",
             "nom": "Laanaiti",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "REyDA"
+            "haskilled": false
         },
-        {
+        "Keltare": {
             "prenom": "Sylvain",
             "nom": "Baud",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Keltare"
+            "haskilled": false
         },
-        {
+        "valar morghulis": {
             "prenom": "quentin",
             "nom": "bellouard",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "valar morghulis"
+            "haskilled": false
         },
-        {
+        "ColocKillers": {
             "prenom": "Yann",
             "nom": "Briancon",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "ColocKillers"
+            "haskilled": false
         },
-        {
+        "Ballislife": {
             "prenom": "Florian",
             "nom": "Agez",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Ballislife"
+            "haskilled": false
         },
-        {
+        "frimousse": {
             "prenom": "Margaux",
             "nom": "Crédeville",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "frimousse"
+            "haskilled": false
         },
-        {
+        "Tanière": {
             "prenom": "Adrien",
             "nom": "Maguer",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Tanière"
+            "haskilled": false
         },
-        {
+        "schipsi": {
             "prenom": "thibaut",
             "nom": "juston",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "schipsi"
+            "haskilled": false
         },
-        {
+        "Sacàmerde": {
             "prenom": "Eugénie",
             "nom": "Fraisse",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Sacàmerde"
+            "haskilled": false
         },
-        {
+        "Facom": {
             "prenom": "Léna",
             "nom": "Costecalde ",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Facom"
+            "haskilled": false
         },
-        {
+        "Tiramisu": {
             "prenom": "Laurène",
             "nom": "Watrelot",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Tiramisu"
+            "haskilled": false
         },
-        {
+        "Piscola": {
             "prenom": "Sebastián ",
             "nom": "Riquelme ",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Piscola"
+            "haskilled": false
         },
-        {
+        "despacito": {
             "prenom": "Bruno",
             "nom": "Meyer",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "despacito"
+            "haskilled": false
         },
-        {
+        "dromadaire": {
             "prenom": "Maxime",
             "nom": "Libsig",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "dromadaire"
+            "haskilled": false
         },
-        {
+        "Panierpiano": {
             "prenom": "Erick",
             "nom": "Ah-Mouck",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Panierpiano"
+            "haskilled": false
         },
-        {
+        "Tractopelle": {
             "prenom": "Justine",
             "nom": "Lett",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Tractopelle"
+            "haskilled": false
         },
-        {
+        "Rouxuor": {
             "prenom": "Arnaud ",
             "nom": "ROUX ",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Rouxuor"
+            "haskilled": false
         },
-        {
+        "Bernard": {
             "prenom": "Adil",
             "nom": "ERCHOUK",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Bernard"
+            "haskilled": false
         },
-        {
+        "Ribéry": {
             "prenom": "Maxime",
             "nom": "CHEMINEAU",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Ribéry"
+            "haskilled": false
         },
-        {
+        "pomme": {
             "prenom": "pierre",
             "nom": "veillard",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "pomme"
+            "haskilled": false
         },
-        {
+        "clé73": {
             "prenom": "Rebeca",
             "nom": "Vetil",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "clé"
+            "haskilled": false
         },
-        {
+        "Pamplemousse": {
             "prenom": "Anais ",
             "nom": "Planson",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Pamplemousse"
+            "haskilled": false
         },
-        {
+        "cetelem": {
             "prenom": "Mathilde",
             "nom": "Portier",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "cetelem"
+            "haskilled": false
         },
-        {
+        "Chocolat": {
             "prenom": "Gaël",
             "nom": "Bizet",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Chocolat"
+            "haskilled": false
         },
-        {
+        "votezalixauBDE": {
             "prenom": "Alban",
             "nom": "Villedieu",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "votezalixauBDE"
+            "haskilled": false
         },
-        {
+        "Houmous": {
             "prenom": "Alix",
             "nom": "Sainte-Marie",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Houmous"
+            "haskilled": false
         },
-        {
+        "Cancoillotte": {
             "prenom": "Corentin",
             "nom": "Raoux",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Cancoillotte"
+            "haskilled": false
         },
-        {
+        "PLS": {
             "prenom": "Martin",
             "nom": "Delcourt",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "PLS"
+            "haskilled": false
         },
-        {
+        "Kebab": {
             "prenom": "Laura",
             "nom": "Knecht",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Kebab"
+            "haskilled": false
         },
-        {
+        "Alouette": {
             "prenom": "Reda",
             "nom": "Lahlou",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Alouette"
+            "haskilled": false
         },
-        {
+        "bikijnal6otte": {
             "prenom": "Rémi ",
             "nom": "Filliol",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "bikijnal6otte"
+            "haskilled": false
         },
-        {
+        "Chouette": {
             "prenom": "Elisa",
             "nom": "Villard",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Chouette"
+            "haskilled": false
         },
-        {
+        "Équerre": {
             "prenom": "Antoine",
             "nom": "Cottineau",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Équerre"
+            "haskilled": false
         },
-        {
+        "Boobies": {
             "prenom": "Yann",
             "nom": "Lesueur",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Boobies"
+            "haskilled": false
         },
-        {
+        "poubelle": {
             "prenom": "Natacha",
             "nom": "Pochodaj",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "poubelle"
+            "haskilled": false
         },
-        {
+        "Cacahuete": {
             "prenom": "Maxence",
             "nom": "Cunin",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Cacahuete"
+            "haskilled": false
         },
-        {
+        "Salopette": {
             "prenom": "Thibault",
             "nom": "Cabourg-Laurent",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false,
-            "key": "Salopette"
+            "haskilled": false
         }
-    ],
-    "Wolfeye": [
-        {
+    },
+    "Wolfeye": {
+        "Maxwell": {
             "prenom": "Sasha",
             "nom": "Madar",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Maxwell"
+            "haskilled": false
         },
-        {
+        "Cour": {
             "prenom": "Emilie",
             "nom": "Chavanon",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Cour"
+            "haskilled": false
         },
-        {
+        "BIENJOUE": {
             "prenom": "Maëlys",
             "nom": "LE LIÈVRE",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "BIENJOUE"
+            "haskilled": false
         },
-        {
+        "sushi": {
             "prenom": "Marine",
             "nom": "Bonora",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "sushi"
+            "haskilled": false
         },
-        {
+        "Coldplay": {
             "prenom": "Ignacio",
             "nom": "Izard",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Coldplay"
+            "haskilled": false
         },
-        {
+        "Real": {
             "prenom": "Adrien",
             "nom": "Martins",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Real"
+            "haskilled": false
         },
-        {
+        "Plectre": {
             "prenom": "William",
             "nom": "Lorgeré",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Plectre"
+            "haskilled": false
         },
-        {
+        "raquette": {
             "prenom": "Jules",
             "nom": "Tisseyre",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "raquette"
+            "haskilled": false
         },
-        {
+        "Brooklyn": {
             "prenom": "Anne",
             "nom": "Badinier ",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Brooklyn"
+            "haskilled": false
         },
-        {
+        "Stark": {
             "prenom": "Thomas",
             "nom": "Galea",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Stark"
+            "haskilled": false
         },
-        {
+        "manoir": {
             "prenom": "Quentin",
             "nom": "PAQUOT",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "manoir"
+            "haskilled": false
         },
-        {
+        "Maraudeur": {
             "prenom": "Sylvin",
             "nom": "BIELLE",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Maraudeur"
+            "haskilled": false
         },
-        {
+        "meknes": {
             "prenom": "Fantine",
             "nom": "Hureau",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "meknes"
+            "haskilled": false
         },
-        {
+        "Diabaté": {
             "prenom": "Paul",
             "nom": "SAUBION",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Diabaté"
+            "haskilled": false
         },
-        {
+        "Goulag": {
             "prenom": "Bastien ",
             "nom": "Boudet",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Goulag"
+            "haskilled": false
         },
-        {
+        "Saucisson": {
             "prenom": "Maxime ",
             "nom": "Canard ",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Saucisson"
+            "haskilled": false
         },
-        {
+        "Cléo": {
             "prenom": "Léo",
             "nom": "Pelloquin",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Cléo"
+            "haskilled": false
         },
-        {
+        "Priapisme": {
             "prenom": "Big",
             "nom": "Mac",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Priapisme"
+            "haskilled": false
         },
-        {
+        "Tabouret": {
             "prenom": "Gaétan",
             "nom": "Moisson-Franckhauser",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Tabouret"
+            "haskilled": false
         },
-        {
+        "Bateau": {
             "prenom": "Ines",
             "nom": "FERNANDEZ CASANOVA",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Bateau"
+            "haskilled": false
         },
-        {
+        "Chaussette": {
             "prenom": "Thibault",
             "nom": "Gaudet",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Chaussette"
+            "haskilled": false
         },
-        {
+        "Jaune": {
             "prenom": "Gaëlle",
             "nom": "Djerroud",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Jaune"
+            "haskilled": false
         },
-        {
+        "Raid": {
             "prenom": "Mélissandre",
             "nom": "Gallitre",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Raid"
+            "haskilled": false
         },
-        {
+        "Itapetininga": {
             "prenom": "Matheus",
             "nom": "Raposo de Almeida",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Itapetininga"
+            "haskilled": false
         },
-        {
+        "Shinkan": {
             "prenom": "Natsuki",
             "nom": "AKIMOTO",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Shinkan"
+            "haskilled": false
         },
-        {
+        "Morghulis": {
             "prenom": "Saad",
             "nom": "Mazgour",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Morghulis"
+            "haskilled": false
         },
-        {
+        "Chat51": {
             "prenom": "Adrien",
             "nom": "Jégourel",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Chat"
+            "haskilled": false
         },
-        {
+        "EXPO": {
             "prenom": "Anais",
             "nom": "Hijos",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "EXPO"
+            "haskilled": false
         },
-        {
+        "Chat87": {
             "prenom": "Antoine",
             "nom": "Roller",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Chat"
+            "haskilled": false
         },
-        {
+        "Bretonne": {
             "prenom": "Marine",
             "nom": "Rialan",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Bretonne"
+            "haskilled": false
         },
-        {
+        "Favela": {
             "prenom": "Gabriela",
             "nom": "Da Silva Drebes Machado",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Favela"
+            "haskilled": false
         },
-        {
+        "Australie": {
             "prenom": "Marion",
             "nom": "Aoun",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Australie"
+            "haskilled": false
         },
-        {
+        "Mavic": {
             "prenom": "Rémi",
             "nom": "Simon",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Mavic"
+            "haskilled": false
         },
-        {
+        "CentralePark": {
             "prenom": "Etienne",
             "nom": "LE BIHAN",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "CentralePark"
+            "haskilled": false
         },
-        {
+        "Ananas871": {
             "prenom": "Alwenn",
             "nom": "Charpentier ",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Ananas"
+            "haskilled": false
         },
-        {
+        "compote": {
             "prenom": "adrien",
             "nom": "thibaut",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "compote"
+            "haskilled": false
         },
-        {
+        "Phénix": {
             "prenom": "Alexandre",
             "nom": "Merasli",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Phénix"
+            "haskilled": false
         },
-        {
+        "Cacahuète": {
             "prenom": "Yier",
             "nom": "Shu",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Cacahuète"
+            "haskilled": false
         },
-        {
+        "Love": {
             "prenom": "Georges",
             "nom": "Wehbe",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Love"
+            "haskilled": false
         },
-        {
+        "Gisoufle": {
             "prenom": "Lola",
             "nom": "Gautreau",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Gisoufle"
+            "haskilled": false
         },
-        {
+        "Mayo": {
             "prenom": "Hocine",
             "nom": "Aouragh",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Mayo"
+            "haskilled": false
         },
-        {
+        "Bismillah": {
             "prenom": "Alexis",
             "nom": "Dupuis ",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Bismillah"
+            "haskilled": false
         },
-        {
+        "Segredo": {
             "prenom": "Angelo",
             "nom": "Simonetto Pessutto",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Segredo"
+            "haskilled": false
         },
-        {
+        "Chingar": {
             "prenom": "Gabriel",
             "nom": "Ramirez",
             "famille": "Wolfeye",
             "dead": false,
-            "haskilled": false,
-            "key": "Chingar"
+            "haskilled": false
         }
-    ]
+    }
 }

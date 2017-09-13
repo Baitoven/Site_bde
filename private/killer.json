@@ -1,2538 +1,4594 @@
 {
-    "5x448ohoh": {
-        "prenom": "Mathieu",
-        "nom": "PVC",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "5x448ohoh"
-    },
-    "Cacaprout": {
-        "prenom": "Clémence ",
-        "nom": "Pétillion ",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Cacaprout"
-    },
-    "Integration": {
-        "prenom": "Gauthier",
-        "nom": "Frécon ",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Integration"
-    },
-    "Txotxo": {
-        "prenom": "Txomin",
-        "nom": "Mesplou",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Txotxo"
-    },
-    "Abzegada": {
-        "prenom": "Raphaël ",
-        "nom": "Vayssié ",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Abzegada"
-    },
-    "France": {
-        "prenom": "Flavien",
-        "nom": "Alonzo",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "France"
-    },
-    "Bicloo": {
-        "prenom": "Lucas",
-        "nom": "Metzger",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bicloo"
-    },
-    "Cafetière": {
-        "prenom": "Thomas ",
-        "nom": "Bedouret ",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Cafetière"
-    },
-    "Chocapic": {
-        "prenom": "Oualid",
-        "nom": "Cheriaf",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Chocapic"
-    },
-    "Natationjds": {
-        "prenom": "Léa",
-        "nom": "Roussel",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Natationjds"
-    },
-    "Poire": {
-        "prenom": "Léo",
-        "nom": "Coquand",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Poire"
-    },
-    "Grêmio": {
-        "prenom": "Guilherme",
-        "nom": "Beche Lopes",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Grêmio"
-    },
-    "Clé": {
-        "prenom": "Hugo",
-        "nom": "Madeira",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Clé"
-    },
-    "Manon": {
-        "prenom": "Antoine",
-        "nom": "Laroye",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Manon"
-    },
-    "Grenadine": {
-        "prenom": "Hugo",
-        "nom": "David",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Grenadine"
-    },
-    "Duplex": {
-        "prenom": "Thibaut",
-        "nom": "Pasquet ",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Duplex"
-    },
-    "Pomme": {
-        "prenom": "Nicolas",
-        "nom": "Le Berr",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pomme"
-    },
-    "Ventilateur": {
-        "prenom": "Anthony",
-        "nom": "Saliou",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Ventilateur"
-    },
-    "Double": {
-        "prenom": "Maude",
-        "nom": "Vincent",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Double"
-    },
-    "dems": {
-        "prenom": "Guillaume",
-        "nom": "Tollini",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "dems"
-    },
-    "Tartiflette": {
-        "prenom": "Maxime",
-        "nom": "Rapp",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Tartiflette"
-    },
-    "Henry": {
-        "prenom": "Josselyn",
-        "nom": "Baumer",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Henry"
-    },
-    "Côtelette": {
-        "prenom": "Alix",
-        "nom": "Simon",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Côtelette"
-    },
-    "ali": {
-        "prenom": "Alicia",
-        "nom": "Maravat",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "ali"
-    },
-    "Jimini": {
-        "prenom": "Julien",
-        "nom": "Relet",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Jimini"
-    },
-    "Marsupilami": {
-        "prenom": "Pierre",
-        "nom": "Gout",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Marsupilami"
-    },
-    "meures": {
-        "prenom": "thibaud",
-        "nom": "Ritoux",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "meures"
-    },
-    "killer": {
-        "prenom": "Maxence",
-        "nom": "Collard",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "killer"
-    },
-    "Jayz": {
-        "prenom": "Pierlou",
-        "nom": "Ramade",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Jayz"
-    },
-    "Malaise": {
-        "prenom": "Gaël",
-        "nom": "Vignes",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Malaise"
-    },
-    "Potiron": {
-        "prenom": "Cléo",
-        "nom": "Deroo",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Potiron"
-    },
-    "Kougelhopf": {
-        "prenom": "Robin",
-        "nom": "TROESCH",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Kougelhopf"
-    },
-    "KeenVFanClubOfficiel": {
-        "prenom": "Lucas",
-        "nom": "Rémond",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "KeenVFanClubOfficiel"
-    },
-    "Boulet": {
-        "prenom": "Clément",
-        "nom": "LABBE",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Boulet"
-    },
-    "Sacrebleu": {
-        "prenom": "Titouan",
-        "nom": "Cazeneuve",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sacrebleu"
-    },
-    "Goujat": {
-        "prenom": "Anna",
-        "nom": "Diop",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Goujat"
-    },
-    "COQ": {
-        "prenom": "Gilles",
-        "nom": "Fang",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "COQ"
-    },
-    "bananiiaa": {
-        "prenom": "Rémi ",
-        "nom": "Fallon ",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "bananiiaa"
-    },
-    "AvadaKedavra": {
-        "prenom": "Florian",
-        "nom": "Bartocci",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "AvadaKedavra"
-    },
-    "Napoléon": {
-        "prenom": "hugo",
-        "nom": "Jayle",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Napoléon"
-    },
-    "chaise": {
-        "prenom": "Camille",
-        "nom": "Petit",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "chaise"
-    },
-    "saperlipopette": {
-        "prenom": "Eléonore",
-        "nom": "Bernet",
+    "9856": {
+        "prenom": "Corentin",
+        "nom": "Hattier",
         "famille": "Foxpaw",
+        "key": "9856",
         "dead": false,
         "haskilled": false,
-        "key": "saperlipopette"
-    },
-    "gitan": {
-        "prenom": "Benoit",
-        "nom": "de Renty",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "gitan"
-    },
-    "chateau": {
-        "prenom": "marie",
-        "nom": "wouts",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "chateau"
-    },
-    "Alcool": {
-        "prenom": "Pas de prénom au rugby",
-        "nom": "Soulard",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Alcool"
-    },
-    "Vodka": {
-        "prenom": "Romain",
-        "nom": "Olla",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Vodka"
-    },
-    "cosi": {
-        "prenom": "Victor",
-        "nom": "Beucler",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "cosi"
-    },
-    "Mouton": {
-        "prenom": "Alexandre",
-        "nom": "Bleuzé",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Mouton"
-    },
-    "Fanfrale": {
-        "prenom": "Lohan",
-        "nom": "Le Berrigaud",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Fanfrale"
-    },
-    "Truite": {
-        "prenom": "Quentin ",
-        "nom": "Ferret",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Truite"
+        "cible": {
+            "prenom": "Vincent",
+            "nom": "Biscaccianti",
+            "key": "Rital",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
     },
     "311079": {
         "prenom": "Pierre",
         "nom": "Le Jeune",
         "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "311079"
-    },
-    "Colibri": {
-        "prenom": "Antoine",
-        "nom": "Marullaz",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Colibri"
-    },
-    "panzani": {
-        "prenom": "antoine",
-        "nom": "colson",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "panzani"
-    },
-    "Jambon": {
-        "prenom": "Yohann",
-        "nom": "Reveillon",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Jambon"
-    },
-    "Pastèque": {
-        "prenom": "Bich-Anh",
-        "nom": "Han",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pastèque"
-    },
-    "9856": {
-        "prenom": "Corentin",
-        "nom": "Hattier",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "9856"
-    },
-    "Hibou": {
-        "prenom": "Chloé",
-        "nom": "Bensoussan",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Hibou"
-    },
-    "Carotte": {
-        "prenom": "Thomas",
-        "nom": "Bideux",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Carotte"
-    },
-    "cannelle": {
-        "prenom": "Mehdi",
-        "nom": "Abou",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "cannelle"
-    },
-    "DreamTeam": {
-        "prenom": "Vincent",
-        "nom": "Mauduit",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "DreamTeam"
-    },
-    "Narcos": {
-        "prenom": "Victor",
-        "nom": "Lhoste",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Narcos"
-    },
-    "Coq": {
-        "prenom": "Emmanuel ",
-        "nom": "BOCQUILLON",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Coq"
-    },
-    "famille": {
-        "prenom": "Oussama",
-        "nom": "Kamal",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "famille"
-    },
-    "trapèze": {
-        "prenom": "Amandine",
-        "nom": "Godet",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "trapèze"
-    },
-    "rillettes02757244": {
-        "prenom": "Chloé",
-        "nom": "Delmer",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "rillettes02757244"
-    },
-    "Animal": {
-        "prenom": "Benoît ",
-        "nom": "Billard ",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Animal"
-    },
-    "chamalloc": {
-        "prenom": "Aliette",
-        "nom": "Ravillion",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "chamalloc"
-    },
-    "Keanespot": {
-        "prenom": "Andrianirina ",
-        "nom": "RAKOTOHARISOA ",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Keanespot"
-    },
-    "Séraphin": {
-        "prenom": "Brian",
-        "nom": "Tang",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Séraphin"
-    },
-    "Marmotte": {
-        "prenom": "Yohann",
-        "nom": "DAUTREY",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Marmotte"
-    },
-    "jaune": {
-        "prenom": "Tugdual",
-        "nom": "Adam",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "jaune"
-    },
-    "Kaamelott": {
-        "prenom": "Julien",
-        "nom": "Boulé",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Kaamelott"
-    },
-    "ballantines": {
-        "prenom": "LuisDa",
-        "nom": "Domínguez",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "ballantines"
-    },
-    "radjaidja": {
-        "prenom": "Hugo",
-        "nom": "Stalin",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "radjaidja"
-    },
-    "Bite": {
-        "prenom": "Samuel",
-        "nom": "Pelisson",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bite"
-    },
-    "Drop": {
-        "prenom": "Alexandre ",
-        "nom": "Chamley",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Drop"
-    },
-    "Licorne": {
-        "prenom": "Pauline",
-        "nom": "Buttard",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Licorne"
-    },
-    "tacle": {
-        "prenom": "Guillaume",
-        "nom": "Cnapelynck",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "tacle"
-    },
-    "Killer": {
-        "prenom": "Andrea",
-        "nom": "Domínguez",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Killer"
-    },
-    "Bretzel": {
-        "prenom": "Bastien",
-        "nom": "Haas",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bretzel"
-    },
-    "Chocodawn": {
-        "prenom": "Mitsi",
-        "nom": "RAMANDANIAINA",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Chocodawn"
-    },
-    "Andaine": {
-        "prenom": "Victor",
-        "nom": "Petit",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Andaine"
-    },
-    "Ananas": {
-        "prenom": "Camille",
-        "nom": "Leprat",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Ananas"
-    },
-    "Matador": {
-        "prenom": "Hakim",
-        "nom": "Cheikh",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Matador"
-    },
-    "Okupat": {
-        "prenom": "Elmer ",
-        "nom": "Frdm",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Okupat"
-    },
-    "Gondin": {
-        "prenom": "Vincent",
-        "nom": "Raffault",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Gondin"
-    },
-    "Pécari": {
-        "prenom": "Tuc",
-        "nom": "Nguyen",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pécari"
-    },
-    "lagrotte": {
-        "prenom": "Pierre-Louis",
-        "nom": "Antonsanti",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "lagrotte"
-    },
-    "bueno": {
-        "prenom": "Valentin",
-        "nom": "Villedieu",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "bueno"
-    },
-    "Patatouille": {
-        "prenom": "Morgan",
-        "nom": "Louédec",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Patatouille"
-    },
-    "pokemon": {
-        "prenom": "Ophélie",
-        "nom": "Leprévost",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "pokemon"
-    },
-    "ecoeuring": {
-        "prenom": "Thomas",
-        "nom": "Planes",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "ecoeuring"
-    },
-    "Elgiro": {
-        "prenom": "Eliot",
-        "nom": "Giraud",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Elgiro"
-    },
-    "Plantuleux": {
-        "prenom": "Nicolas",
-        "nom": "Piecko",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Plantuleux"
-    },
-    "Vasistas": {
-        "prenom": "Adrien",
-        "nom": "VIN",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Vasistas"
-    },
-    "Jeudi": {
-        "prenom": "Thomas",
-        "nom": "Clément",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Jeudi"
-    },
-    "banane17": {
-        "prenom": "Damien",
-        "nom": "Avequin",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "banane17"
-    },
-    "Deschamps": {
-        "prenom": "Paul",
-        "nom": "BRUNEAU",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Deschamps"
-    },
-    "REyDA": {
-        "prenom": "Abderrahmane",
-        "nom": "Laanaiti",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "REyDA"
-    },
-    "Keltare": {
-        "prenom": "Sylvain",
-        "nom": "Baud",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Keltare"
-    },
-    "valar morghulis": {
-        "prenom": "quentin",
-        "nom": "bellouard",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "valar morghulis"
-    },
-    "ColocKillers": {
-        "prenom": "Yann",
-        "nom": "Briancon",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "ColocKillers"
-    },
-    "Ballislife": {
-        "prenom": "Florian",
-        "nom": "Agez",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Ballislife"
-    },
-    "frimousse": {
-        "prenom": "Margaux",
-        "nom": "Crédeville",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "frimousse"
-    },
-    "Tanière": {
-        "prenom": "Adrien",
-        "nom": "Maguer",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Tanière"
-    },
-    "schipsi": {
-        "prenom": "thibaut",
-        "nom": "juston",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "schipsi"
-    },
-    "Sacàmerde": {
-        "prenom": "Eugénie",
-        "nom": "Fraisse",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sacàmerde"
-    },
-    "Facom": {
-        "prenom": "Léna",
-        "nom": "Costecalde ",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Facom"
-    },
-    "Tiramisu": {
-        "prenom": "Laurène",
-        "nom": "Watrelot",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Tiramisu"
-    },
-    "Piscola": {
-        "prenom": "Sebastián ",
-        "nom": "Riquelme ",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Piscola"
-    },
-    "despacito": {
-        "prenom": "Bruno",
-        "nom": "Meyer",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "despacito"
-    },
-    "dromadaire": {
-        "prenom": "Maxime",
-        "nom": "Libsig",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "dromadaire"
-    },
-    "Panierpiano": {
-        "prenom": "Erick",
-        "nom": "Ah-Mouck",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Panierpiano"
-    },
-    "Tractopelle": {
-        "prenom": "Justine",
-        "nom": "Lett",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Tractopelle"
-    },
-    "Rouxuor": {
-        "prenom": "Arnaud ",
-        "nom": "ROUX ",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Rouxuor"
-    },
-    "Bernard": {
-        "prenom": "Adil",
-        "nom": "ERCHOUK",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bernard"
-    },
-    "Ribéry": {
-        "prenom": "Maxime",
-        "nom": "CHEMINEAU",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Ribéry"
-    },
-    "Béquille": {
-        "prenom": "Thibault",
-        "nom": "Guyon",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Béquille"
-    },
-    "ASM": {
-        "prenom": "Nicolas",
-        "nom": "Cheradame",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "ASM"
+        "key": "311079",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Anais ",
+            "nom": "Planson",
+            "key": "Pamplemousse",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
     },
     "Clai": {
         "prenom": "Emile",
         "nom": "Brisset",
         "famille": "Phoenixtear",
+        "key": "Clai",
         "dead": false,
         "haskilled": false,
-        "key": "Clai"
+        "cible": {
+            "prenom": "Alexis",
+            "nom": "Gaziello",
+            "key": "Mouton38",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
     },
-    "Manger": {
-        "prenom": "Roman",
-        "nom": "Allais",
-        "famille": "Phoenixtear",
+    "Mouton38": {
+        "prenom": "Alexis",
+        "nom": "Gaziello",
+        "famille": "Foxpaw",
+        "key": "Mouton38",
         "dead": false,
         "haskilled": false,
-        "key": "Manger"
-    },
-    "baguette": {
-        "prenom": "Nathan",
-        "nom": "Rossi",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "baguette"
-    },
-    "Mangue": {
-        "prenom": "Axel",
-        "nom": "Malara",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Mangue"
-    },
-    "2stepsfromhell": {
-        "prenom": "Thomas",
-        "nom": "Duchemin",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "2stepsfromhell"
-    },
-    "lohan": {
-        "prenom": "Arnau",
-        "nom": "Güiza",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "lohan"
-    },
-    "chausson": {
-        "prenom": "Cyril",
-        "nom": "DE CATHEU",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "chausson"
-    },
-    "Fumseck": {
-        "prenom": "Maxime",
-        "nom": "Bahuau",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Fumseck"
-    },
-    "FromHell": {
-        "prenom": "Audrey",
-        "nom": "Philipponneau",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "FromHell"
-    },
-    "Banane": {
-        "prenom": "Sébastien ",
-        "nom": "Villa",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Banane"
-    },
-    "gitan2": {
-        "prenom": "Charly",
-        "nom": "PERRIN",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "gitan2"
-    },
-    "némo": {
-        "prenom": "Loïc ",
-        "nom": "Toux",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "némo"
-    },
-    "westcoast": {
-        "prenom": "Matthieu ",
-        "nom": "Lamielle ",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "westcoast"
-    },
-    "saucisson": {
-        "prenom": "Oriane",
-        "nom": "Jourdan",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "saucisson"
-    },
-    "cali": {
-        "prenom": "Hugo",
-        "nom": "Riou",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "cali"
-    },
-    "pixel": {
-        "prenom": "Arnold",
-        "nom": "Kibiadi",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "pixel"
-    },
-    "dungeonnideaiwomotomerunowamachigateirudarouka": {
-        "prenom": "Manon",
-        "nom": "Vlieghe",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "dungeonnideaiwomotomerunowamachigateirudarouka"
-    },
-    "tchikita666": {
-        "prenom": "Pacôme",
-        "nom": "Rivier",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "tchikita666"
-    },
-    "Pousseur2fonte": {
-        "prenom": "Nahel",
-        "nom": "Zidi",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pousseur2fonte"
-    },
-    "Fluffy": {
-        "prenom": "Thierry",
-        "nom": "Pallière",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Fluffy"
-    },
-    "Rossignol": {
-        "prenom": "Céline",
-        "nom": "Perrot",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Rossignol"
-    },
-    "surimi": {
-        "prenom": "Alexandre",
-        "nom": "Anchyse",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "surimi"
-    },
-    "USB": {
-        "prenom": "Ban",
-        "nom": "Bi",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "USB"
-    },
-    "Bachi-bouzouk": {
-        "prenom": "Abel",
-        "nom": "Pruchon",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bachi-bouzouk"
-    },
-    "Éléphant": {
-        "prenom": "Célia",
-        "nom": "Detrez",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Éléphant"
-    },
-    "Caluche": {
-        "prenom": "Theo",
-        "nom": "Lamblib",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Caluche"
-    },
-    "Raoul": {
-        "prenom": "Anissa",
-        "nom": "Le Scornet",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Raoul"
-    },
-    "Easy Peasy": {
-        "prenom": "Mehdi",
-        "nom": "Kaabache",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Easy Peasy"
-    },
-    "Maroilles": {
-        "prenom": "Rémi",
-        "nom": "Lantoine",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Maroilles"
-    },
-    "Ivre": {
-        "prenom": "Marin",
-        "nom": "Six",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Ivre"
-    },
-    "Renecoty": {
-        "prenom": "Simon",
-        "nom": "Lecestre",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Renecoty"
-    },
-    "mechant": {
-        "prenom": "Emma",
-        "nom": "Biard ",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "mechant"
-    },
-    "crossover": {
-        "prenom": "Igor",
-        "nom": "Haas Sehn",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "crossover"
-    },
-    "ei3aigri": {
-        "prenom": "Jimmy",
-        "nom": "Coppin",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "ei3aigri"
+        "cible": {
+            "prenom": "Samuel",
+            "nom": "Trebaul",
+            "key": "Noisette",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
     },
     "Noisette": {
         "prenom": "Samuel",
         "nom": "Trebaul",
         "famille": "Tigerblood",
+        "key": "Noisette",
         "dead": false,
         "haskilled": false,
-        "key": "Noisette"
-    },
-    "Another": {
-        "prenom": "Rachid",
-        "nom": "Benfoughal",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Another"
-    },
-    "Goutap": {
-        "prenom": "Joséphine",
-        "nom": "Anquez",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Goutap"
-    },
-    "Énorme": {
-        "prenom": "Jacques",
-        "nom": "Michel",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Énorme"
-    },
-    "Lilian": {
-        "prenom": "sylvain",
-        "nom": "petit",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Lilian"
-    },
-    "PetitPapillon": {
-        "prenom": "Ombeline",
-        "nom": "Prade",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "PetitPapillon"
-    },
-    "PTSI Suprématie": {
-        "prenom": "Grégoire",
-        "nom": "Lebreton",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "PTSI Suprématie"
-    },
-    "Maxwell": {
-        "prenom": "Sasha",
-        "nom": "Madar",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Maxwell"
-    },
-    "Cour": {
-        "prenom": "Emilie",
-        "nom": "Chavanon",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Cour"
-    },
-    "BIENJOUE": {
-        "prenom": "Maëlys",
-        "nom": "LE LIÈVRE",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "BIENJOUE"
-    },
-    "sushi": {
-        "prenom": "Marine",
-        "nom": "Bonora",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "sushi"
-    },
-    "Coldplay": {
-        "prenom": "Ignacio",
-        "nom": "Izard",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Coldplay"
-    },
-    "Real": {
-        "prenom": "Adrien",
-        "nom": "Martins",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Real"
-    },
-    "Plectre": {
-        "prenom": "William",
-        "nom": "Lorgeré",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Plectre"
-    },
-    "raquette": {
-        "prenom": "Jules",
-        "nom": "Tisseyre",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "raquette"
-    },
-    "Brooklyn": {
-        "prenom": "Anne",
-        "nom": "Badinier ",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Brooklyn"
-    },
-    "Stark": {
-        "prenom": "Thomas",
-        "nom": "Galea",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Stark"
-    },
-    "manoir": {
-        "prenom": "Quentin",
-        "nom": "PAQUOT",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "manoir"
-    },
-    "Maraudeur": {
-        "prenom": "Sylvin",
-        "nom": "BIELLE",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Maraudeur"
-    },
-    "meknes": {
-        "prenom": "Fantine",
-        "nom": "Hureau",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "meknes"
-    },
-    "Diabaté": {
-        "prenom": "Paul",
-        "nom": "SAUBION",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Diabaté"
-    },
-    "Goulag": {
-        "prenom": "Bastien ",
-        "nom": "Boudet",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Goulag"
-    },
-    "Saucisson": {
-        "prenom": "Maxime ",
-        "nom": "Canard ",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Saucisson"
-    },
-    "Cléo": {
-        "prenom": "Léo",
-        "nom": "Pelloquin",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Cléo"
-    },
-    "Priapisme": {
-        "prenom": "Big",
-        "nom": "Mac",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Priapisme"
-    },
-    "Tabouret": {
-        "prenom": "Gaétan",
-        "nom": "Moisson-Franckhauser",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Tabouret"
-    },
-    "Bateau": {
-        "prenom": "Ines",
-        "nom": "FERNANDEZ CASANOVA",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bateau"
-    },
-    "Chaussette": {
-        "prenom": "Thibault",
-        "nom": "Gaudet",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Chaussette"
-    },
-    "Jaune": {
-        "prenom": "Gaëlle",
-        "nom": "Djerroud",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Jaune"
-    },
-    "Raid": {
-        "prenom": "Mélissandre",
-        "nom": "Gallitre",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Raid"
-    },
-    "Itapetininga": {
-        "prenom": "Matheus",
-        "nom": "Raposo de Almeida",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Itapetininga"
-    },
-    "Shinkan": {
-        "prenom": "Natsuki",
-        "nom": "AKIMOTO",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Shinkan"
-    },
-    "Morghulis": {
-        "prenom": "Saad",
-        "nom": "Mazgour",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Morghulis"
-    },
-    "Chat": {
-        "prenom": "Antoine",
-        "nom": "Roller",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Chat"
-    },
-    "EXPO": {
-        "prenom": "Anais",
-        "nom": "Hijos",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "EXPO"
+        "cible": {
+            "prenom": "Vincent",
+            "nom": "Espinasse",
+            "key": "Fauteuil",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
     },
     "Fauteuil": {
         "prenom": "Vincent",
         "nom": "Espinasse",
         "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Fauteuil"
-    },
-    "tarama": {
-        "prenom": "julien",
-        "nom": "oiknine",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "tarama"
-    },
-    "Sport": {
-        "prenom": "Vincent",
-        "nom": "Meslier",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sport"
-    },
-    "Sevilla": {
-        "prenom": "Cristina",
-        "nom": "Villanueva García",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sevilla"
-    },
-    "Shylmagoghnar": {
-        "prenom": "Louis",
-        "nom": "Forgues",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Shylmagoghnar"
-    },
-    "papillon": {
-        "prenom": "Lola",
-        "nom": "Rousseau",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "papillon"
-    },
-    "Fromage": {
-        "prenom": "Leonardo",
-        "nom": "Ramírez Baeza",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Fromage"
-    },
-    "Lionskin": {
-        "prenom": "Alba",
-        "nom": "Thió I Pera",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Lionskin"
-    },
-    "OUS123": {
-        "prenom": "Oussama",
-        "nom": "BENLALOU",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "OUS123"
-    },
-    "russe": {
-        "prenom": "Hugo",
-        "nom": "Thuilliez",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "russe"
-    },
-    "Mot": {
-        "prenom": "Daniel",
-        "nom": "Álvaro",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Mot"
-    },
-    "Titi44": {
-        "prenom": "Thibaud ",
-        "nom": "Launay ",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Titi44"
-    },
-    "Mantequilla": {
-        "prenom": "Antonio",
-        "nom": "Pillot",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Mantequilla"
-    },
-    "pomme": {
-        "prenom": "pierre",
-        "nom": "veillard",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "pomme"
-    },
-    "zut": {
-        "prenom": "Jason",
-        "nom": "Perrin",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "zut"
-    },
-    "Drôle": {
-        "prenom": "Leonardo",
-        "nom": "Almeida",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Drôle"
-    },
-    "titiz": {
-        "prenom": "Nessreddine",
-        "nom": "Loudiy",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "titiz"
-    },
-    "Sata": {
-        "prenom": "Abdelhadi",
-        "nom": "Louah",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sata"
-    },
-    "clé": {
-        "prenom": "Lucie",
-        "nom": "Hervé",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "clé"
-    },
-    "Aïe": {
-        "prenom": "Bastien",
-        "nom": "Francomme",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Aïe"
-    },
-    "Bretonne": {
-        "prenom": "Marine",
-        "nom": "Rialan",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bretonne"
-    },
-    "Anges": {
-        "prenom": "Marie",
-        "nom": "Lanza",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Anges"
-    },
-    "COV": {
-        "prenom": "Lise",
-        "nom": "Rodde",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "COV"
-    },
-    "Tête de poulpe": {
-        "prenom": "Pierre-Antoine",
-        "nom": "Castellani",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Tête de poulpe"
-    },
-    "Jesuispaulhenrifrancois": {
-        "prenom": "Paul-Henri",
-        "nom": "François",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Jesuispaulhenrifrancois"
-    },
-    "Ornithorynque": {
-        "prenom": "Samuel",
-        "nom": "Delabre",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Ornithorynque"
-    },
-    "flavie": {
-        "prenom": "nan",
-        "nom": "zhang",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "flavie"
-    },
-    "Roland": {
-        "prenom": "Yasmine",
-        "nom": "Moussi",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Roland"
-    },
-    "Pandore": {
-        "prenom": "Léa",
-        "nom": "Guipouy",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pandore"
-    },
-    "Pamplemousse": {
-        "prenom": "Anais ",
-        "nom": "Planson",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pamplemousse"
-    },
-    "spordi": {
-        "prenom": "Antoine",
-        "nom": "BEDANIAN",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "spordi"
-    },
-    "hx2": {
-        "prenom": "Victor",
-        "nom": "Graff",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "hx2"
-    },
-    "Poney": {
-        "prenom": "Olivia",
-        "nom": "Bonjour",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Poney"
-    },
-    "Castagne": {
-        "prenom": "Hugo",
-        "nom": "Wetter",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Castagne"
-    },
-    "Sheraf": {
-        "prenom": "Thomas",
-        "nom": "Barthélemy",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sheraf"
-    },
-    "carapace": {
-        "prenom": "Charles",
-        "nom": "Dowlat",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "carapace"
-    },
-    "Sopalin": {
-        "prenom": "Oscar",
-        "nom": "Mallet",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sopalin"
-    },
-    "Favela": {
-        "prenom": "Gabriela",
-        "nom": "Da Silva Drebes Machado",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Favela"
-    },
-    "bretagne": {
-        "prenom": "Pauline",
-        "nom": "Rault",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "bretagne"
-    },
-    "I'llbeback": {
-        "prenom": "Tamara Géssica",
-        "nom": "GADELHA MEDEIROS",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "I'llbeback"
-    },
-    "lolodusale": {
-        "prenom": "Maxence",
-        "nom": "Aubé",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "lolodusale"
-    },
-    "Clope": {
-        "prenom": "Evan",
-        "nom": "Gueguen",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Clope"
-    },
-    "Pangolin": {
-        "prenom": "Jérôme",
-        "nom": "Germain",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pangolin"
-    },
-    "Anticonstitutionnellement": {
-        "prenom": "Valentine",
-        "nom": "Aguiar",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Anticonstitutionnellement"
-    },
-    "smeagol": {
-        "prenom": "Antonin",
-        "nom": "LE GARREC",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "smeagol"
-    },
-    "cetelem": {
-        "prenom": "Mathilde",
-        "nom": "Portier",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "cetelem"
-    },
-    "chocolatine": {
-        "prenom": "Guillaume",
-        "nom": "Fromentin",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "chocolatine"
-    },
-    "blanche-neige": {
-        "prenom": "lucas",
-        "nom": "deswarte",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "blanche-neige"
-    },
-    "tripalium": {
-        "prenom": "Pierre",
-        "nom": "BLAIN",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "tripalium"
-    },
-    "Chocolat": {
-        "prenom": "Gaël",
-        "nom": "Bizet",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Chocolat"
-    },
-    "Prince": {
-        "prenom": "Clémence",
-        "nom": "GESTAT",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Prince"
-    },
-    "brio": {
-        "prenom": "Hector",
-        "nom": "de Beaugrenier",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "brio"
-    },
-    "Rugissement": {
-        "prenom": "Cindel",
-        "nom": "DELEHEDDE",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Rugissement"
-    },
-    "halo": {
-        "prenom": "Jean-Baptiste",
-        "nom": "de Beco",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "halo"
-    },
-    "Australie": {
-        "prenom": "Marion",
-        "nom": "Aoun",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Australie"
-    },
-    "Mavic": {
-        "prenom": "Rémi",
-        "nom": "Simon",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Mavic"
-    },
-    "gnoux": {
-        "prenom": "Héloïse",
-        "nom": "Fruchard",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "gnoux"
-    },
-    "123deoliveira4": {
-        "prenom": "Isabel",
-        "nom": "Carneiro",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "123deoliveira4"
-    },
-    "Tequila": {
-        "prenom": "Laurane",
-        "nom": "Freour",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Tequila"
-    },
-    "Café": {
-        "prenom": "Sarah",
-        "nom": "Le Portz ",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Café"
-    },
-    "votezalixauBDE": {
-        "prenom": "Alban",
-        "nom": "Villedieu",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "votezalixauBDE"
-    },
-    "Ah!": {
-        "prenom": "Antoine",
-        "nom": "Hurard",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Ah!"
-    },
-    "KTdrale": {
-        "prenom": "Théo",
-        "nom": "Lecointre",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "KTdrale"
-    },
-    "CentralePark": {
-        "prenom": "Etienne",
-        "nom": "LE BIHAN",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "CentralePark"
-    },
-    "mamou": {
-        "prenom": "Paul",
-        "nom": "Jacquemard",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "mamou"
-    },
-    "cubis": {
-        "prenom": "Pierre",
-        "nom": "Bernigaud",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "cubis"
-    },
-    "Houmous": {
-        "prenom": "Alix",
-        "nom": "Sainte-Marie",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Houmous"
+        "key": "Fauteuil",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Corentin",
+            "nom": "Raoux",
+            "key": "Cancoillotte",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
     },
     "Cancoillotte": {
         "prenom": "Corentin",
         "nom": "Raoux",
         "famille": "Owlclaw",
+        "key": "Cancoillotte",
         "dead": false,
         "haskilled": false,
-        "key": "Cancoillotte"
+        "cible": {
+            "prenom": "Vincent",
+            "nom": "Meslier",
+            "key": "Sport",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
     },
-    "lutin": {
-        "prenom": "Andrei",
-        "nom": "Furtuna",
+    "Sport": {
+        "prenom": "Vincent",
+        "nom": "Meslier",
+        "famille": "Dragonwing",
+        "key": "Sport",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Cristina",
+            "nom": "Villanueva García",
+            "key": "Sevilla",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Sevilla": {
+        "prenom": "Cristina",
+        "nom": "Villanueva García",
         "famille": "Foxpaw",
+        "key": "Sevilla",
         "dead": false,
         "haskilled": false,
-        "key": "lutin"
-    },
-    "Pied": {
-        "prenom": "Agathe",
-        "nom": "Guénot",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Pied"
-    },
-    "avalanche": {
-        "prenom": "Hugo",
-        "nom": "Gayrard",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "avalanche"
-    },
-    "Granger": {
-        "prenom": "Arsène",
-        "nom": "Amoureux",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Granger"
-    },
-    "PLS": {
-        "prenom": "Martin",
-        "nom": "Delcourt",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "PLS"
-    },
-    "piano": {
-        "prenom": "François",
-        "nom": "de Rochette",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "piano"
-    },
-    "Charot": {
-        "prenom": "Rayane",
-        "nom": "El Bouziani",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Charot"
-    },
-    "compote": {
-        "prenom": "adrien",
-        "nom": "thibaut",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "compote"
-    },
-    "Perroquet": {
-        "prenom": "YANG",
-        "nom": "XU",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Perroquet"
-    },
-    "Phénix": {
-        "prenom": "Alexandre",
-        "nom": "Merasli",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Phénix"
-    },
-    "Cle": {
-        "prenom": "Valentine",
-        "nom": "Mas",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Cle"
-    },
-    "Cacahuète": {
-        "prenom": "Yier",
-        "nom": "Shu",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Cacahuète"
-    },
-    "vodkavodka": {
-        "prenom": "Victor",
-        "nom": "Michelot",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "vodkavodka"
-    },
-    "rapcore": {
-        "prenom": "Anaëlle",
-        "nom": "Gilot",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "rapcore"
-    },
-    "piscine": {
-        "prenom": "Claudine",
-        "nom": "Neveu",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "piscine"
-    },
-    "Manteau": {
-        "prenom": "Stan",
-        "nom": "Bromberg",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Manteau"
-    },
-    "Sombre": {
-        "prenom": "Paul",
-        "nom": "Durand--Lupinski",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Sombre"
-    },
-    "Crème": {
-        "prenom": "Thomas",
-        "nom": "Lucaora ",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Crème"
-    },
-    "Charlycestleplusbeau": {
-        "prenom": "Yvan",
-        "nom": "Avdeew",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Charlycestleplusbeau"
-    },
-    "Aigle": {
-        "prenom": "Pierre",
-        "nom": "Puppinck",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Aigle"
-    },
-    "poop": {
-        "prenom": "Zoé",
-        "nom": "Barjot",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "poop"
-    },
-    "michel": {
-        "prenom": "Daniel",
-        "nom": "Moussa",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "michel"
-    },
-    "Love": {
-        "prenom": "Georges",
-        "nom": "Wehbe",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Love"
-    },
-    "Kebab": {
-        "prenom": "Laura",
-        "nom": "Knecht",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Kebab"
-    },
-    "Alouette": {
-        "prenom": "Reda",
-        "nom": "Lahlou",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Alouette"
+        "cible": {
+            "prenom": "Rémi ",
+            "nom": "Filliol",
+            "key": "bikijnal6otte",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
     },
     "bikijnal6otte": {
         "prenom": "Rémi ",
         "nom": "Filliol",
         "famille": "Owlclaw",
+        "key": "bikijnal6otte",
         "dead": false,
         "haskilled": false,
-        "key": "bikijnal6otte"
+        "cible": {
+            "prenom": "antoine",
+            "nom": "colson",
+            "key": "panzani",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
     },
-    "Casino": {
-        "prenom": "Emilien",
-        "nom": "Sopetti",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Casino"
-    },
-    "Chouette": {
-        "prenom": "Elisa",
-        "nom": "Villard",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Chouette"
-    },
-    "Perdu": {
-        "prenom": "Victorien",
-        "nom": "Bernat",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Perdu"
-    },
-    "botch": {
-        "prenom": "Moignon",
-        "nom": "Metge",
+    "panzani": {
+        "prenom": "antoine",
+        "nom": "colson",
         "famille": "Foxpaw",
+        "key": "panzani",
         "dead": false,
         "haskilled": false,
-        "key": "botch"
+        "cible": {
+            "prenom": "Lara",
+            "nom": "Cochet",
+            "key": "Banane716",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
     },
-    "Gisoufle": {
-        "prenom": "Lola",
-        "nom": "Gautreau",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Gisoufle"
-    },
-    "Mayo": {
-        "prenom": "Hocine",
-        "nom": "Aouragh",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Mayo"
-    },
-    "Aubergine": {
-        "prenom": "Elsa",
-        "nom": "Thiaville",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Aubergine"
-    },
-    "Panda": {
-        "prenom": "Mathilde",
-        "nom": "Puche",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "Panda"
-    },
-    "Brio": {
-        "prenom": "Olivia ",
-        "nom": "Delattre",
-        "famille": "Dragonwing",
-        "dead": false,
-        "haskilled": false,
-        "key": "Brio"
-    },
-    "Bismillah": {
-        "prenom": "Alexis",
-        "nom": "Dupuis ",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Bismillah"
-    },
-    "Reblochon": {
-        "prenom": "Lucas",
-        "nom": "Sanciet--Munier",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "Reblochon"
-    },
-    "Équerre": {
-        "prenom": "Antoine",
-        "nom": "Cottineau",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Équerre"
-    },
-    "ridiculus": {
-        "prenom": "Geoffroy",
-        "nom": "Leconte",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "ridiculus"
-    },
-    "Porte clé": {
-        "prenom": "Nathan",
-        "nom": "Langlois",
+    "Banane716": {
+        "prenom": "Lara",
+        "nom": "Cochet",
         "famille": "Tigerblood",
+        "key": "Banane716",
         "dead": false,
         "haskilled": false,
-        "key": "Porte clé"
+        "cible": {
+            "prenom": "Clémence ",
+            "nom": "Pétillion ",
+            "key": "Cacaprout",
+            "mission": "Incite ta cible à te donner une chaussette"
+        }
     },
-    "Cazaros55#66": {
-        "prenom": "Paul",
-        "nom": "Asquin",
+    "Cacaprout": {
+        "prenom": "Clémence ",
+        "nom": "Pétillion ",
         "famille": "Dragonwing",
+        "key": "Cacaprout",
         "dead": false,
         "haskilled": false,
-        "key": "Cazaros55#66"
+        "cible": {
+            "prenom": "William",
+            "nom": "Lorgeré",
+            "key": "Plectre",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
     },
-    "camion": {
-        "prenom": "Adrien",
-        "nom": "Dinard",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "camion"
-    },
-    "Segredo": {
-        "prenom": "Angelo",
-        "nom": "Simonetto Pessutto",
+    "Plectre": {
+        "prenom": "William",
+        "nom": "Lorgeré",
         "famille": "Wolfeye",
+        "key": "Plectre",
         "dead": false,
         "haskilled": false,
-        "key": "Segredo"
+        "cible": {
+            "prenom": "Thibaud ",
+            "nom": "Launay ",
+            "key": "Titi44",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
     },
-    "goutap": {
-        "prenom": "Magali",
-        "nom": "Sébastien",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "goutap"
-    },
-    "Koro-sensei": {
-        "prenom": "Corentin",
-        "nom": "Bourdeix",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Koro-sensei"
-    },
-    "Habile": {
-        "prenom": "Thomas",
-        "nom": "Filhon",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "Habile"
-    },
-    "quimper": {
-        "prenom": "Rémi",
-        "nom": "Vassileff",
-        "famille": "Eaglescream",
-        "dead": false,
-        "haskilled": false,
-        "key": "quimper"
-    },
-    "nougat": {
-        "prenom": "Maud",
-        "nom": "Ordener",
-        "famille": "Tigerblood",
-        "dead": false,
-        "haskilled": false,
-        "key": "nougat"
-    },
-    "Neymar": {
-        "prenom": "Adrien",
-        "nom": "Marion",
-        "famille": "Phoenixtear",
-        "dead": false,
-        "haskilled": false,
-        "key": "Neymar"
-    },
-    "Boobies": {
-        "prenom": "Yann",
-        "nom": "Lesueur",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Boobies"
-    },
-    "Peugeot": {
-        "prenom": "André",
-        "nom": "Pedrosa Rodrigues",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Peugeot"
-    },
-    "poubelle": {
-        "prenom": "Natacha",
-        "nom": "Pochodaj",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "poubelle"
-    },
-    "Chingar": {
-        "prenom": "Gabriel",
-        "nom": "Ramirez",
-        "famille": "Wolfeye",
-        "dead": false,
-        "haskilled": false,
-        "key": "Chingar"
-    },
-    "noir": {
-        "prenom": "Guilherme Tadashi",
-        "nom": "Ishida",
+    "Titi44": {
+        "prenom": "Thibaud ",
+        "nom": "Launay ",
         "famille": "Dragonwing",
+        "key": "Titi44",
         "dead": false,
         "haskilled": false,
-        "key": "noir"
+        "cible": {
+            "prenom": "Saad",
+            "nom": "Mazgour",
+            "key": "Morghulis",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
     },
-    "Cucurbitacée": {
-        "prenom": "Nicolas ",
-        "nom": "Collot ",
-        "famille": "Lionskin",
+    "Morghulis": {
+        "prenom": "Saad",
+        "nom": "Mazgour",
+        "famille": "Wolfeye",
+        "key": "Morghulis",
         "dead": false,
         "haskilled": false,
-        "key": "Cucurbitacée"
-    },
-    "Papi": {
-        "prenom": "Côme",
-        "nom": "Keranflec'h",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Papi"
-    },
-    "Cacahuete": {
-        "prenom": "Maxence",
-        "nom": "Cunin",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Cacahuete"
-    },
-    "Salopette": {
-        "prenom": "Thibault",
-        "nom": "Cabourg-Laurent",
-        "famille": "Owlclaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Salopette"
-    },
-    "Jauretch": {
-        "prenom": "Florian",
-        "nom": "Castillo",
-        "famille": "Foxpaw",
-        "dead": false,
-        "haskilled": false,
-        "key": "Jauretch"
-    },
-    "paillasson": {
-        "prenom": "Marion",
-        "nom": "Narbeburu",
-        "famille": "Lionskin",
-        "dead": false,
-        "haskilled": false,
-        "key": "paillasson"
+        "cible": {
+            "prenom": "Corentin",
+            "nom": "Hattier",
+            "key": "9856",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
     },
     "Rital": {
         "prenom": "Vincent",
         "nom": "Biscaccianti",
         "famille": "Phoenixtear",
+        "key": "Rital",
         "dead": false,
         "haskilled": false,
-        "key": "Rital"
+        "cible": {
+            "prenom": "Alexandre ",
+            "nom": "Chamley",
+            "key": "Drop",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Drop": {
+        "prenom": "Alexandre ",
+        "nom": "Chamley",
+        "famille": "Lionskin",
+        "key": "Drop",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Florian",
+            "nom": "Bartocci",
+            "key": "AvadaKedavra",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "AvadaKedavra": {
+        "prenom": "Florian",
+        "nom": "Bartocci",
+        "famille": "Eaglescream",
+        "key": "AvadaKedavra",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Léo",
+            "nom": "Coquand",
+            "key": "Poire",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Poire": {
+        "prenom": "Léo",
+        "nom": "Coquand",
+        "famille": "Dragonwing",
+        "key": "Poire",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nathan",
+            "nom": "Langlois",
+            "key": "Porte clé45",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Porte clé45": {
+        "prenom": "Nathan",
+        "nom": "Langlois",
+        "famille": "Tigerblood",
+        "key": "Porte clé45",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Geoffroy",
+            "nom": "Leconte",
+            "key": "ridiculus",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "ridiculus": {
+        "prenom": "Geoffroy",
+        "nom": "Leconte",
+        "famille": "Foxpaw",
+        "key": "ridiculus",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Leonardo",
+            "nom": "Almeida",
+            "key": "Drôle",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Drôle": {
+        "prenom": "Leonardo",
+        "nom": "Almeida",
+        "famille": "Phoenixtear",
+        "key": "Drôle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Julien",
+            "nom": "Relet",
+            "key": "Jimini",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "Jimini": {
+        "prenom": "Julien",
+        "nom": "Relet",
+        "famille": "Eaglescream",
+        "key": "Jimini",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "quentin",
+            "nom": "bellouard",
+            "key": "valar morghulis",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "valar morghulis": {
+        "prenom": "quentin",
+        "nom": "bellouard",
+        "famille": "Owlclaw",
+        "key": "valar morghulis",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Duchemin",
+            "key": "2stepsfromhell",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "2stepsfromhell": {
+        "prenom": "Thomas",
+        "nom": "Duchemin",
+        "famille": "Phoenixtear",
+        "key": "2stepsfromhell",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Andrei",
+            "nom": "Furtuna",
+            "key": "lutin",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "lutin": {
+        "prenom": "Andrei",
+        "nom": "Furtuna",
+        "famille": "Foxpaw",
+        "key": "lutin",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Yann",
+            "nom": "Briancon",
+            "key": "ColocKillers",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "ColocKillers": {
+        "prenom": "Yann",
+        "nom": "Briancon",
+        "famille": "Owlclaw",
+        "key": "ColocKillers",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Victor",
+            "nom": "Graff",
+            "key": "hx2",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "hx2": {
+        "prenom": "Victor",
+        "nom": "Graff",
+        "famille": "Eaglescream",
+        "key": "hx2",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hakim",
+            "nom": "Cheikh",
+            "key": "Matador",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Matador": {
+        "prenom": "Hakim",
+        "nom": "Cheikh",
+        "famille": "Lionskin",
+        "key": "Matador",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lucie",
+            "nom": "Hervé",
+            "key": "clé78",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "clé78": {
+        "prenom": "Lucie",
+        "nom": "Hervé",
+        "famille": "Dragonwing",
+        "key": "clé78",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Andrianirina ",
+            "nom": "RAKOTOHARISOA ",
+            "key": "Keanespot",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Keanespot": {
+        "prenom": "Andrianirina ",
+        "nom": "RAKOTOHARISOA ",
+        "famille": "Lionskin",
+        "key": "Keanespot",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antoine",
+            "nom": "Cottineau",
+            "key": "Équerre",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Équerre": {
+        "prenom": "Antoine",
+        "nom": "Cottineau",
+        "famille": "Owlclaw",
+        "key": "Équerre",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antoine",
+            "nom": "Roller",
+            "key": "Chat87",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Chat87": {
+        "prenom": "Antoine",
+        "nom": "Roller",
+        "famille": "Wolfeye",
+        "key": "Chat87",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Camille",
+            "nom": "Petit",
+            "key": "chaise",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "chaise": {
+        "prenom": "Camille",
+        "nom": "Petit",
+        "famille": "Eaglescream",
+        "key": "chaise",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Evan",
+            "nom": "Gueguen",
+            "key": "Clope",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Clope": {
+        "prenom": "Evan",
+        "nom": "Gueguen",
+        "famille": "Phoenixtear",
+        "key": "Clope",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adrien ",
+            "nom": "Bersier ",
+            "key": "Chevalier",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Chevalier": {
+        "prenom": "Adrien ",
+        "nom": "Bersier ",
+        "famille": "Foxpaw",
+        "key": "Chevalier",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Igor",
+            "nom": "Haas Sehn",
+            "key": "crossover",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "crossover": {
+        "prenom": "Igor",
+        "nom": "Haas Sehn",
+        "famille": "Tigerblood",
+        "key": "crossover",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Guillaume",
+            "nom": "Fromentin",
+            "key": "chocolatine",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "chocolatine": {
+        "prenom": "Guillaume",
+        "nom": "Fromentin",
+        "famille": "Dragonwing",
+        "key": "chocolatine",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pauline",
+            "nom": "Buttard",
+            "key": "Licorne",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "Licorne": {
+        "prenom": "Pauline",
+        "nom": "Buttard",
+        "famille": "Lionskin",
+        "key": "Licorne",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pauline",
+            "nom": "Rault",
+            "key": "bretagne",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "bretagne": {
+        "prenom": "Pauline",
+        "nom": "Rault",
+        "famille": "Phoenixtear",
+        "key": "bretagne",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Tuc",
+            "nom": "Nguyen",
+            "key": "Pécari",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "Pécari": {
+        "prenom": "Tuc",
+        "nom": "Nguyen",
+        "famille": "Lionskin",
+        "key": "Pécari",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Yasmine",
+            "nom": "Moussi",
+            "key": "Roland",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Roland": {
+        "prenom": "Yasmine",
+        "nom": "Moussi",
+        "famille": "Foxpaw",
+        "key": "Roland",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nicolas",
+            "nom": "Cheradame",
+            "key": "ASM",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "ASM": {
+        "prenom": "Nicolas",
+        "nom": "Cheradame",
+        "famille": "Phoenixtear",
+        "key": "ASM",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Oussama",
+            "nom": "Kamal",
+            "key": "famille",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "famille": {
+        "prenom": "Oussama",
+        "nom": "Kamal",
+        "famille": "Foxpaw",
+        "key": "famille",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hugo",
+            "nom": "Gayrard",
+            "key": "avalanche",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "avalanche": {
+        "prenom": "Hugo",
+        "nom": "Gayrard",
+        "famille": "Lionskin",
+        "key": "avalanche",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "pierre",
+            "nom": "veillard",
+            "key": "pomme",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "pomme": {
+        "prenom": "pierre",
+        "nom": "veillard",
+        "famille": "Owlclaw",
+        "key": "pomme",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gaëlle",
+            "nom": "Djerroud",
+            "key": "Jaune",
+            "mission": "Mets une pierre philosophale dans sa poche. Il/elle ne doit pas s'en apercevoir..."
+        }
+    },
+    "Jaune": {
+        "prenom": "Gaëlle",
+        "nom": "Djerroud",
+        "famille": "Wolfeye",
+        "key": "Jaune",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adrien",
+            "nom": "Dinard",
+            "key": "camion",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "camion": {
+        "prenom": "Adrien",
+        "nom": "Dinard",
+        "famille": "Lionskin",
+        "key": "camion",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Quentin ",
+            "nom": "Ferret",
+            "key": "Truite",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Truite": {
+        "prenom": "Quentin ",
+        "nom": "Ferret",
+        "famille": "Foxpaw",
+        "key": "Truite",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Marion",
+            "nom": "Aoun",
+            "key": "Australie",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "Australie": {
+        "prenom": "Marion",
+        "nom": "Aoun",
+        "famille": "Wolfeye",
+        "key": "Australie",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Erick",
+            "nom": "Ah-Mouck",
+            "key": "Panierpiano",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Panierpiano": {
+        "prenom": "Erick",
+        "nom": "Ah-Mouck",
+        "famille": "Owlclaw",
+        "key": "Panierpiano",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Victor",
+            "nom": "Lhoste",
+            "key": "Narcos",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "Narcos": {
+        "prenom": "Victor",
+        "nom": "Lhoste",
+        "famille": "Foxpaw",
+        "key": "Narcos",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Charles",
+            "nom": "Dowlat",
+            "key": "carapace",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "carapace": {
+        "prenom": "Charles",
+        "nom": "Dowlat",
+        "famille": "Phoenixtear",
+        "key": "carapace",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Ines",
+            "nom": "FERNANDEZ CASANOVA",
+            "key": "Bateau",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "Bateau": {
+        "prenom": "Ines",
+        "nom": "FERNANDEZ CASANOVA",
+        "famille": "Wolfeye",
+        "key": "Bateau",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Claudine",
+            "nom": "Neveu",
+            "key": "piscine",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "piscine": {
+        "prenom": "Claudine",
+        "nom": "Neveu",
+        "famille": "Tigerblood",
+        "key": "piscine",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Mathilde",
+            "nom": "Portier",
+            "key": "cetelem",
+            "mission": "Mets une pierre philosophale dans sa poche. Il/elle ne doit pas s'en apercevoir..."
+        }
+    },
+    "cetelem": {
+        "prenom": "Mathilde",
+        "nom": "Portier",
+        "famille": "Owlclaw",
+        "key": "cetelem",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gauthier",
+            "nom": "Frécon ",
+            "key": "Integration",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Integration": {
+        "prenom": "Gauthier",
+        "nom": "Frécon ",
+        "famille": "Dragonwing",
+        "key": "Integration",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Sébastien ",
+            "nom": "Villa",
+            "key": "Banane515",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Banane515": {
+        "prenom": "Sébastien ",
+        "nom": "Villa",
+        "famille": "Tigerblood",
+        "key": "Banane515",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Ophélie",
+            "nom": "Leprévost",
+            "key": "pokemon",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "pokemon": {
+        "prenom": "Ophélie",
+        "nom": "Leprévost",
+        "famille": "Lionskin",
+        "key": "pokemon",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Cindel",
+            "nom": "DELEHEDDE",
+            "key": "Rugissement",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "Rugissement": {
+        "prenom": "Cindel",
+        "nom": "DELEHEDDE",
+        "famille": "Tigerblood",
+        "key": "Rugissement",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Vincent",
+            "nom": "Mauduit",
+            "key": "DreamTeam",
+            "mission": "Incite-le/la à se mettre un drap sur la tête, puis dis-lui \"Expecto patronum\". Fonctionne aussi avec un duvet"
+        }
+    },
+    "DreamTeam": {
+        "prenom": "Vincent",
+        "nom": "Mauduit",
+        "famille": "Foxpaw",
+        "key": "DreamTeam",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antoine",
+            "nom": "BEDANIAN",
+            "key": "spordi",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "spordi": {
+        "prenom": "Antoine",
+        "nom": "BEDANIAN",
+        "famille": "Phoenixtear",
+        "key": "spordi",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Martin",
+            "nom": "Delcourt",
+            "key": "PLS",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "PLS": {
+        "prenom": "Martin",
+        "nom": "Delcourt",
+        "famille": "Owlclaw",
+        "key": "PLS",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "lucas",
+            "nom": "deswarte",
+            "key": "blanche-neige",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "blanche-neige": {
+        "prenom": "lucas",
+        "nom": "deswarte",
+        "famille": "Lionskin",
+        "key": "blanche-neige",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Paul",
+            "nom": "Asquin",
+            "key": "Cazaros55#66",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Cazaros55#66": {
+        "prenom": "Paul",
+        "nom": "Asquin",
+        "famille": "Dragonwing",
+        "key": "Cazaros55#66",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alwenn",
+            "nom": "Charpentier ",
+            "key": "Ananas871",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Ananas871": {
+        "prenom": "Alwenn",
+        "nom": "Charpentier ",
+        "famille": "Wolfeye",
+        "key": "Ananas871",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Moignon",
+            "nom": "Metge",
+            "key": "botch",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "botch": {
+        "prenom": "Moignon",
+        "nom": "Metge",
+        "famille": "Foxpaw",
+        "key": "botch",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierre-Louis",
+            "nom": "Antonsanti",
+            "key": "lagrotte",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "lagrotte": {
+        "prenom": "Pierre-Louis",
+        "nom": "Antonsanti",
+        "famille": "Lionskin",
+        "key": "lagrotte",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Agathe",
+            "nom": "Guénot",
+            "key": "Pied",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Pied": {
+        "prenom": "Agathe",
+        "nom": "Guénot",
+        "famille": "Phoenixtear",
+        "key": "Pied",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Clémence",
+            "nom": "GESTAT",
+            "key": "Prince",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Prince": {
+        "prenom": "Clémence",
+        "nom": "GESTAT",
+        "famille": "Foxpaw",
+        "key": "Prince",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Oualid",
+            "nom": "Cheriaf",
+            "key": "Chocapic",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Chocapic": {
+        "prenom": "Oualid",
+        "nom": "Cheriaf",
+        "famille": "Dragonwing",
+        "key": "Chocapic",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Mathilde",
+            "nom": "Puche",
+            "key": "Panda",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "Panda": {
+        "prenom": "Mathilde",
+        "nom": "Puche",
+        "famille": "Lionskin",
+        "key": "Panda",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Abdelhadi",
+            "nom": "Louah",
+            "key": "Sata",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "Sata": {
+        "prenom": "Abdelhadi",
+        "nom": "Louah",
+        "famille": "Eaglescream",
+        "key": "Sata",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "nan",
+            "nom": "zhang",
+            "key": "flavie",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "flavie": {
+        "prenom": "nan",
+        "nom": "zhang",
+        "famille": "Phoenixtear",
+        "key": "flavie",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Guilherme Tadashi",
+            "nom": "Ishida",
+            "key": "noir",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "noir": {
+        "prenom": "Guilherme Tadashi",
+        "nom": "Ishida",
+        "famille": "Dragonwing",
+        "key": "noir",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Big",
+            "nom": "Mac",
+            "key": "Priapisme",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "Priapisme": {
+        "prenom": "Big",
+        "nom": "Mac",
+        "famille": "Wolfeye",
+        "key": "Priapisme",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Morgan",
+            "nom": "Louédec",
+            "key": "Patatouille",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Patatouille": {
+        "prenom": "Morgan",
+        "nom": "Louédec",
+        "famille": "Lionskin",
+        "key": "Patatouille",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Eugénie",
+            "nom": "Fraisse",
+            "key": "Sacàmerde",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Sacàmerde": {
+        "prenom": "Eugénie",
+        "nom": "Fraisse",
+        "famille": "Owlclaw",
+        "key": "Sacàmerde",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alexandre",
+            "nom": "Bleuzé",
+            "key": "Mouton26",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "Mouton26": {
+        "prenom": "Alexandre",
+        "nom": "Bleuzé",
+        "famille": "Tigerblood",
+        "key": "Mouton26",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adrien",
+            "nom": "Martins",
+            "key": "Real",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Real": {
+        "prenom": "Adrien",
+        "nom": "Martins",
+        "famille": "Wolfeye",
+        "key": "Real",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Laurane",
+            "nom": "Freour",
+            "key": "Tequila",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "Tequila": {
+        "prenom": "Laurane",
+        "nom": "Freour",
+        "famille": "Tigerblood",
+        "key": "Tequila",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Sasha",
+            "nom": "Madar",
+            "key": "Maxwell",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Maxwell": {
+        "prenom": "Sasha",
+        "nom": "Madar",
+        "famille": "Wolfeye",
+        "key": "Maxwell",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Paul-Henri",
+            "nom": "François",
+            "key": "Jesuispaulhenrifrancois",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "Jesuispaulhenrifrancois": {
+        "prenom": "Paul-Henri",
+        "nom": "François",
+        "famille": "Lionskin",
+        "key": "Jesuispaulhenrifrancois",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Olivia ",
+            "nom": "Delattre",
+            "key": "Brio",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Brio": {
+        "prenom": "Olivia ",
+        "nom": "Delattre",
+        "famille": "Dragonwing",
+        "key": "Brio",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Jacques",
+            "nom": "Michel",
+            "key": "Énorme",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "Énorme": {
+        "prenom": "Jacques",
+        "nom": "Michel",
+        "famille": "Tigerblood",
+        "key": "Énorme",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alba",
+            "nom": "Thió I Pera",
+            "key": "Lionskin",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "Lionskin": {
+        "prenom": "Alba",
+        "nom": "Thió I Pera",
+        "famille": "Lionskin",
+        "key": "Lionskin",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Paul",
+            "nom": "Durand-Lupinski",
+            "key": "Sombre",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Sombre": {
+        "prenom": "Paul",
+        "nom": "Durand-Lupinski",
+        "famille": "Dragonwing",
+        "key": "Sombre",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Yann",
+            "nom": "Lesueur",
+            "key": "Boobies",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Boobies": {
+        "prenom": "Yann",
+        "nom": "Lesueur",
+        "famille": "Owlclaw",
+        "key": "Boobies",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Romain",
+            "nom": "Olla",
+            "key": "Vodka",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Vodka": {
+        "prenom": "Romain",
+        "nom": "Olla",
+        "famille": "Foxpaw",
+        "key": "Vodka",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Barthélemy",
+            "key": "Sheraf",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "Sheraf": {
+        "prenom": "Thomas",
+        "nom": "Barthélemy",
+        "famille": "Eaglescream",
+        "key": "Sheraf",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Anaëlle",
+            "nom": "Gilot",
+            "key": "rapcore",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "rapcore": {
+        "prenom": "Anaëlle",
+        "nom": "Gilot",
+        "famille": "Foxpaw",
+        "key": "rapcore",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Roman",
+            "nom": "Allais",
+            "key": "Manger",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "Manger": {
+        "prenom": "Roman",
+        "nom": "Allais",
+        "famille": "Phoenixtear",
+        "key": "Manger",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Planes",
+            "key": "ecoeuring",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "ecoeuring": {
+        "prenom": "Thomas",
+        "nom": "Planes",
+        "famille": "Owlclaw",
+        "key": "ecoeuring",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Simon",
+            "nom": "Lecestre",
+            "key": "Renecoty",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Renecoty": {
+        "prenom": "Simon",
+        "nom": "Lecestre",
+        "famille": "Tigerblood",
+        "key": "Renecoty",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Raphaël ",
+            "nom": "Vayssié ",
+            "key": "Abzegada",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Abzegada": {
+        "prenom": "Raphaël ",
+        "nom": "Vayssié ",
+        "famille": "Dragonwing",
+        "key": "Abzegada",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Axel",
+            "nom": "Malara",
+            "key": "Mangue",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Mangue": {
+        "prenom": "Axel",
+        "nom": "Malara",
+        "famille": "Phoenixtear",
+        "key": "Mangue",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Florian",
+            "nom": "Agez",
+            "key": "Ballislife",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "Ballislife": {
+        "prenom": "Florian",
+        "nom": "Agez",
+        "famille": "Owlclaw",
+        "key": "Ballislife",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Bastien",
+            "nom": "Francomme",
+            "key": "Aïe",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Aïe": {
+        "prenom": "Bastien",
+        "nom": "Francomme",
+        "famille": "Phoenixtear",
+        "key": "Aïe",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Georges",
+            "nom": "Wehbe",
+            "key": "Love",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "Love": {
+        "prenom": "Georges",
+        "nom": "Wehbe",
+        "famille": "Wolfeye",
+        "key": "Love",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Mehdi",
+            "nom": "Abou",
+            "key": "cannelle",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "cannelle": {
+        "prenom": "Mehdi",
+        "nom": "Abou",
+        "famille": "Foxpaw",
+        "key": "cannelle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Samuel",
+            "nom": "Delabre",
+            "key": "Ornithorynque",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Ornithorynque": {
+        "prenom": "Samuel",
+        "nom": "Delabre",
+        "famille": "Phoenixtear",
+        "key": "Ornithorynque",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Jérôme",
+            "nom": "Germain",
+            "key": "Pangolin",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Pangolin": {
+        "prenom": "Jérôme",
+        "nom": "Germain",
+        "famille": "Eaglescream",
+        "key": "Pangolin",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lucas",
+            "nom": "Metzger",
+            "key": "Bicloo",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "Bicloo": {
+        "prenom": "Lucas",
+        "nom": "Metzger",
+        "famille": "Dragonwing",
+        "key": "Bicloo",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Jules",
+            "nom": "Tisseyre",
+            "key": "raquette",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "raquette": {
+        "prenom": "Jules",
+        "nom": "Tisseyre",
+        "famille": "Wolfeye",
+        "key": "raquette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alix",
+            "nom": "Sainte-Marie",
+            "key": "Houmous",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Houmous": {
+        "prenom": "Alix",
+        "nom": "Sainte-Marie",
+        "famille": "Owlclaw",
+        "key": "Houmous",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Victor",
+            "nom": "Beucler",
+            "key": "cosi",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "cosi": {
+        "prenom": "Victor",
+        "nom": "Beucler",
+        "famille": "Foxpaw",
+        "key": "cosi",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Olivia",
+            "nom": "Bonjour",
+            "key": "Poney",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Poney": {
+        "prenom": "Olivia",
+        "nom": "Bonjour",
+        "famille": "Dragonwing",
+        "key": "Poney",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "marie",
+            "nom": "wouts",
+            "key": "chateau",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "chateau": {
+        "prenom": "marie",
+        "nom": "wouts",
+        "famille": "Foxpaw",
+        "key": "chateau",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alix",
+            "nom": "Simon",
+            "key": "Côtelette",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Côtelette": {
+        "prenom": "Alix",
+        "nom": "Simon",
+        "famille": "Eaglescream",
+        "key": "Côtelette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alexandre",
+            "nom": "Anchyse",
+            "key": "surimi",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "surimi": {
+        "prenom": "Alexandre",
+        "nom": "Anchyse",
+        "famille": "Tigerblood",
+        "key": "surimi",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Valentine",
+            "nom": "Mas",
+            "key": "Cle",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "Cle": {
+        "prenom": "Valentine",
+        "nom": "Mas",
+        "famille": "Phoenixtear",
+        "key": "Cle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Céline",
+            "nom": "Perrot",
+            "key": "Rossignol",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Rossignol": {
+        "prenom": "Céline",
+        "nom": "Perrot",
+        "famille": "Tigerblood",
+        "key": "Rossignol",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lise",
+            "nom": "Rodde",
+            "key": "COV",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "COV": {
+        "prenom": "Lise",
+        "nom": "Rodde",
+        "famille": "Dragonwing",
+        "key": "COV",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Arnaud ",
+            "nom": "ROUX ",
+            "key": "Rouxuor",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Rouxuor": {
+        "prenom": "Arnaud ",
+        "nom": "ROUX ",
+        "famille": "Owlclaw",
+        "key": "Rouxuor",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Charly",
+            "nom": "PERRIN",
+            "key": "gitan2",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "gitan2": {
+        "prenom": "Charly",
+        "nom": "PERRIN",
+        "famille": "Phoenixtear",
+        "key": "gitan2",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Natsuki",
+            "nom": "AKIMOTO",
+            "key": "Shinkan",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Shinkan": {
+        "prenom": "Natsuki",
+        "nom": "AKIMOTO",
+        "famille": "Wolfeye",
+        "key": "Shinkan",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Loïc ",
+            "nom": "Toux",
+            "key": "némo",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "némo": {
+        "prenom": "Loïc ",
+        "nom": "Toux",
+        "famille": "Phoenixtear",
+        "key": "némo",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Paul",
+            "nom": "SAUBION",
+            "key": "Diabaté",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "Diabaté": {
+        "prenom": "Paul",
+        "nom": "SAUBION",
+        "famille": "Wolfeye",
+        "key": "Diabaté",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Isabel",
+            "nom": "Carneiro",
+            "key": "123deoliveira4",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "123deoliveira4": {
+        "prenom": "Isabel",
+        "nom": "Carneiro",
+        "famille": "Foxpaw",
+        "key": "123deoliveira4",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Yier",
+            "nom": "Shu",
+            "key": "Cacahuète",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "Cacahuète": {
+        "prenom": "Yier",
+        "nom": "Shu",
+        "famille": "Wolfeye",
+        "key": "Cacahuète",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Elisa",
+            "nom": "Villard",
+            "key": "Chouette",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "Chouette": {
+        "prenom": "Elisa",
+        "nom": "Villard",
+        "famille": "Owlclaw",
+        "key": "Chouette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antoine",
+            "nom": "Laroye",
+            "key": "Manon",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "Manon": {
+        "prenom": "Antoine",
+        "nom": "Laroye",
+        "famille": "Dragonwing",
+        "key": "Manon",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Sylvain",
+            "nom": "Baud",
+            "key": "Keltare",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Keltare": {
+        "prenom": "Sylvain",
+        "nom": "Baud",
+        "famille": "Owlclaw",
+        "key": "Keltare",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Stan",
+            "nom": "Bromberg",
+            "key": "Manteau",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "Manteau": {
+        "prenom": "Stan",
+        "nom": "Bromberg",
+        "famille": "Dragonwing",
+        "key": "Manteau",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Josselyn",
+            "nom": "Baumer",
+            "key": "Henry",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Henry": {
+        "prenom": "Josselyn",
+        "nom": "Baumer",
+        "famille": "Eaglescream",
+        "key": "Henry",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Benoit",
+            "nom": "de Renty",
+            "key": "gitan",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "gitan": {
+        "prenom": "Benoit",
+        "nom": "de Renty",
+        "famille": "Foxpaw",
+        "key": "gitan",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Marie",
+            "nom": "Lanza",
+            "key": "Anges",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Anges": {
+        "prenom": "Marie",
+        "nom": "Lanza",
+        "famille": "Phoenixtear",
+        "key": "Anges",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Chloé",
+            "nom": "Delmer",
+            "key": "rillettes02757244",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "rillettes02757244": {
+        "prenom": "Chloé",
+        "nom": "Delmer",
+        "famille": "Lionskin",
+        "key": "rillettes02757244",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Zoé",
+            "nom": "Barjot",
+            "key": "poop",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "poop": {
+        "prenom": "Zoé",
+        "nom": "Barjot",
+        "famille": "Dragonwing",
+        "key": "poop",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Anissa",
+            "nom": "Le Scornet",
+            "key": "Raoul",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Raoul": {
+        "prenom": "Anissa",
+        "nom": "Le Scornet",
+        "famille": "Tigerblood",
+        "key": "Raoul",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gaétan",
+            "nom": "Moisson-Franckhauser",
+            "key": "Tabouret",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "Tabouret": {
+        "prenom": "Gaétan",
+        "nom": "Moisson-Franckhauser",
+        "famille": "Wolfeye",
+        "key": "Tabouret",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Jimmy",
+            "nom": "Coppin",
+            "key": "ei3aigri",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "ei3aigri": {
+        "prenom": "Jimmy",
+        "nom": "Coppin",
+        "famille": "Tigerblood",
+        "key": "ei3aigri",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Emilie",
+            "nom": "Chavanon",
+            "key": "Cour",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "Cour": {
+        "prenom": "Emilie",
+        "nom": "Chavanon",
+        "famille": "Wolfeye",
+        "key": "Cour",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pacôme",
+            "nom": "Rivier",
+            "key": "tchikita666",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "tchikita666": {
+        "prenom": "Pacôme",
+        "nom": "Rivier",
+        "famille": "Tigerblood",
+        "key": "tchikita666",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Ignacio",
+            "nom": "Izard",
+            "key": "Coldplay",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Coldplay": {
+        "prenom": "Ignacio",
+        "nom": "Izard",
+        "famille": "Wolfeye",
+        "key": "Coldplay",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Jason",
+            "nom": "Perrin",
+            "key": "zut",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "zut": {
+        "prenom": "Jason",
+        "nom": "Perrin",
+        "famille": "Eaglescream",
+        "key": "zut",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Victor",
+            "nom": "Michelot",
+            "key": "vodkavodka",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "vodkavodka": {
+        "prenom": "Victor",
+        "nom": "Michelot",
+        "famille": "Dragonwing",
+        "key": "vodkavodka",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Paul",
+            "nom": "Jacquemard",
+            "key": "mamou",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "mamou": {
+        "prenom": "Paul",
+        "nom": "Jacquemard",
+        "famille": "Eaglescream",
+        "key": "mamou",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "julien",
+            "nom": "oiknine",
+            "key": "tarama",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "tarama": {
+        "prenom": "julien",
+        "nom": "oiknine",
+        "famille": "Lionskin",
+        "key": "tarama",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Theo",
+            "nom": "Lamblib",
+            "key": "Caluche",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Caluche": {
+        "prenom": "Theo",
+        "nom": "Lamblib",
+        "famille": "Tigerblood",
+        "key": "Caluche",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gilles",
+            "nom": "Fang",
+            "key": "COQ",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "COQ": {
+        "prenom": "Gilles",
+        "nom": "Fang",
+        "famille": "Eaglescream",
+        "key": "COQ",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "André",
+            "nom": "Pedrosa Rodrigues",
+            "key": "Peugeot",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Peugeot": {
+        "prenom": "André",
+        "nom": "Pedrosa Rodrigues",
+        "famille": "Foxpaw",
+        "key": "Peugeot",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hugo",
+            "nom": "Riou",
+            "key": "cali",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "cali": {
+        "prenom": "Hugo",
+        "nom": "Riou",
+        "famille": "Phoenixtear",
+        "key": "cali",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Julien",
+            "nom": "Boulé",
+            "key": "Kaamelott",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "Kaamelott": {
+        "prenom": "Julien",
+        "nom": "Boulé",
+        "famille": "Lionskin",
+        "key": "Kaamelott",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Cyril",
+            "nom": "DE CATHEU",
+            "key": "chausson",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "chausson": {
+        "prenom": "Cyril",
+        "nom": "DE CATHEU",
+        "famille": "Phoenixtear",
+        "key": "chausson",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxence",
+            "nom": "Cunin",
+            "key": "Cacahuete",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "Cacahuete": {
+        "prenom": "Maxence",
+        "nom": "Cunin",
+        "famille": "Owlclaw",
+        "key": "Cacahuete",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Corentin",
+            "nom": "Bourdeix",
+            "key": "Koro-sensei",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Koro-sensei": {
+        "prenom": "Corentin",
+        "nom": "Bourdeix",
+        "famille": "Foxpaw",
+        "key": "Koro-sensei",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Benoît ",
+            "nom": "Billard ",
+            "key": "Animal",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Animal": {
+        "prenom": "Benoît ",
+        "nom": "Billard ",
+        "famille": "Lionskin",
+        "key": "Animal",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hugo",
+            "nom": "Wetter",
+            "key": "Castagne",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Castagne": {
+        "prenom": "Hugo",
+        "nom": "Wetter",
+        "famille": "Phoenixtear",
+        "key": "Castagne",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Eléonore",
+            "nom": "Bernet",
+            "key": "saperlipopette",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "saperlipopette": {
+        "prenom": "Eléonore",
+        "nom": "Bernet",
+        "famille": "Foxpaw",
+        "key": "saperlipopette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Léa",
+            "nom": "Roussel",
+            "key": "Natationjds",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Natationjds": {
+        "prenom": "Léa",
+        "nom": "Roussel",
+        "famille": "Dragonwing",
+        "key": "Natationjds",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Anne",
+            "nom": "Badinier ",
+            "key": "Brooklyn",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Brooklyn": {
+        "prenom": "Anne",
+        "nom": "Badinier ",
+        "famille": "Wolfeye",
+        "key": "Brooklyn",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Laurène",
+            "nom": "Watrelot",
+            "key": "Tiramisu",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Tiramisu": {
+        "prenom": "Laurène",
+        "nom": "Watrelot",
+        "famille": "Owlclaw",
+        "key": "Tiramisu",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Sylvin",
+            "nom": "BIELLE",
+            "key": "Maraudeur",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Maraudeur": {
+        "prenom": "Sylvin",
+        "nom": "BIELLE",
+        "famille": "Wolfeye",
+        "key": "Maraudeur",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Yohann",
+            "nom": "Reveillon",
+            "key": "Jambon",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "Jambon": {
+        "prenom": "Yohann",
+        "nom": "Reveillon",
+        "famille": "Foxpaw",
+        "key": "Jambon",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Angelo",
+            "nom": "Simonetto Pessutto",
+            "key": "Segredo",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Segredo": {
+        "prenom": "Angelo",
+        "nom": "Simonetto Pessutto",
+        "famille": "Wolfeye",
+        "key": "Segredo",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Ban",
+            "nom": "Bi",
+            "key": "USB",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "USB": {
+        "prenom": "Ban",
+        "nom": "Bi",
+        "famille": "Tigerblood",
+        "key": "USB",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Paul",
+            "nom": "BRUNEAU",
+            "key": "Deschamps",
+            "mission": "Mets une pierre philosophale dans sa poche. Il/elle ne doit pas s'en apercevoir..."
+        }
+    },
+    "Deschamps": {
+        "prenom": "Paul",
+        "nom": "BRUNEAU",
+        "famille": "Owlclaw",
+        "key": "Deschamps",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hugo",
+            "nom": "Madeira",
+            "key": "Clé932",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "Clé932": {
+        "prenom": "Hugo",
+        "nom": "Madeira",
+        "famille": "Lionskin",
+        "key": "Clé932",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Filhon",
+            "key": "Habile",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Habile": {
+        "prenom": "Thomas",
+        "nom": "Filhon",
+        "famille": "Tigerblood",
+        "key": "Habile",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Mathieu",
+            "nom": "PVC",
+            "key": "5x448ohoh",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "5x448ohoh": {
+        "prenom": "Mathieu",
+        "nom": "PVC",
+        "famille": "Dragonwing",
+        "key": "5x448ohoh",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Natacha",
+            "nom": "Pochodaj",
+            "key": "poubelle",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "poubelle": {
+        "prenom": "Natacha",
+        "nom": "Pochodaj",
+        "famille": "Owlclaw",
+        "key": "poubelle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Amandine",
+            "nom": "Godet",
+            "key": "trapèze",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "trapèze": {
+        "prenom": "Amandine",
+        "nom": "Godet",
+        "famille": "Lionskin",
+        "key": "trapèze",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierlou",
+            "nom": "Ramade",
+            "key": "Jayz",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "Jayz": {
+        "prenom": "Pierlou",
+        "nom": "Ramade",
+        "famille": "Eaglescream",
+        "key": "Jayz",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Léo",
+            "nom": "Pelloquin",
+            "key": "Cléo",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Cléo": {
+        "prenom": "Léo",
+        "nom": "Pelloquin",
+        "famille": "Wolfeye",
+        "key": "Cléo",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Emma",
+            "nom": "Biard ",
+            "key": "mechant",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "mechant": {
+        "prenom": "Emma",
+        "nom": "Biard ",
+        "famille": "Tigerblood",
+        "key": "mechant",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "adrien",
+            "nom": "thibaut",
+            "key": "compote",
+            "mission": "Incite ta cible à te donner une chaussette"
+        }
+    },
+    "compote": {
+        "prenom": "adrien",
+        "nom": "thibaut",
+        "famille": "Wolfeye",
+        "key": "compote",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Anthony",
+            "nom": "Saliou",
+            "key": "Ventilateur",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "Ventilateur": {
+        "prenom": "Anthony",
+        "nom": "Saliou",
+        "famille": "Eaglescream",
+        "key": "Ventilateur",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Flavien",
+            "nom": "Alonzo",
+            "key": "France",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "France": {
+        "prenom": "Flavien",
+        "nom": "Alonzo",
+        "famille": "Dragonwing",
+        "key": "France",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Victorien",
+            "nom": "Bernat",
+            "key": "Perdu",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Perdu": {
+        "prenom": "Victorien",
+        "nom": "Bernat",
+        "famille": "Eaglescream",
+        "key": "Perdu",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Abderrahmane",
+            "nom": "Laanaiti",
+            "key": "REyDA",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "REyDA": {
+        "prenom": "Abderrahmane",
+        "nom": "Laanaiti",
+        "famille": "Owlclaw",
+        "key": "REyDA",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Chloé",
+            "nom": "Bensoussan",
+            "key": "Hibou",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Hibou": {
+        "prenom": "Chloé",
+        "nom": "Bensoussan",
+        "famille": "Foxpaw",
+        "key": "Hibou",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adrien",
+            "nom": "Jégourel",
+            "key": "Chat51",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "Chat51": {
+        "prenom": "Adrien",
+        "nom": "Jégourel",
+        "famille": "Wolfeye",
+        "key": "Chat51",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "LuisDa",
+            "nom": "Domínguez",
+            "key": "ballantines",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "ballantines": {
+        "prenom": "LuisDa",
+        "nom": "Domínguez",
+        "famille": "Lionskin",
+        "key": "ballantines",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Audrey",
+            "nom": "Philipponneau",
+            "key": "FromHell",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "FromHell": {
+        "prenom": "Audrey",
+        "nom": "Philipponneau",
+        "famille": "Phoenixtear",
+        "key": "FromHell",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Laura",
+            "nom": "Knecht",
+            "key": "Kebab",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "Kebab": {
+        "prenom": "Laura",
+        "nom": "Knecht",
+        "famille": "Owlclaw",
+        "key": "Kebab",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Joséphine",
+            "nom": "Anquez",
+            "key": "Goutap",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Goutap": {
+        "prenom": "Joséphine",
+        "nom": "Anquez",
+        "famille": "Tigerblood",
+        "key": "Goutap",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nicolas ",
+            "nom": "Collot ",
+            "key": "Cucurbitacée",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Cucurbitacée": {
+        "prenom": "Nicolas ",
+        "nom": "Collot ",
+        "famille": "Lionskin",
+        "key": "Cucurbitacée",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierre-Antoine",
+            "nom": "Castellani",
+            "key": "Tête de poulpe",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "Tête de poulpe": {
+        "prenom": "Pierre-Antoine",
+        "nom": "Castellani",
+        "famille": "Foxpaw",
+        "key": "Tête de poulpe",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nahel",
+            "nom": "Zidi",
+            "key": "Pousseur2fonte",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "Pousseur2fonte": {
+        "prenom": "Nahel",
+        "nom": "Zidi",
+        "famille": "Tigerblood",
+        "key": "Pousseur2fonte",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierre",
+            "nom": "Le Jeune",
+            "key": "311079",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Pamplemousse": {
+        "prenom": "Anais ",
+        "nom": "Planson",
+        "famille": "Owlclaw",
+        "key": "Pamplemousse",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas ",
+            "nom": "Bedouret ",
+            "key": "Cafetière",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Cafetière": {
+        "prenom": "Thomas ",
+        "nom": "Bedouret ",
+        "famille": "Dragonwing",
+        "key": "Cafetière",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Guillaume",
+            "nom": "Tollini",
+            "key": "dems",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "dems": {
+        "prenom": "Guillaume",
+        "nom": "Tollini",
+        "famille": "Eaglescream",
+        "key": "dems",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Rayane",
+            "nom": "El Bouziani",
+            "key": "Charot",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Charot": {
+        "prenom": "Rayane",
+        "nom": "El Bouziani",
+        "famille": "Dragonwing",
+        "key": "Charot",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Bastien",
+            "nom": "Haas",
+            "key": "Bretzel",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "Bretzel": {
+        "prenom": "Bastien",
+        "nom": "Haas",
+        "famille": "Lionskin",
+        "key": "Bretzel",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Clément",
+            "key": "Jeudi",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Jeudi": {
+        "prenom": "Thomas",
+        "nom": "Clément",
+        "famille": "Owlclaw",
+        "key": "Jeudi",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hugo",
+            "nom": "David",
+            "key": "Grenadine",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "Grenadine": {
+        "prenom": "Hugo",
+        "nom": "David",
+        "famille": "Dragonwing",
+        "key": "Grenadine",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Emmanuel ",
+            "nom": "BOCQUILLON",
+            "key": "Coq",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Coq": {
+        "prenom": "Emmanuel ",
+        "nom": "BOCQUILLON",
+        "famille": "Foxpaw",
+        "key": "Coq",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maëlys",
+            "nom": "LE LIÈVRE",
+            "key": "BIENJOUE",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "BIENJOUE": {
+        "prenom": "Maëlys",
+        "nom": "LE LIÈVRE",
+        "famille": "Wolfeye",
+        "key": "BIENJOUE",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thierry",
+            "nom": "Pallière",
+            "key": "Fluffy",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "Fluffy": {
+        "prenom": "Thierry",
+        "nom": "Pallière",
+        "famille": "Tigerblood",
+        "key": "Fluffy",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thibault",
+            "nom": "Cabourg-Laurent",
+            "key": "Salopette",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Salopette": {
+        "prenom": "Thibault",
+        "nom": "Cabourg-Laurent",
+        "famille": "Owlclaw",
+        "key": "Salopette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Daniel",
+            "nom": "Álvaro",
+            "key": "Mot",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "Mot": {
+        "prenom": "Daniel",
+        "nom": "Álvaro",
+        "famille": "Tigerblood",
+        "key": "Mot",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxime",
+            "nom": "CHEMINEAU",
+            "key": "Ribéry",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Ribéry": {
+        "prenom": "Maxime",
+        "nom": "CHEMINEAU",
+        "famille": "Owlclaw",
+        "key": "Ribéry",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Marine",
+            "nom": "Rialan",
+            "key": "Bretonne",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Bretonne": {
+        "prenom": "Marine",
+        "nom": "Rialan",
+        "famille": "Wolfeye",
+        "key": "Bretonne",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Vincent",
+            "nom": "Raffault",
+            "key": "Gondin",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Gondin": {
+        "prenom": "Vincent",
+        "nom": "Raffault",
+        "famille": "Lionskin",
+        "key": "Gondin",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "YANG",
+            "nom": "XU",
+            "key": "Perroquet",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Perroquet": {
+        "prenom": "YANG",
+        "nom": "XU",
+        "famille": "Tigerblood",
+        "key": "Perroquet",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Daniel ",
+            "nom": "Moussa ",
+            "key": "Dteplrdmv1",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "Dteplrdmv1": {
+        "prenom": "Daniel ",
+        "nom": "Moussa ",
+        "famille": "Eaglescream",
+        "key": "Dteplrdmv1",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Mitsi",
+            "nom": "RAMANDANIAINA",
+            "key": "Chocodawn",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Chocodawn": {
+        "prenom": "Mitsi",
+        "nom": "RAMANDANIAINA",
+        "famille": "Lionskin",
+        "key": "Chocodawn",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Matthieu ",
+            "nom": "Lamielle ",
+            "key": "westcoast",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "westcoast": {
+        "prenom": "Matthieu ",
+        "nom": "Lamielle ",
+        "famille": "Phoenixtear",
+        "key": "westcoast",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Héloïse",
+            "nom": "Fruchard",
+            "key": "gnoux",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "gnoux": {
+        "prenom": "Héloïse",
+        "nom": "Fruchard",
+        "famille": "Foxpaw",
+        "key": "gnoux",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gabriela",
+            "nom": "Da Silva Drebes Machado",
+            "key": "Favela",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Favela": {
+        "prenom": "Gabriela",
+        "nom": "Da Silva Drebes Machado",
+        "famille": "Wolfeye",
+        "key": "Favela",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Léa",
+            "nom": "Guipouy",
+            "key": "Pandore",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "Pandore": {
+        "prenom": "Léa",
+        "nom": "Guipouy",
+        "famille": "Eaglescream",
+        "key": "Pandore",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Galea",
+            "key": "Stark",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Stark": {
+        "prenom": "Thomas",
+        "nom": "Galea",
+        "famille": "Wolfeye",
+        "key": "Stark",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Arthur",
+            "nom": "Lemasson",
+            "key": "Clé716",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Clé716": {
+        "prenom": "Arthur",
+        "nom": "Lemasson",
+        "famille": "Dragonwing",
+        "key": "Clé716",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxence",
+            "nom": "Aubé",
+            "key": "lolodusale",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "lolodusale": {
+        "prenom": "Maxence",
+        "nom": "Aubé",
+        "famille": "Eaglescream",
+        "key": "lolodusale",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adrien",
+            "nom": "Maguer",
+            "key": "Tanière",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "Tanière": {
+        "prenom": "Adrien",
+        "nom": "Maguer",
+        "famille": "Owlclaw",
+        "key": "Tanière",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Camille",
+            "nom": "Leprat",
+            "key": "Ananas432",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Ananas432": {
+        "prenom": "Camille",
+        "nom": "Leprat",
+        "famille": "Foxpaw",
+        "key": "Ananas432",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Marin",
+            "nom": "Six",
+            "key": "Ivre",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Ivre": {
+        "prenom": "Marin",
+        "nom": "Six",
+        "famille": "Tigerblood",
+        "key": "Ivre",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Reda",
+            "nom": "Lahlou",
+            "key": "Alouette",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "Alouette": {
+        "prenom": "Reda",
+        "nom": "Lahlou",
+        "famille": "Owlclaw",
+        "key": "Alouette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Brian",
+            "nom": "Tang",
+            "key": "Séraphin",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Séraphin": {
+        "prenom": "Brian",
+        "nom": "Tang",
+        "famille": "Lionskin",
+        "key": "Séraphin",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Arsène",
+            "nom": "Amoureux",
+            "key": "Granger",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "Granger": {
+        "prenom": "Arsène",
+        "nom": "Amoureux",
+        "famille": "Phoenixtear",
+        "key": "Granger",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lohan",
+            "nom": "Le Berrigaud",
+            "key": "Fanfrale",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "Fanfrale": {
+        "prenom": "Lohan",
+        "nom": "Le Berrigaud",
+        "famille": "Foxpaw",
+        "key": "Fanfrale",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Léna",
+            "nom": "Costecalde ",
+            "key": "Facom",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Facom": {
+        "prenom": "Léna",
+        "nom": "Costecalde ",
+        "famille": "Owlclaw",
+        "key": "Facom",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Valentine",
+            "nom": "Aguiar",
+            "key": "Anticonstitutionnellement",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Anticonstitutionnellement": {
+        "prenom": "Valentine",
+        "nom": "Aguiar",
+        "famille": "Phoenixtear",
+        "key": "Anticonstitutionnellement",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antoine",
+            "nom": "Hurard",
+            "key": "Ah!",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Ah!": {
+        "prenom": "Antoine",
+        "nom": "Hurard",
+        "famille": "Lionskin",
+        "key": "Ah!",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Abel",
+            "nom": "Pruchon",
+            "key": "Bachi-bouzouk",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "Bachi-bouzouk": {
+        "prenom": "Abel",
+        "nom": "Pruchon",
+        "famille": "Tigerblood",
+        "key": "Bachi-bouzouk",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Justine",
+            "nom": "Lett",
+            "key": "Tractopelle",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Tractopelle": {
+        "prenom": "Justine",
+        "nom": "Lett",
+        "famille": "Owlclaw",
+        "key": "Tractopelle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Robin",
+            "nom": "TROESCH",
+            "key": "Kougelhopf",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Kougelhopf": {
+        "prenom": "Robin",
+        "nom": "TROESCH",
+        "famille": "Eaglescream",
+        "key": "Kougelhopf",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Rémi",
+            "nom": "Lantoine",
+            "key": "Maroilles",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "Maroilles": {
+        "prenom": "Rémi",
+        "nom": "Lantoine",
+        "famille": "Tigerblood",
+        "key": "Maroilles",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Rebeca",
+            "nom": "Vetil",
+            "key": "clé73",
+            "mission": "Incite-le/la à se mettre un drap sur la tête, puis dis-lui \"Expecto patronum\". Fonctionne aussi avec un duvet"
+        }
+    },
+    "clé73": {
+        "prenom": "Rebeca",
+        "nom": "Vetil",
+        "famille": "Owlclaw",
+        "key": "clé73",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "thibaud",
+            "nom": "Ritoux",
+            "key": "meures",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "meures": {
+        "prenom": "thibaud",
+        "nom": "Ritoux",
+        "famille": "Eaglescream",
+        "key": "meures",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hector",
+            "nom": "de Beaugrenier",
+            "key": "brio",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "brio": {
+        "prenom": "Hector",
+        "nom": "de Beaugrenier",
+        "famille": "Phoenixtear",
+        "key": "brio",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Théo",
+            "nom": "Lecointre",
+            "key": "KTdrale",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "KTdrale": {
+        "prenom": "Théo",
+        "nom": "Lecointre",
+        "famille": "Dragonwing",
+        "key": "KTdrale",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Aliette",
+            "nom": "Ravillion",
+            "key": "chamalloc",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "chamalloc": {
+        "prenom": "Aliette",
+        "nom": "Ravillion",
+        "famille": "Lionskin",
+        "key": "chamalloc",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Ombeline",
+            "nom": "Prade",
+            "key": "PetitPapillon",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "PetitPapillon": {
+        "prenom": "Ombeline",
+        "nom": "Prade",
+        "famille": "Tigerblood",
+        "key": "PetitPapillon",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Samuel",
+            "nom": "Pelisson",
+            "key": "Bite",
+            "mission": "Incite ta cible à te donner une chaussette"
+        }
+    },
+    "Bite": {
+        "prenom": "Samuel",
+        "nom": "Pelisson",
+        "famille": "Lionskin",
+        "key": "Bite",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Titouan",
+            "nom": "Cazeneuve",
+            "key": "Sacrebleu",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "Sacrebleu": {
+        "prenom": "Titouan",
+        "nom": "Cazeneuve",
+        "famille": "Eaglescream",
+        "key": "Sacrebleu",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Anais",
+            "nom": "Hijos",
+            "key": "EXPO",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "EXPO": {
+        "prenom": "Anais",
+        "nom": "Hijos",
+        "famille": "Wolfeye",
+        "key": "EXPO",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nicolas",
+            "nom": "Le Berr",
+            "key": "Pomme",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Pomme": {
+        "prenom": "Nicolas",
+        "nom": "Le Berr",
+        "famille": "Dragonwing",
+        "key": "Pomme",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antonio",
+            "nom": "Pillot",
+            "key": "Mantequilla",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Mantequilla": {
+        "prenom": "Antonio",
+        "nom": "Pillot",
+        "famille": "Foxpaw",
+        "key": "Mantequilla",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Txomin",
+            "nom": "Mesplou",
+            "key": "Txotxo",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
+    },
+    "Txotxo": {
+        "prenom": "Txomin",
+        "nom": "Mesplou",
+        "famille": "Dragonwing",
+        "key": "Txotxo",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Sebastián ",
+            "nom": "Riquelme ",
+            "key": "Piscola",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Piscola": {
+        "prenom": "Sebastián ",
+        "nom": "Riquelme ",
+        "famille": "Owlclaw",
+        "key": "Piscola",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "hugo",
+            "nom": "Jayle",
+            "key": "Napoléon",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "Napoléon": {
+        "prenom": "hugo",
+        "nom": "Jayle",
+        "famille": "Eaglescream",
+        "key": "Napoléon",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Bich-Anh",
+            "nom": "Han",
+            "key": "Pastèque",
+            "mission": "Fais en sorte qu'il/elle t'envoie une photo ou image de rat par message, puis réponds-lui : \"Soleil jonquille mimosa que ce gros vilain rat en jaune soit\""
+        }
+    },
+    "Pastèque": {
+        "prenom": "Bich-Anh",
+        "nom": "Han",
+        "famille": "Foxpaw",
+        "key": "Pastèque",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Cléo",
+            "nom": "Deroo",
+            "key": "Potiron",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "Potiron": {
+        "prenom": "Cléo",
+        "nom": "Deroo",
+        "famille": "Eaglescream",
+        "key": "Potiron",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Rémi",
+            "nom": "Simon",
+            "key": "Mavic",
+            "mission": "Incite-le/la à se mettre un drap sur la tête, puis dis-lui \"Expecto patronum\". Fonctionne aussi avec un duvet"
+        }
+    },
+    "Mavic": {
+        "prenom": "Rémi",
+        "nom": "Simon",
+        "famille": "Wolfeye",
+        "key": "Mavic",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Yvan",
+            "nom": "Avdeew",
+            "key": "Charlycestleplusbeau",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "Charlycestleplusbeau": {
+        "prenom": "Yvan",
+        "nom": "Avdeew",
+        "famille": "Lionskin",
+        "key": "Charlycestleplusbeau",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nicolas",
+            "nom": "Piecko",
+            "key": "Plantuleux",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Plantuleux": {
+        "prenom": "Nicolas",
+        "nom": "Piecko",
+        "famille": "Owlclaw",
+        "key": "Plantuleux",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Oussama",
+            "nom": "BENLALOU",
+            "key": "OUS123",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "OUS123": {
+        "prenom": "Oussama",
+        "nom": "BENLALOU",
+        "famille": "Phoenixtear",
+        "key": "OUS123",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Marine",
+            "nom": "Bonora",
+            "key": "sushi",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "sushi": {
+        "prenom": "Marine",
+        "nom": "Bonora",
+        "famille": "Wolfeye",
+        "key": "sushi",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Clément",
+            "nom": "LABBE",
+            "key": "Boulet",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "Boulet": {
+        "prenom": "Clément",
+        "nom": "LABBE",
+        "famille": "Eaglescream",
+        "key": "Boulet",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Oscar",
+            "nom": "Mallet",
+            "key": "Sopalin",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Sopalin": {
+        "prenom": "Oscar",
+        "nom": "Mallet",
+        "famille": "Phoenixtear",
+        "key": "Sopalin",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hugo",
+            "nom": "Thuilliez",
+            "key": "russe",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "russe": {
+        "prenom": "Hugo",
+        "nom": "Thuilliez",
+        "famille": "Eaglescream",
+        "key": "russe",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "thibaut",
+            "nom": "juston",
+            "key": "schipsi",
+            "mission": "Mets une pierre philosophale dans sa poche. Il/elle ne doit pas s'en apercevoir..."
+        }
+    },
+    "schipsi": {
+        "prenom": "thibaut",
+        "nom": "juston",
+        "famille": "Owlclaw",
+        "key": "schipsi",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Arnau",
+            "nom": "Güiza",
+            "key": "lohan",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "lohan": {
+        "prenom": "Arnau",
+        "nom": "Güiza",
+        "famille": "Phoenixtear",
+        "key": "lohan",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Eliot",
+            "nom": "Giraud",
+            "key": "Elgiro",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Elgiro": {
+        "prenom": "Eliot",
+        "nom": "Giraud",
+        "famille": "Owlclaw",
+        "key": "Elgiro",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Fantine",
+            "nom": "Hureau",
+            "key": "meknes",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "meknes": {
+        "prenom": "Fantine",
+        "nom": "Hureau",
+        "famille": "Wolfeye",
+        "key": "meknes",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Victor",
+            "nom": "Petit",
+            "key": "Andaine",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Andaine": {
+        "prenom": "Victor",
+        "nom": "Petit",
+        "famille": "Lionskin",
+        "key": "Andaine",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nicolas",
+            "nom": "Bouchet",
+            "key": "clé13",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "clé13": {
+        "prenom": "Nicolas",
+        "nom": "Bouchet",
+        "famille": "Foxpaw",
+        "key": "clé13",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nessreddine",
+            "nom": "Loudiy",
+            "key": "titiz",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "titiz": {
+        "prenom": "Nessreddine",
+        "nom": "Loudiy",
+        "famille": "Phoenixtear",
+        "key": "titiz",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Matheus",
+            "nom": "Raposo de Almeida",
+            "key": "Itapetininga",
+            "mission": "Incite-le/la à se mettre un drap sur la tête, puis dis-lui \"Expecto patronum\". Fonctionne aussi avec un duvet"
+        }
+    },
+    "Itapetininga": {
+        "prenom": "Matheus",
+        "nom": "Raposo de Almeida",
+        "famille": "Wolfeye",
+        "key": "Itapetininga",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "sylvain",
+            "nom": "petit",
+            "key": "Lilian",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Lilian": {
+        "prenom": "sylvain",
+        "nom": "petit",
+        "famille": "Tigerblood",
+        "key": "Lilian",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Tugdual",
+            "nom": "Adam",
+            "key": "jaune",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "jaune": {
+        "prenom": "Tugdual",
+        "nom": "Adam",
+        "famille": "Lionskin",
+        "key": "jaune",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Mélissandre",
+            "nom": "Gallitre",
+            "key": "Raid",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Raid": {
+        "prenom": "Mélissandre",
+        "nom": "Gallitre",
+        "famille": "Wolfeye",
+        "key": "Raid",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maud",
+            "nom": "Ordener",
+            "key": "nougat",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "nougat": {
+        "prenom": "Maud",
+        "nom": "Ordener",
+        "famille": "Tigerblood",
+        "key": "nougat",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Sarah",
+            "nom": "Le Portz ",
+            "key": "Café",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Café": {
+        "prenom": "Sarah",
+        "nom": "Le Portz ",
+        "famille": "Phoenixtear",
+        "key": "Café",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lucas",
+            "nom": "Sanciet--Munier",
+            "key": "Reblochon",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Reblochon": {
+        "prenom": "Lucas",
+        "nom": "Sanciet--Munier",
+        "famille": "Eaglescream",
+        "key": "Reblochon",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alexis",
+            "nom": "Dupuis ",
+            "key": "Bismillah",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "Bismillah": {
+        "prenom": "Alexis",
+        "nom": "Dupuis ",
+        "famille": "Wolfeye",
+        "key": "Bismillah",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Rémi",
+            "nom": "Vassileff",
+            "key": "quimper",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "quimper": {
+        "prenom": "Rémi",
+        "nom": "Vassileff",
+        "famille": "Eaglescream",
+        "key": "quimper",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Manon",
+            "nom": "Vlieghe",
+            "key": "dungeonnideaiwomotomerunowamachigateirudarouka",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "dungeonnideaiwomotomerunowamachigateirudarouka": {
+        "prenom": "Manon",
+        "nom": "Vlieghe",
+        "famille": "Phoenixtear",
+        "key": "dungeonnideaiwomotomerunowamachigateirudarouka",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alicia",
+            "nom": "Maravat",
+            "key": "ali",
+            "mission": "Incite-le/la à se mettre un drap sur la tête, puis dis-lui \"Expecto patronum\". Fonctionne aussi avec un duvet"
+        }
+    },
+    "ali": {
+        "prenom": "Alicia",
+        "nom": "Maravat",
+        "famille": "Eaglescream",
+        "key": "ali",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alexandre",
+            "nom": "Blondel",
+            "key": "Ananas178",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "Ananas178": {
+        "prenom": "Alexandre",
+        "nom": "Blondel",
+        "famille": "Lionskin",
+        "key": "Ananas178",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thibault",
+            "nom": "Guyon",
+            "key": "Béquille",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "Béquille": {
+        "prenom": "Thibault",
+        "nom": "Guyon",
+        "famille": "Phoenixtear",
+        "key": "Béquille",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Grégoire",
+            "nom": "Lebreton",
+            "key": "PTSI Suprématie",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "PTSI Suprématie": {
+        "prenom": "Grégoire",
+        "nom": "Lebreton",
+        "famille": "Tigerblood",
+        "key": "PTSI Suprématie",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Valentin",
+            "nom": "Villedieu",
+            "key": "bueno",
+            "mission": "Incite ta cible à te donner une chaussette"
+        }
+    },
+    "bueno": {
+        "prenom": "Valentin",
+        "nom": "Villedieu",
+        "famille": "Lionskin",
+        "key": "bueno",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Tamara Géssica",
+            "nom": "GADELHA MEDEIROS",
+            "key": "I'llbeback",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "I'llbeback": {
+        "prenom": "Tamara Géssica",
+        "nom": "GADELHA MEDEIROS",
+        "famille": "Eaglescream",
+        "key": "I'llbeback",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gabriel",
+            "nom": "Ramirez",
+            "key": "Chingar",
+            "mission": "Incite ta cible à te dessiner une cicatrice d'Harry Potter sur ton front"
+        }
+    },
+    "Chingar": {
+        "prenom": "Gabriel",
+        "nom": "Ramirez",
+        "famille": "Wolfeye",
+        "key": "Chingar",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Arnold",
+            "nom": "Kibiadi",
+            "key": "pixel",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "pixel": {
+        "prenom": "Arnold",
+        "nom": "Kibiadi",
+        "famille": "Phoenixtear",
+        "key": "pixel",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Lucaora ",
+            "key": "Crème",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Crème": {
+        "prenom": "Thomas",
+        "nom": "Lucaora ",
+        "famille": "Foxpaw",
+        "key": "Crème",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Daniel",
+            "nom": "Moussa",
+            "key": "michel",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "michel": {
+        "prenom": "Daniel",
+        "nom": "Moussa",
+        "famille": "Eaglescream",
+        "key": "michel",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Elsa",
+            "nom": "Thiaville",
+            "key": "Aubergine",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "Aubergine": {
+        "prenom": "Elsa",
+        "nom": "Thiaville",
+        "famille": "Foxpaw",
+        "key": "Aubergine",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thibault",
+            "nom": "Gaudet",
+            "key": "Chaussette",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Chaussette": {
+        "prenom": "Thibault",
+        "nom": "Gaudet",
+        "famille": "Wolfeye",
+        "key": "Chaussette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Célia",
+            "nom": "Detrez",
+            "key": "Éléphant",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "Éléphant": {
+        "prenom": "Célia",
+        "nom": "Detrez",
+        "famille": "Tigerblood",
+        "key": "Éléphant",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antonin",
+            "nom": "LE GARREC",
+            "key": "smeagol",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "smeagol": {
+        "prenom": "Antonin",
+        "nom": "LE GARREC",
+        "famille": "Phoenixtear",
+        "key": "smeagol",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thibaut",
+            "nom": "Pasquet ",
+            "key": "Duplex",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "Duplex": {
+        "prenom": "Thibaut",
+        "nom": "Pasquet ",
+        "famille": "Dragonwing",
+        "key": "Duplex",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maude",
+            "nom": "Vincent",
+            "key": "Double",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "Double": {
+        "prenom": "Maude",
+        "nom": "Vincent",
+        "famille": "Eaglescream",
+        "key": "Double",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxime",
+            "nom": "Masson",
+            "key": "Banane99",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Banane99": {
+        "prenom": "Maxime",
+        "nom": "Masson",
+        "famille": "Phoenixtear",
+        "key": "Banane99",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alban",
+            "nom": "Villedieu",
+            "key": "votezalixauBDE",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "votezalixauBDE": {
+        "prenom": "Alban",
+        "nom": "Villedieu",
+        "famille": "Owlclaw",
+        "key": "votezalixauBDE",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Etienne",
+            "nom": "LE BIHAN",
+            "key": "CentralePark",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "CentralePark": {
+        "prenom": "Etienne",
+        "nom": "LE BIHAN",
+        "famille": "Wolfeye",
+        "key": "CentralePark",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Nathan",
+            "nom": "Rossi",
+            "key": "baguette",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "baguette": {
+        "prenom": "Nathan",
+        "nom": "Rossi",
+        "famille": "Phoenixtear",
+        "key": "baguette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Damien",
+            "nom": "Avequin",
+            "key": "banane17",
+            "mission": "Mets une pierre philosophale dans sa poche. Il/elle ne doit pas s'en apercevoir..."
+        }
+    },
+    "banane17": {
+        "prenom": "Damien",
+        "nom": "Avequin",
+        "famille": "Owlclaw",
+        "key": "banane17",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierre",
+            "nom": "Puppinck",
+            "key": "Aigle",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "Aigle": {
+        "prenom": "Pierre",
+        "nom": "Puppinck",
+        "famille": "Eaglescream",
+        "key": "Aigle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Côme",
+            "nom": "Keranflec'h",
+            "key": "Papi",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "Papi": {
+        "prenom": "Côme",
+        "nom": "Keranflec'h",
+        "famille": "Foxpaw",
+        "key": "Papi",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lucas",
+            "nom": "Rémond",
+            "key": "KeenVFanClubOfficiel",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "KeenVFanClubOfficiel": {
+        "prenom": "Lucas",
+        "nom": "Rémond",
+        "famille": "Eaglescream",
+        "key": "KeenVFanClubOfficiel",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Margaux",
+            "nom": "Crédeville",
+            "key": "frimousse",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "frimousse": {
+        "prenom": "Margaux",
+        "nom": "Crédeville",
+        "famille": "Owlclaw",
+        "key": "frimousse",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Marion",
+            "nom": "Narbeburu",
+            "key": "paillasson",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "paillasson": {
+        "prenom": "Marion",
+        "nom": "Narbeburu",
+        "famille": "Lionskin",
+        "key": "paillasson",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Bastien ",
+            "nom": "Boudet",
+            "key": "Goulag",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "Goulag": {
+        "prenom": "Bastien ",
+        "nom": "Boudet",
+        "famille": "Wolfeye",
+        "key": "Goulag",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Andrea",
+            "nom": "Domínguez",
+            "key": "Killer",
+            "mission": "Incite ta cible à te donner une mèche de ses cheveux pour la potion polynectar. Attention c'est ta cible qui doit se couper les cheveux de plein gré"
+        }
+    },
+    "Killer": {
+        "prenom": "Andrea",
+        "nom": "Domínguez",
+        "famille": "Lionskin",
+        "key": "Killer",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Jean-Baptiste",
+            "nom": "de Beco",
+            "key": "halo",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "halo": {
+        "prenom": "Jean-Baptiste",
+        "nom": "de Beco",
+        "famille": "Eaglescream",
+        "key": "halo",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hocine",
+            "nom": "Aouragh",
+            "key": "Mayo",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "Mayo": {
+        "prenom": "Hocine",
+        "nom": "Aouragh",
+        "famille": "Wolfeye",
+        "key": "Mayo",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierre",
+            "nom": "Bernigaud",
+            "key": "cubis",
+            "mission": "Mets une pierre philosophale dans sa poche. Il/elle ne doit pas s'en apercevoir..."
+        }
+    },
+    "cubis": {
+        "prenom": "Pierre",
+        "nom": "Bernigaud",
+        "famille": "Phoenixtear",
+        "key": "cubis",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gaël",
+            "nom": "Bizet",
+            "key": "Chocolat",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Chocolat": {
+        "prenom": "Gaël",
+        "nom": "Bizet",
+        "famille": "Owlclaw",
+        "key": "Chocolat",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Hugo",
+            "nom": "Stalin",
+            "key": "radjaidja",
+            "mission": "Incite ta cible à te donner une chaussette"
+        }
+    },
+    "radjaidja": {
+        "prenom": "Hugo",
+        "nom": "Stalin",
+        "famille": "Lionskin",
+        "key": "radjaidja",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adrien",
+            "nom": "Marion",
+            "key": "Neymar",
+            "mission": "Tu dois le/la faire chanter une musique du film Harry Potter"
+        }
+    },
+    "Neymar": {
+        "prenom": "Adrien",
+        "nom": "Marion",
+        "famille": "Phoenixtear",
+        "key": "Neymar",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxime",
+            "nom": "Rapp",
+            "key": "Tartiflette",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Tartiflette": {
+        "prenom": "Maxime",
+        "nom": "Rapp",
+        "famille": "Eaglescream",
+        "key": "Tartiflette",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pas de prénom au rugby",
+            "nom": "Soulard",
+            "key": "Alcool",
+            "mission": "Incite-le/la à se mettre un drap sur la tête, puis dis-lui \"Expecto patronum\". Fonctionne aussi avec un duvet"
+        }
+    },
+    "Alcool": {
+        "prenom": "Pas de prénom au rugby",
+        "nom": "Soulard",
+        "famille": "Foxpaw",
+        "key": "Alcool",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Elmer ",
+            "nom": "Frdm",
+            "key": "Okupat",
+            "mission": "Incite-le/la à se mettre un chapeau pointu sur la tête"
+        }
+    },
+    "Okupat": {
+        "prenom": "Elmer ",
+        "nom": "Frdm",
+        "famille": "Lionskin",
+        "key": "Okupat",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Rachid",
+            "nom": "Benfoughal",
+            "key": "Another",
+            "mission": "Incite ta cible à te donner une chaussette"
+        }
+    },
+    "Another": {
+        "prenom": "Rachid",
+        "nom": "Benfoughal",
+        "famille": "Tigerblood",
+        "key": "Another",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Emilien",
+            "nom": "Sopetti",
+            "key": "Casino",
+            "mission": "Fais-le/la insulter ouvertement sa propre maison"
+        }
+    },
+    "Casino": {
+        "prenom": "Emilien",
+        "nom": "Sopetti",
+        "famille": "Eaglescream",
+        "key": "Casino",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Alexandre",
+            "nom": "Merasli",
+            "key": "Phénix",
+            "mission": "Fais-le/la dire les noms des 8 maisons de l'école à la suite"
+        }
+    },
+    "Phénix": {
+        "prenom": "Alexandre",
+        "nom": "Merasli",
+        "famille": "Wolfeye",
+        "key": "Phénix",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Thomas",
+            "nom": "Bideux",
+            "key": "Carotte",
+            "mission": "Fais-le/la foncer contre un mur en criant \"9 3/4\""
+        }
+    },
+    "Carotte": {
+        "prenom": "Thomas",
+        "nom": "Bideux",
+        "famille": "Foxpaw",
+        "key": "Carotte",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Rémi ",
+            "nom": "Fallon ",
+            "key": "bananiiaa",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "bananiiaa": {
+        "prenom": "Rémi ",
+        "nom": "Fallon ",
+        "famille": "Eaglescream",
+        "key": "bananiiaa",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Antoine",
+            "nom": "Marullaz",
+            "key": "Colibri",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "Colibri": {
+        "prenom": "Antoine",
+        "nom": "Marullaz",
+        "famille": "Foxpaw",
+        "key": "Colibri",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Yohann",
+            "nom": "DAUTREY",
+            "key": "Marmotte",
+            "mission": "Dis \"Wingardium leviosa\" alors que ta cible lance un avion en papier"
+        }
+    },
+    "Marmotte": {
+        "prenom": "Yohann",
+        "nom": "DAUTREY",
+        "famille": "Lionskin",
+        "key": "Marmotte",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Gaël",
+            "nom": "Vignes",
+            "key": "Malaise",
+            "mission": "Fais-le/la imiter un des personnages d'Harry Potter"
+        }
+    },
+    "Malaise": {
+        "prenom": "Gaël",
+        "nom": "Vignes",
+        "famille": "Eaglescream",
+        "key": "Malaise",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Leonardo",
+            "nom": "Ramírez Baeza",
+            "key": "Fromage",
+            "mission": "Fais-le/la traduire le nom d'au moins 4 maisons de l'école"
+        }
+    },
+    "Fromage": {
+        "prenom": "Leonardo",
+        "nom": "Ramírez Baeza",
+        "famille": "Phoenixtear",
+        "key": "Fromage",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Louis",
+            "nom": "Forgues",
+            "key": "Shylmagoghnar",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Shylmagoghnar": {
+        "prenom": "Louis",
+        "nom": "Forgues",
+        "famille": "Dragonwing",
+        "key": "Shylmagoghnar",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Quentin",
+            "nom": "PAQUOT",
+            "key": "manoir",
+            "mission": "Fais-le/la imiter l'animal emblême de sa maison"
+        }
+    },
+    "manoir": {
+        "prenom": "Quentin",
+        "nom": "PAQUOT",
+        "famille": "Wolfeye",
+        "key": "manoir",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxence",
+            "nom": "Collard",
+            "key": "killer",
+            "mission": "Fais-le/la imiter dobby. Il/elle peut par exemple se taper la tête contre une lampe..."
+        }
+    },
+    "killer": {
+        "prenom": "Maxence",
+        "nom": "Collard",
+        "famille": "Eaglescream",
+        "key": "killer",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "François",
+            "nom": "de Rochette",
+            "key": "piano",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "piano": {
+        "prenom": "François",
+        "nom": "de Rochette",
+        "famille": "Dragonwing",
+        "key": "piano",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Oriane",
+            "nom": "Jourdan",
+            "key": "saucisson",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "saucisson": {
+        "prenom": "Oriane",
+        "nom": "Jourdan",
+        "famille": "Phoenixtear",
+        "key": "saucisson",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Anna",
+            "nom": "Diop",
+            "key": "Goujat",
+            "mission": "Fais-le/la dire le nom des 7 livres Harry Potter à la suite"
+        }
+    },
+    "Goujat": {
+        "prenom": "Anna",
+        "nom": "Diop",
+        "famille": "Eaglescream",
+        "key": "Goujat",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lola",
+            "nom": "Rousseau",
+            "key": "papillon",
+            "mission": "Fais-lui porter des lunettes (rondes de préférence) qui ne sont pas les siennes"
+        }
+    },
+    "papillon": {
+        "prenom": "Lola",
+        "nom": "Rousseau",
+        "famille": "Phoenixtear",
+        "key": "papillon",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adrien",
+            "nom": "VIN",
+            "key": "Vasistas",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "Vasistas": {
+        "prenom": "Adrien",
+        "nom": "VIN",
+        "famille": "Owlclaw",
+        "key": "Vasistas",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxime ",
+            "nom": "Canard ",
+            "key": "Saucisson",
+            "mission": "Fais-le/la répéter 3 fois quelque chose puis dis-lui \"silencio\""
+        }
+    },
+    "Saucisson": {
+        "prenom": "Maxime ",
+        "nom": "Canard ",
+        "famille": "Wolfeye",
+        "key": "Saucisson",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Adil",
+            "nom": "ERCHOUK",
+            "key": "Bernard",
+            "mission": "Incite-le/la à se mettre un drap sur la tête, puis dis-lui \"Expecto patronum\". Fonctionne aussi avec un duvet"
+        }
+    },
+    "Bernard": {
+        "prenom": "Adil",
+        "nom": "ERCHOUK",
+        "famille": "Owlclaw",
+        "key": "Bernard",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Florian",
+            "nom": "Castillo",
+            "key": "Jauretch",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "Jauretch": {
+        "prenom": "Florian",
+        "nom": "Castillo",
+        "famille": "Foxpaw",
+        "key": "Jauretch",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierre",
+            "nom": "Gout",
+            "key": "Marsupilami",
+            "mission": "Mets une pierre philosophale dans sa poche. Il/elle ne doit pas s'en apercevoir..."
+        }
+    },
+    "Marsupilami": {
+        "prenom": "Pierre",
+        "nom": "Gout",
+        "famille": "Eaglescream",
+        "key": "Marsupilami",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Magali",
+            "nom": "Sébastien",
+            "key": "goutap",
+            "mission": "Echange ton bracelet de maison avec ta cible. Quand elle enfile ton bracelet, elle meurt"
+        }
+    },
+    "goutap": {
+        "prenom": "Magali",
+        "nom": "Sébastien",
+        "famille": "Foxpaw",
+        "key": "goutap",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Lola",
+            "nom": "Gautreau",
+            "key": "Gisoufle",
+            "mission": "Quand ta cible allumera une lumière, dis-lui \"Lumos\" et elle mourra. Fonctionne avec une lampe dans une salle, une lampe torche ou le flash d'un téléphone."
+        }
+    },
+    "Gisoufle": {
+        "prenom": "Lola",
+        "nom": "Gautreau",
+        "famille": "Wolfeye",
+        "key": "Gisoufle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Guilherme",
+            "nom": "Beche Lopes",
+            "key": "Grêmio",
+            "mission": "Fais-le/la rire (pas sourire) avec une blague qui comporte le nom d'un personnage d'Harry Potter"
+        }
+    },
+    "Grêmio": {
+        "prenom": "Guilherme",
+        "nom": "Beche Lopes",
+        "famille": "Dragonwing",
+        "key": "Grêmio",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Bruno",
+            "nom": "Meyer",
+            "key": "despacito",
+            "mission": "Sers-lui trois potions de suite. Il/elle doit les boire"
+        }
+    },
+    "despacito": {
+        "prenom": "Bruno",
+        "nom": "Meyer",
+        "famille": "Owlclaw",
+        "key": "despacito",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxime",
+            "nom": "Bahuau",
+            "key": "Fumseck",
+            "mission": "Fais-le/la lister les noms de 7 personnages d'Harry Potter"
+        }
+    },
+    "Fumseck": {
+        "prenom": "Maxime",
+        "nom": "Bahuau",
+        "famille": "Phoenixtear",
+        "key": "Fumseck",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Pierre",
+            "nom": "BLAIN",
+            "key": "tripalium",
+            "mission": "Incite ta cible à te montrer une photo d'elle plus jeune, puis dis-lui : \"tu étais beau/belle quand tu étais encore moldu\""
+        }
+    },
+    "tripalium": {
+        "prenom": "Pierre",
+        "nom": "BLAIN",
+        "famille": "Foxpaw",
+        "key": "tripalium",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Guillaume",
+            "nom": "Cnapelynck",
+            "key": "tacle",
+            "mission": "Fais-le/la révéler sa mission puis dis-lui \"Imperium\""
+        }
+    },
+    "tacle": {
+        "prenom": "Guillaume",
+        "nom": "Cnapelynck",
+        "famille": "Lionskin",
+        "key": "tacle",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Maxime",
+            "nom": "Libsig",
+            "key": "dromadaire",
+            "mission": "Incite-le/la à voler sur un balais"
+        }
+    },
+    "dromadaire": {
+        "prenom": "Maxime",
+        "nom": "Libsig",
+        "famille": "Owlclaw",
+        "key": "dromadaire",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Mehdi",
+            "nom": "Kaabache",
+            "key": "Easy Peasy",
+            "mission": "Incite ta cible à te donner une chaussette"
+        }
+    },
+    "Easy Peasy": {
+        "prenom": "Mehdi",
+        "nom": "Kaabache",
+        "famille": "Tigerblood",
+        "key": "Easy Peasy",
+        "dead": false,
+        "haskilled": false,
+        "cible": {
+            "prenom": "Emile",
+            "nom": "Brisset",
+            "key": "Clai",
+            "mission": "Fais-le/la dire le nom de 3 acteurs d'Harry Potter"
+        }
     }
 }

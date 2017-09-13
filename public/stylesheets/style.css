@@ -88,3 +88,13 @@ body {
 #formLogin {
     padding: 2em 0 2.3em 0;
 }
+
+/* Killer */
+
+.memberlist {
+    margin-bottom: 1em;
+}
+
+.memberlist > img {
+    margin-bottom: 1em
+}

@@ -46,8 +46,8 @@ app.get('/killer/instructions', (req, res) => {
 
 app.post('/killer/instructions', (req, res) => {
     players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
-    cible = players[req.body.inputId].cible;
-    message = players[req.body.inputId].mission + " - " + players[cible].prénom + " " + players[cible].nom + " " + players[cible].famille;
+    cible = players[req.body.inputId].cible.key;
+    message = players[req.body.inputId].cible.mission + " - " + players[cible].prenom + " " + players[cible].nom + " " + players[cible].famille;
     res.render('instructions', { title: "BDE | Instructions", players: players, message: message  })
 });
 
@@ -57,11 +57,21 @@ app.get('/killer/kill', (req, res) => {
 });
 
 app.post('/killer/kill', (req, res) => {
+    familles = JSON.parse(fs.readFileSync('./public/data/familles.json', 'utf8'));
     players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
-    if (players[req.body.inputKillerId] && players[req.body.inputKillerId].cible === req.body.inputTargetId) {
-      res.render('kill', { title: "BDE | Kill", players: players, message: "Votre kill a bien été validé! Bravo :)" })
+    playerlist = JSON.parse(fs.readFileSync('./private/famillesKiller.json', 'utf8'));
+    if (players[req.body.inputKillerId] && players[req.body.inputKillerId].cible.key === req.body.inputTargetId && !players[req.body.inputTargetId].dead && !players[req.body.inputKillerId].dead) {
+      players[req.body.inputKillerId].haskilled = true;
+      players[req.body.inputTargetId].dead = true;
+      familles[players[req.body.inputKillerId].famille].score += 100
+      playerlist[players[req.body.inputKillerId].famille][req.body.inputKillerId].haskilled = true;
+      playerlist[players[req.body.inputTargetId].famille][req.body.inputTargetId].dead = true;
+      fs.writeFileSync('./public/data/familles.json', JSON.stringify(familles, null, 4));
+      fs.writeFileSync('./private/killer.json', JSON.stringify(players, null, 4));
+      fs.writeFileSync('./private/famillesKiller.json', JSON.stringify(playerlist, null, 4));
+      res.render('kill', { title: "BDE | Kill", players: players, message: "Ton kill a bien été validé et tu viens de faire gagner 100 points aux " + players[req.body.inputKillerId].famille})
     } else {
-      res.render('kill', { title: "BDE | Kill", players: players, message: "Arnaqueur, tu ne vas pas nous la faire à l'envers ! :)" })
+      res.render('kill', { title: "BDE | Kill", players: players, message: "Ton kill n'a pas pu être validé ! Si tu ne comprends pas pourquoi contacte Damien Djinn" })
     }
     res.render('kill', { title: "BDE | Kill", players: players })
 });
