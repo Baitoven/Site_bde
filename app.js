@@ -67,7 +67,7 @@ app.post('/killer/kill', (req, res) => {
 });
 
 app.get('/killer/joueurs', (req, res) => {
-    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
+    players = JSON.parse(fs.readFileSync('./private/famillesKiller.json', 'utf8'));
     res.render('joueurs', { title: "BDE | Joueurs", players: players })
 });
 
