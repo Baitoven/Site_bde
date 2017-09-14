@@ -349,7 +349,7 @@
             "prenom": "Bich-Anh",
             "nom": "Han",
             "famille": "Foxpaw",
-            "dead": false,
+            "dead": true,
             "haskilled": false
         },
         "Hibou": {
@@ -716,7 +716,7 @@
             "nom": "Jayle",
             "famille": "Eaglescream",
             "dead": false,
-            "haskilled": false
+            "haskilled": true
         },
         "chaise": {
             "prenom": "Camille",

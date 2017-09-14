@@ -3267,7 +3267,7 @@
         "famille": "Eaglescream",
         "key": "Napoléon",
         "dead": false,
-        "haskilled": false,
+        "haskilled": true,
         "cible": {
             "prenom": "Bich-Anh",
             "nom": "Han",
@@ -3280,7 +3280,7 @@
         "nom": "Han",
         "famille": "Foxpaw",
         "key": "Pastèque",
-        "dead": false,
+        "dead": true,
         "haskilled": false,
         "cible": {
             "prenom": "Cléo",
