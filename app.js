@@ -75,10 +75,17 @@ app.post('/killer/kill', (req, res) => {
       fs.writeFileSync('./private/killer.json', JSON.stringify(players, null, 4));
       fs.writeFileSync('./private/famillesKiller.json', JSON.stringify(playerlist, null, 4));
       res.render('kill', { title: "BDE | Kill", players: players, message: "Ton kill a bien été validé et tu viens de faire gagner 100 points aux " + players[req.body.inputKillerId].famille})
-    } else {
-      res.render('kill', { title: "BDE | Kill", players: players, message: "Ton kill n'a pas pu être validé ! Si tu ne comprends pas pourquoi contacte Damien Djinn" })
+  } else if (!players[req.body.inputKillerId]) {
+      res.render('kill', { title: "BDE | Kill", players: players, err: "Cette clé n'existe pas !" })
+  } else if (!(players[req.body.inputKillerId].cible.key === req.body.inputTargetId)) {
+      res.render('kill', { title: "BDE | Kill", players: players, err: "Ce n'est pas la clé de ta cible..." })
+  } else if (players[req.body.inputTargetId].dead) {
+      res.render('kill', { title: "BDE | Kill", players: players, err: "La personne que tu essayes de tuer est déjà morte ! Ne t'acharnes pas..." })
+  } else if (players[req.body.inputKillerId].dead) {
+      res.render('kill', { title: "BDE | Kill", players: players, err: "Tu es mort, et les morts ne peuvent tuer personne..." })
+  } else {
+      res.render('kill', { title: "BDE | Kill", players: players, err: "Ton kill n'a pas pu être validé ! Si tu ne comprends pas pourquoi contacte Damien Djinn" })
     }
-    res.render('kill', { title: "BDE | Kill", players: players })
 });
 
 app.get('/killer/joueurs', (req, res) => {
