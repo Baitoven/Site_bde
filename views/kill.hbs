@@ -1,10 +1,18 @@
 <div class="container-fluid wrapper oxy">
     {{#if message}}
-        <div id="alertScore" class="alert alert-success alert-dismissible fade show" role="alert">
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
           </button>
           {{message}}
+        </div>
+    {{/if}}
+    {{#if err}}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+          {{err}}
         </div>
     {{/if}}
 

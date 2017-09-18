@@ -17,4 +17,14 @@
             {{/each}}
         </section>
     </div>
+
+    <h2 id="leaderBoardHeader" class="viga text-dark text-center">Derniers kills</h2>
+    <div id="lastkills" class="container text-center mx-auto">
+      <ul class="list-group">
+        {{#each lastkills}}
+            <li class="list-group-item">{{this.killer}} has killed {{this.killed}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
 </div>

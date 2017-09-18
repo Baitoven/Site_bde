@@ -59,6 +59,13 @@ body {
     #Hautsfaits {
         width: 80%;
     }
+    #lastkills {
+        width: 70%;
+    }
+}
+
+#lastkills {
+  margin-top: 1em;
 }
 
 .card {
