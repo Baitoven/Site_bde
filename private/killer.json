@@ -887,7 +887,7 @@
         "famille": "Owlclaw",
         "key": "PLS",
         "dead": false,
-        "haskilled": false,
+        "haskilled": true,
         "cible": {
             "prenom": "lucas",
             "nom": "deswarte",
@@ -900,7 +900,7 @@
         "nom": "deswarte",
         "famille": "Lionskin",
         "key": "blanche-neige",
-        "dead": false,
+        "dead": true,
         "haskilled": false,
         "cible": {
             "prenom": "Paul",

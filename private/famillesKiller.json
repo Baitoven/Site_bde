@@ -1328,7 +1328,7 @@
             "prenom": "lucas",
             "nom": "deswarte",
             "famille": "Lionskin",
-            "dead": false,
+            "dead": true,
             "haskilled": false
         },
         "Ah!": {
@@ -1935,7 +1935,7 @@
             "nom": "Delcourt",
             "famille": "Owlclaw",
             "dead": false,
-            "haskilled": false
+            "haskilled": true
         },
         "Kebab": {
             "prenom": "Laura",
