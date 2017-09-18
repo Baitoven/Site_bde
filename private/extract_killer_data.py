@@ -110,7 +110,7 @@ def generate_f(answers): #Generation of famillesKiller.json
         inner["famille"]=item[2]
         inner["dead"]=False
         inner["haskilled"]=False
-        out[item[2]].append(inner)
+        out[item[2]][item[3]] = inner
     return out
 
 def write_json(data,path): #C:/Users/Elysean/bdeecn/private/answers.txt
