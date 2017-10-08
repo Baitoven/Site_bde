@@ -40,66 +40,6 @@ app.get('/hautsfaits', (req, res) => {
     res.render('hautsfaits', { title: "BDE | Hauts Faits", hautsfaits: hautsfaits})
 });
 
-app.get('/killer/instructions', (req, res) => {
-    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
-    res.render('instructions', { title: "BDE | Instructions", players: players })
-});
-
-app.post('/killer/instructions', (req, res) => {
-    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
-    if (players[req.body.inputId]) {
-        cible = players[req.body.inputId].cible.key;
-        message = players[req.body.inputId].cible.mission + " - " + players[cible].prenom + " " + players[cible].nom + " - " + players[cible].famille;
-        res.render('instructions', { title: "BDE | Instructions", players: players, message: message  })
-    }
-    else {
-        res.render('instructions', { title: "BDE | Instructions", players: players, message: "Cette clé n'existe pas, si tu ne t'en souviens pas contacte Damien Djinn"  })
-    }
-});
-
-app.get('/killer/kill', (req, res) => {
-    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
-    res.render('kill', { title: "BDE | Kill", players: players })
-});
-
-app.post('/killer/kill', (req, res) => {
-    familles = JSON.parse(fs.readFileSync('./public/data/familles.json', 'utf8'));
-    players = JSON.parse(fs.readFileSync('./private/killer.json', 'utf8'));
-    playerlist = JSON.parse(fs.readFileSync('./private/famillesKiller.json', 'utf8'));
-    lastkills = JSON.parse(fs.readFileSync('./public/data/lastkills.json', 'utf8'));
-    if (players[req.body.inputKillerId] && players[req.body.inputKillerId].cible.key === req.body.inputTargetId && !players[req.body.inputTargetId].dead && !players[req.body.inputKillerId].dead) {
-      players[req.body.inputKillerId].haskilled = true;
-      players[req.body.inputTargetId].dead = true;
-      familles[players[req.body.inputKillerId].famille].score += 100
-      playerlist[players[req.body.inputKillerId].famille][req.body.inputKillerId].haskilled = true;
-      playerlist[players[req.body.inputTargetId].famille][req.body.inputTargetId].dead = true;
-      lastkills.push({
-                      "killer": players[req.body.inputKillerId].prenom + " " + players[req.body.inputKillerId].nom,
-                      "killed": players[req.body.inputTargetId].prenom + " " + players[req.body.inputTargetId].nom
-                    });
-      fs.writeFileSync('./public/data/familles.json', JSON.stringify(familles, null, 4));
-      fs.writeFileSync('./private/killer.json', JSON.stringify(players, null, 4));
-      fs.writeFileSync('./private/famillesKiller.json', JSON.stringify(playerlist, null, 4));
-      fs.writeFileSync('./public/data/lastkills.json', JSON.stringify(lastkills, null, 4));
-      res.render('kill', { title: "BDE | Kill", players: players, message: "Ton kill a bien été validé et tu viens de faire gagner 100 points aux " + players[req.body.inputKillerId].famille})
-  } else if (!players[req.body.inputKillerId]) {
-      res.render('kill', { title: "BDE | Kill", players: players, err: "Cette clé n'existe pas !" })
-  } else if (!(players[req.body.inputKillerId].cible.key === req.body.inputTargetId)) {
-      res.render('kill', { title: "BDE | Kill", players: players, err: "Ce n'est pas la clé de ta cible..." })
-  } else if (players[req.body.inputTargetId].dead) {
-      res.render('kill', { title: "BDE | Kill", players: players, err: "La personne que tu essayes de tuer est déjà morte ! Ne t'acharnes pas..." })
-  } else if (players[req.body.inputKillerId].dead) {
-      res.render('kill', { title: "BDE | Kill", players: players, err: "Tu es mort, et les morts ne peuvent tuer personne..." })
-  } else {
-      res.render('kill', { title: "BDE | Kill", players: players, err: "Ton kill n'a pas pu être validé ! Si tu ne comprends pas pourquoi contacte Damien Djinn" })
-    }
-});
-
-app.get('/killer/joueurs', (req, res) => {
-    players = JSON.parse(fs.readFileSync('./private/famillesKiller.json', 'utf8'));
-    res.render('joueurs', { title: "BDE | Joueurs", players: players })
-});
-
 app.get('/admin', (req, res) => {
     if (req.session.isAdmin) {
         res.render('admin', { title: "BDE | Admin" })
