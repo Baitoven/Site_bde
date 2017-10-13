@@ -1,0 +1,43 @@
+<div class="wrapper container-fluid" style="padding-bottom: 3.65rem;">
+    {{#if message}}
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+          {{message}}
+        </div>
+    {{/if}}
+
+    <form id="formMDE" class="oxy adminForm col-6 col-sm-5 text-center container-fluid" action="/mde" method="post">
+        <h3 class="viga" style="margin-bottom: 1em">Réservation de la MDE</h3>
+        <div class="form-group">
+          <label for="inputDate">Date (jj/mm/aaaa)</label>
+          <input class="form-control form-control-sm" name="inputDate" type="text" value="">
+        </div>
+        <div class="form-group">
+          <label for="inputSalle">Salle</label>
+          <select class="form-control form-control-sm" name="inputSalle">
+            <option>Haute</option>
+            <option>Basse</option>
+            <option>Les deux</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inputFName">Prénom</label>
+          <input class="form-control form-control-sm" name="inputFName" type="text" value="">
+        </div>
+        <div class="form-group">
+          <label for="inputName">Nom</label>
+          <input class="form-control form-control-sm" name="inputName" type="text" value="">
+        </div>
+        <div class="form-group">
+          <label for="inputPhone">Téléphone</label>
+          <input class="form-control form-control-sm" name="inputPhone" type="text" value="">
+        </div>
+        <div class="form-group">
+          <label for="inputClub">Club / Asso</label>
+          <input class="form-control form-control-sm" name="inputClub" type="text" value="">
+        </div>
+        <input name="inputMDE" class="btn btn-dark" type="submit" value="Réserver">
+    </form>
+</div>

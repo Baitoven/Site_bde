@@ -7,6 +7,9 @@ var bodyParser = require('body-parser');
 var fs = require('fs');
 var url = require('url');
 var session = require('express-session');
+var MongoClient = require('mongodb').MongoClient;
+var urldb = "mongodb://admin:adminbdeecn@ds115625.mlab.com:15625/heroku_cjzk1rpq";
+
 
 var app = express();
 
@@ -25,14 +28,110 @@ app.use(session({ secret: '781227' }))
 
 
 app.get('/', (req, res) => {
-    lastkills = JSON.parse(fs.readFileSync('./public/data/lastkills.json', 'utf8'));
     familles = JSON.parse(fs.readFileSync('./public/data/familles.json', 'utf8'));
-    res.render('index', { title: "BDE | Accueil", familles: familles, lastkills: lastkills})
+    res.render('index', { title: "BDE | Accueil", familles: familles})
 });
 
 app.get('/partenaires', (req, res) => {
     partenaires = JSON.parse(fs.readFileSync('./public/data/partenaires.json', 'utf8'));
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
+});
+
+app.get('/mde', (req, res) => {
+    res.render('mde', { title: "BDE | Réservation MDE"})
+});
+
+app.get('/adminMDE', (req, res) => {
+    MongoClient.connect(urldb, function(err, db) {
+      if (err) throw err;
+      db.collection("MDE").find({}).toArray(function(err, result) {
+        if (err) throw err;
+        console.log(result);
+        db.close();
+        res.render('adminMDE', { title: "BDE | Admin MDE", bookings: result})
+      });
+    });
+});
+
+app.post('/adminMDE', (req, res) => {
+    if (req.body.inputGestion && req.body.inputDate && req.body.inputPhone) {
+        if (req.body.inputAction == "Supprimer") {
+            MongoClient.connect(urldb, function(err, db) {
+              if (err) throw err;
+              var query = { "date": req.body.inputDate,
+                            "phone": req.body.inputPhone
+                        };
+              db.collection("MDE").deleteOne(query, function(err, obj) {
+                if (err) throw err;
+              });
+              db.collection("MDE").find({}).toArray(function(err, result) {
+                if (err) throw err;
+                console.log(result);
+                db.close();
+                res.render('adminMDE', { title: "BDE | Admin MDE", bookings: result})
+              });
+            });
+        } else if (req.body.inputAction == "Accepter")
+        {
+            MongoClient.connect(urldb, function(err, db) {
+              if (err) throw err;
+              var query = { "date": req.body.inputDate,
+                            "phone": req.body.inputPhone
+                        };
+              var updated = { $set: { "ok": true } };
+              db.collection("MDE").updateOne(query, updated, function(err, obj) {
+                if (err) throw err;
+              });
+              db.collection("MDE").find({}).toArray(function(err, result) {
+                if (err) throw err;
+                console.log(result);
+                db.close();
+                res.render('adminMDE', { title: "BDE | Admin MDE", bookings: result})
+              });
+            });
+        }
+    }
+    else {
+        db.collection("MDE").find({}).toArray(function(err, result) {
+          if (err) throw err;
+          console.log(result);
+          db.close();
+          res.render('adminMDE', { title: "BDE | Admin MDE", bookings: result})
+        });
+    }
+});
+
+var formatDate = function(date) {
+    return date.length == 10 && date[2] == "/" && date[5] == "/"
+}
+
+app.post('/mde', (req, res) => {
+    if (req.body.inputMDE && formatDate(req.body.inputDate) && req.body.inputPhone && req.body.inputDate && req.body.inputClub && req.body.inputSalle) {
+        MongoClient.connect(urldb, function(err, db) {
+          if (err) throw err;
+          var query = { date: req.body.inputDate };
+          db.collection("MDE").find(query).toArray(function(err, result) {
+            if (err) throw err;
+            console.log(result);
+            if (result.length > 1) {
+                res.render('mde', { title: "BDE | Réservation MDE", message: "Cette date n'est pas disponible"})
+            }
+            else {
+                var salle = req.body.inputSalle == "Les deux" ? "Haute + Basse" : req.body.inputSalle
+                var myobj = { "prenom": req.body.inputFName, "nom": req.body.inputName, "phone": req.body.inputPhone, "date": req.body.inputDate, "club": req.body.inputClub, "salle": salle, "ok": false };
+                db.collection("MDE").insertOne(myobj, function(err, res) {
+                  if (err) throw err;
+                  console.log("Reservation saved in db");
+                  db.close();
+                });
+                res.render('mde', { title: "BDE | Réservation MDE", message: "Demande de réservation bien envoyée ! Tu recevras une confirmation par téléphone "})
+            }
+          });
+        });
+    }
+    else {
+        res.render('mde', { title: "BDE | Réservation MDE", message: "Erreur ! Avez-vous saisi les informations au format demandé?"})
+    }
 });
 
 app.get('/hautsfaits', (req, res) => {

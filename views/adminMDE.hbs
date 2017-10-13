@@ -1,0 +1,61 @@
+<div class="wrapper container-fluid" style="padding-bottom: 33rem;">
+    <h2 class="text-center viga" style="margin: 1em">Liste des demandes de réservation</h2>
+    <table class="table" style="background-color: white">
+      <thead>
+        <tr>
+          <th>Prénom</th>
+          <th>Nom</th>
+          <th>Numéro</th>
+          <th>Date</th>
+          <th>Salle</th>
+          <th>Club</th>
+          <th>OK?</th>
+        </tr>
+      </thead>
+      <tbody>
+          {{#each bookings}}
+            {{#if this.ok}}
+                <tr class="table-success">
+                  <td>{{this.prenom}}</td>
+                  <td>{{this.nom}}</td>
+                  <td>{{this.phone}}</td>
+                  <td>{{this.date}}</td>
+                  <td>{{this.salle}}</td>
+                  <td>{{this.club}}</td>
+                  <td>{{this.ok}}</td>
+                </tr>
+            {{else}}
+                <tr>
+                  <td>{{this.prenom}}</td>
+                  <td>{{this.nom}}</td>
+                  <td>{{this.phone}}</td>
+                  <td>{{this.date}}</td>
+                  <td>{{this.salle}}</td>
+                  <td>{{this.club}}</td>
+                  <td>{{this.ok}}</td>
+                </tr>
+            {{/if}}
+          {{/each}}
+      </tbody>
+    </table>
+
+    <form class="oxy adminForm col-6 col-sm-5 text-center container-fluid" action="/adminMDE" method="post">
+        <div class="form-group">
+          <h3 class="viga" style="margin-bottom: 1em">Gestion des demandes</h3>
+          <label for="inputPhone">Numéro</label>
+          <input class="form-control form-control-sm" name="inputPhone" type="text" value="">
+        </div>
+        <div class="form-group">
+          <label for="inputDate">Date</label>
+          <input class="form-control form-control-sm" name="inputDate" type="text" value="">
+        </div>
+        <div class="form-group">
+          <label for="inputAction">Action</label>
+          <select class="form-control form-control-sm" name="inputAction">
+            <option>Supprimer</option>
+            <option>Accepter</option>
+          </select>
+        </div>
+        <input name="inputGestion" class="btn btn-dark" type="submit" value="Confirmer">
+    </form>
+</div>
