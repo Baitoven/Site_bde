@@ -1,4 +1,4 @@
-<div class="wrapper container-fluid" style="padding-bottom: 3.65rem;">
+<div class="wrapper container-fluid">
     {{#if message}}
         <div class="alert alert-info alert-dismissible fade show" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -40,4 +40,30 @@
         </div>
         <input name="inputMDE" class="btn btn-dark" type="submit" value="Réserver">
     </form>
+
+    {{#if bookings}}
+        <h2 class="text-center viga" style="margin: 1em">Liste des réservations</h2>
+        <table class="table" style="background-color: white">
+          <thead>
+            <tr>
+              <th>Prénom</th>
+              <th>Nom</th>
+              <th>Date</th>
+              <th>Salle</th>
+              <th>Club</th>
+            </tr>
+          </thead>
+          <tbody>
+              {{#each bookings}}
+                <tr>
+                  <td>{{this.prenom}}</td>
+                  <td>{{this.nom}}</td>
+                  <td>{{this.date}}</td>
+                  <td>{{this.salle}}</td>
+                  <td>{{this.club}}</td>
+                </tr>
+              {{/each}}
+          </tbody>
+        </table>
+    {{/if}}
 </div>

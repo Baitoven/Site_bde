@@ -38,7 +38,15 @@ app.get('/partenaires', (req, res) => {
 });
 
 app.get('/mde', (req, res) => {
-    res.render('mde', { title: "BDE | Réservation MDE"})
+    MongoClient.connect(urldb, function(err, db) {
+      if (err) throw err;
+      db.collection("MDE").find({ "ok": true }).toArray(function(err, result) {
+        if (err) throw err;
+        console.log(result);
+        db.close();
+        res.render('mde', { title: "BDE | Réservation MDE", bookings: result})
+      });
+    });
 });
 
 app.get('/adminMDE', (req, res) => {
@@ -106,13 +114,21 @@ var formatDate = function(date) {
 }
 
 app.post('/mde', (req, res) => {
+    var bookings;
+    MongoClient.connect(urldb, function(err, db) {
+      if (err) throw err;
+      db.collection("MDE").find({ "ok": true }).toArray(function(err, result) {
+        if (err) throw err;
+        bookings = result;
+        db.close();
+      });
+    });
     if (req.body.inputMDE && formatDate(req.body.inputDate) && req.body.inputPhone && req.body.inputDate && req.body.inputClub && req.body.inputSalle) {
         MongoClient.connect(urldb, function(err, db) {
           if (err) throw err;
           var query = { date: req.body.inputDate };
           db.collection("MDE").find(query).toArray(function(err, result) {
             if (err) throw err;
-            console.log(result);
             if (result.length > 1) {
                 res.render('mde', { title: "BDE | Réservation MDE", message: "Cette date n'est pas disponible"})
             }
@@ -124,13 +140,13 @@ app.post('/mde', (req, res) => {
                   console.log("Reservation saved in db");
                   db.close();
                 });
-                res.render('mde', { title: "BDE | Réservation MDE", message: "Demande de réservation bien envoyée ! Tu recevras une confirmation par téléphone "})
+                res.render('mde', { title: "BDE | Réservation MDE", message: "Demande de réservation bien envoyée ! En attente de confirmation par le BDE"})
             }
           });
         });
     }
     else {
-        res.render('mde', { title: "BDE | Réservation MDE", message: "Erreur ! Avez-vous saisi les informations au format demandé?"})
+        res.render('mde', { title: "BDE | Réservation MDE", message: "Erreur ! Avez-vous saisi les informations au format demandé?", bookings: bookings})
     }
 });
 
