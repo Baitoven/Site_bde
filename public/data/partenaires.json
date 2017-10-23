@@ -1,7 +1,7 @@
 [
     {
         "id": "",
-        "description": "Tu notes ton appart, et tu fais gagner de la thune au BDE qui part en vacances à Amsterdam te fait des événements stylés avec !",
+        "description": "Tu notes ton appart, et tu fais gagner de la thune au BDE qui <strike>part en vacances à Amsterdam</strike> te fait des événements stylés avec !",
         "logo": "/images/happyrenting.jpg",
         "link": "https://happyrenting.fr/"
     },
@@ -25,6 +25,18 @@
     },
     {
         "id": "",
+        "description": "Permet de trouver un logement à l’étranger, ils vous réduisent de 15% les frais de dossier avec le code HA_AECN_2017 ! ",
+        "logo": "/images/housinganywhere.png",
+        "link": "https://housinganywhere.com/fr/"
+    },
+    {
+        "id": "",
+        "description": "Tiens-toi informé de l’actualité en t’inscrivant à ce partenaire. Brief.me t’envoie chaque jour un mail qui récapitule les informations importantes ! 1 mois d’essai gratuit, et 29€ l’année si tu utilises le lien suivant...",
+        "logo": "/images/briefme.png",
+        "link": "https://www.brief.me/?coupon_token=29_CentraleNantes"
+    },
+    {
+        "id": "",
         "description": "Réductions (jusqu'à 60%) grâce à notre code BDEECN !",
         "logo": "/images/dell.png",
         "link": "http://www.portable-etudiant.com/?Id=9JQYO21CNZSEQ1KRE5CS"
@@ -33,6 +45,24 @@
         "id": "",
         "description": "Réductions sur le matériel informatique pour les étudiants !",
         "logo": "/images/hp.png",
+        "link": "https://store.hp.com/fr/students"
+    },
+    {
+        "id": "",
+        "description": "Tailleur qui fait des prix très intéressants pour les centraliens, pour pouvoir te mettre sur ton 31 pour le WEN et le FA ! Il fait 2 passages à Nantes pour les prises de mesures.",
+        "logo": "/images/colvert.png",
+        "link": "https://www.col-vert.fr/fr/"
+    },
+    {
+        "id": "",
+        "description": "Magasin de déguisement qui fait -20% sur les déguisements du thème de l’évènement si le BDE les a avertis (vous le serez aussi !)",
+        "logo": "/images/toutpourlesfetes.png",
+        "link": "http://www.toutpourlesfetes-nantes.com/"
+    },
+    {
+        "id": "",
+        "description": "Jeu de 32 cartes avec plein de réducs dans les bars / boites / restau, qui s'amortie en 2 cartes ! A venir chercher au BDE pour 9 €",
+        "logo": "/images/nightfall.png",
         "link": "https://store.hp.com/fr/students"
     },
     {
@@ -55,7 +85,7 @@
     },
     {
         "id": "",
-        "description": "Profite de réductions pour passer le permis / code ! Plus d'informations au BDE !",
+        "description": "Permis + code + présentation aux examens (permis et code) pour seulement 950€ pour les centraliens ",
         "logo": "/images/motterouge.jpg",
         "link": "http://www.motte-rouge-conduite.com/"
     },
@@ -64,12 +94,6 @@
         "description": "-10% sur tout ce que tu achètes ! (Sur présentation de la carte étudiant)",
         "logo": "/images/miecaline.png",
         "link": "http://www.lamiecaline.com/fr/"
-    },
-    {
-        "id": "",
-        "description": "Menu SUB15 à 5.50€ et SUB30 à 7.50€ sur présentation de la carte étudiante",
-        "logo": "/images/subway.jpg",
-        "link": "http://subwayfrance.fr/"
     },
     {
         "id": "",
@@ -82,5 +106,17 @@
         "description": "Là aussi, tu peux donner des cours particuliers et te faire la masse de thune !",
         "logo": "/images/complétude.jpg",
         "link": "http://www.completude.com/"
+    },
+    {
+        "id": "",
+        "description": "5% de réduc sur les ipads, 10% sur les mac, et jusqu’à 50% sur les produits Apple Care ! Pour en profiter, clique sur le bouton ci-dessous et inscris-toi ! Tu peux aussi appeler le 0800046046 pour te faire conseiller, ou si tu rencontres des problèmes.",
+        "logo": "/images/apple.png",
+        "link": "https://appleeducationstore-spotlight.myunidays.com/FR/fr-FR/index"
+    },
+    {
+        "id": "",
+        "description": "Prends le train ou l’avion gratuitement, ou moins cher, en échange d’accompagner un enfant ! C’est deux ingénieurs diplômés de Centrale Nantes qui ont créé le site ! Passe faire un tour <a href='https://www.kidygo.fr/' target='_blank'>ici </a>!",
+        "logo": "/images/kidygo.png",
+        "link": "https://www.kidygo.fr/"
     }
 ]

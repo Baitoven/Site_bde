@@ -1,4 +1,7 @@
 <div class="wrapper container-fluid">
+    <p class="oxy text-center" style="margin-top: 1em; font-size: 1.14em">
+      Si tu as des questions, n’hésite pas à contacter notre super respo Paul Bertrand par email : <span class="font-weight-bold">paul.bertrand@eleves.ec-nantes.fr</span>
+    </p>
     <section class="partenaires row text-center" style="margin: auto">
         {{#each partenaires}}
         <div class="partenaire col-12 col-md-6">
@@ -8,7 +11,7 @@
               {{#if this.id}}
                 <h4 class="card-title">{{this.id}}</h4>
               {{/if}}
-              <p class="card-text">{{this.description}}</p>
+              <p class="card-text">{{{this.description}}}</p>
               <a href={{this.link}} class="btn btn-dark" target="_blank">Informations</a>
             </div>
           </div>
