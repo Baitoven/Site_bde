@@ -109,21 +109,17 @@ app.post('/adminMDE', (req, res) => {
     }
 });
 
-var formatDate = function(date) {
-    return date.length == 10 && date[2] == "/" && date[5] == "/"
-}
-
 app.post('/mde', (req, res) => {
     var bookings;
     MongoClient.connect(urldb, function(err, db) {
       if (err) throw err;
-      db.collection("MDE").find({ "ok": true }).toArray(function(err, result) {
+      db.collection("MDE").find({ "ok": true }).sort({date: -1}).toArray(function(err, result) {
         if (err) throw err;
         bookings = result;
         db.close();
       });
     });
-    if (req.body.inputMDE && formatDate(req.body.inputDate) && req.body.inputPhone && req.body.inputDate && req.body.inputClub && req.body.inputSalle) {
+    if (req.body.inputMDE && req.body.inputPhone && req.body.inputDate && req.body.inputClub && req.body.inputSalle) {
         MongoClient.connect(urldb, function(err, db) {
           if (err) throw err;
           var query = { date: req.body.inputDate };
