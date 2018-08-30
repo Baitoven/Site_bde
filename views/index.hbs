@@ -2,12 +2,12 @@
     <section class="row text-center">
         <div class="col-12">
             <img src="/images/LogoAirFoxOne.png" width="300" height="300" class="img-fluid" alt="Logo Air Fox One">
-            <h1>Ta nouvelle vie commence dans :</h1>
+            <h1>Cher premier année, ta nouvelle vie commence dans :</h1>
             <p id="demo"></p>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Sep 3, 2018 8:00:00").getTime();
+var countDownDate = new Date("Sep 4, 2018 8:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -25,8 +25,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "jours " + hours + "heures "
+  + minutes + "minutes " + seconds + "secondes ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
