@@ -60,6 +60,9 @@ app.get('/adminMDE', (req, res) => {
       });
     });
 });
+app.get('/appartathlon',(req,res)=>{
+    res.render('appartathlon', { title: "BDE | Appartathlon", appartathlon: appartathlon })
+});
 
 app.post('/adminMDE', (req, res) => {
     if (req.body.inputGestion && req.body.inputDate && req.body.inputPhone) {
