@@ -43,7 +43,8 @@ app.get('/output', (req, res) => {
     if (req.method === 'POST') {
     collectRequestData(req, result => {
             console.log(result);
-            res.end(`Parsed data belonging to ${result.association}`);
+            //res.end(`Parsed data belonging to ${result.association}`);
+        res.render('output', {title: "BDE | Statuts "+${result.association})
 });
     }
 });
