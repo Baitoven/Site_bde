@@ -37,7 +37,10 @@ app.get('/partenaires', (req, res) => {
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
 });
 app.get('/campagnes', (req, res) => {
-    res.render('campagnes', {title: "BDE| Campagnes"})
+    res.render('campagnes', {title: "BDE | Campagnes"})
+});
+app.get('/output.php', (req, res) => {
+    res.render('output', {title: "BDE | Campagnes"})
 });
 
 app.get('/mde', (req, res) => {
