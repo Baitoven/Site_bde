@@ -39,7 +39,7 @@ app.get('/partenaires', (req, res) => {
 app.get('/campagnes', (req, res) => {
     res.render('campagnes', {title: "BDE | Campagnes"})
 });
-app.get('/output.php', (req, res) => {
+app.get('/output', (req, res) => {
     if (req.method === 'POST') {
     collectRequestData(req, result => {
             console.log(result);
