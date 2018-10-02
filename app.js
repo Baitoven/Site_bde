@@ -3,19 +3,26 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
+var engines = require('consolidate');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var url = require('url');
 var session = require('express-session');
 var MongoClient = require('mongodb').MongoClient;
 var urldb = "mongodb://admin:adminbdeecn@ds115625.mlab.com:15625/heroku_cjzk1rpq";
+var phpExpress = require('php-express')({
 
+  // assumes php is in your PATH
+  binPath: 'php'
+});
 
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
+app.engine('php', phpExpress.engine);
+app.set('view engine', 'php');
 
 // uncomment after placing your favicon in /public
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
