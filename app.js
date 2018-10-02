@@ -36,6 +36,8 @@ app.get('/partenaires', (req, res) => {
     partenaires = JSON.parse(fs.readFileSync('./public/data/partenaires.json', 'utf8'));
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
 });
+app.get('/campagnes', (req, res) => {
+    res.render('campagnes', {title: "BDE| Campagnes"}) 
 
 app.get('/mde', (req, res) => {
     MongoClient.connect(urldb, function(err, db) {
