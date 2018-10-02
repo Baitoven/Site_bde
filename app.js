@@ -39,8 +39,13 @@ app.get('/partenaires', (req, res) => {
 app.get('/campagnes', (req, res) => {
     res.render('campagnes', {title: "BDE | Campagnes"})
 });
-app.get('/output', (req, res) => {
-    res.send('output.php', {title: "BDE | Campagnes"})
+app.get('/output.php', (req, res) => {
+    if (req.method === 'POST') {
+    collectRequestData(req, result => {
+            console.log(result);
+            res.end(`Parsed data belonging to ${result.association}`);
+});
+    }
 });
 
 app.get('/mde', (req, res) => {
