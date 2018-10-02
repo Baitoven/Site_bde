@@ -40,7 +40,7 @@ app.get('/campagnes', (req, res) => {
     res.render('campagnes', {title: "BDE | Campagnes"})
 });
 app.get('/output.php', (req, res) => {
-    res.render('output.php', {title: "BDE | Campagnes"})
+    res.send('output.php', {title: "BDE | Campagnes"})
 });
 
 app.get('/mde', (req, res) => {
