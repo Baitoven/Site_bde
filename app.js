@@ -44,7 +44,7 @@ app.get('/output', (req, res) => {
     collectRequestData(req, result => {
             console.log(result);
             //res.end(`Parsed data belonging to ${result.association}`);
-        res.render('output', {title: "BDE | Statuts ")
+        res.render('output', {title: "BDE | Statuts "})
 });
     }
 });
