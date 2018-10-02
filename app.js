@@ -37,7 +37,8 @@ app.get('/partenaires', (req, res) => {
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
 });
 app.get('/campagnes', (req, res) => {
-    res.render('campagnes', {title: "BDE| Campagnes"}) 
+    res.render('campagnes', {title: "BDE| Campagnes"})
+});
 
 app.get('/mde', (req, res) => {
     MongoClient.connect(urldb, function(err, db) {
@@ -63,7 +64,7 @@ app.get('/adminMDE', (req, res) => {
     });
 });
 app.get('/appartathlon',(req,res)=>{
-    res.render('appartathlon', { title: "BDE | Appartathlon", appartathlon: appartathlon })
+    res.render('appartathlon', { title: "BDE | Appartathlon"})
 });
 
 app.post('/adminMDE', (req, res) => {
