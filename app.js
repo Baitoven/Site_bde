@@ -20,8 +20,8 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
-app.engine('php', phpExpress.engine);
-app.set('view engine', 'php');
+//app.engine('php', phpExpress.engine);
+//app.set('view engine', 'php');
 
 // uncomment after placing your favicon in /public
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
