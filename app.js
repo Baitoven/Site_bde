@@ -3,7 +3,6 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
-var engines = require('consolidate');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var url = require('url');
