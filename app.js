@@ -75,7 +75,7 @@ app.get('/adminMDE', (req, res) => {
 });
 app.get('/appartathlon',(req,res)=>{
     appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
-    res.render('appartathlon', { title: "BDE | Appartathlon"},appart:appart)
+    res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart})
 });
 
 app.post('/adminMDE', (req, res) => {
