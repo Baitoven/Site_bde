@@ -80,7 +80,8 @@ app.get('/adminMDE', (req, res) => {
     });
 });
 app.get('/appartathlon',(req,res)=>{
-    res.render('appartathlon', { title: "BDE | Appartathlon"})
+    apparts = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
+    res.render('appartathlon', { title: "BDE | Appartathlon"},{appart:apparts})
 });
 
 app.post('/adminMDE', (req, res) => {
