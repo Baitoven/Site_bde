@@ -3,7 +3,7 @@ window.onload = function()
 {
 
     var selecteur = document.getElementById("select");
-	var data = {{apparts}}
+	var data = {{appart}}
 	var st1 = L.icon({
     iconUrl: 'images/Statut1.png',
     iconSize:     [38, 42], // size of the icon
