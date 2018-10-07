@@ -3,7 +3,7 @@ window.onload = function()
 {
 
     var selecteur = document.getElementById("select");
-	var data = JSON.parse('[{"Colloc": "Le terminal","Habitants": "Robin Sylvain Vincent","Statut": 1,"Horaires": "20h-2h","MDP": "test","Adresse": "9 rue de la bleterie","Interphone": "C2","Divers": "Respect des voisins svp","N":47.214834,"E":-1.554844}]')
+	var data = {{apparts}}
 	var st1 = L.icon({
     iconUrl: 'images/Statut1.png',
     iconSize:     [38, 42], // size of the icon
