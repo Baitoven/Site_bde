@@ -5,25 +5,25 @@ window.onload = function()
     var selecteur = document.getElementById("select");
 	var data = JSON.parse('[{"Colloc": "Le terminal","Habitants": "Robin Sylvain Vincent","Statut": 1,"Horaires": "20h-2h","MDP": "test","Adresse": "9 rue de la bleterie","Interphone": "C2","Divers": "Respect des voisins svp","N":47.214834,"E":-1.554844}]')
 	var st1 = L.icon({
-    iconUrl: 'Statut1.png',
+    iconUrl: 'images/Statut1.png',
     iconSize:     [38, 42], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 var st2 = L.icon({
-    iconUrl: 'Statut2.png',
+    iconUrl: 'images/Statut2.png',
     iconSize:     [38, 42], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 var st3 = L.icon({
-    iconUrl: 'Statut3.png',
+    iconUrl: 'images/Statut3.png',
     iconSize:     [38, 42], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 var kro = L.icon({
-    iconUrl: 'kro.png',
+    iconUrl: 'images/kro.png',
     iconSize:     [50, 54], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
