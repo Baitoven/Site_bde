@@ -10,11 +10,12 @@
    crossorigin=""></script>
 	</header>
 	<body>
-		<p id ="affichage"></p>
 		<form>
+			<p id='affichage'></p>
 			<select name='colloc' id ='select'>
 			</select>
-			<input id='submit' type='button' value='Afficher'>
+			<input id='submit' type='button' value='afficher'>
+			
 		</form>
 		<div id="mapid" style="height: 70%;"></div>
 	</body>
@@ -85,17 +86,24 @@ bt_afficher.addEventListener("click",function(){
 	var coloc_sel = selection.value;
 	for (i=0;i<data.length;i++){
 		if (data[i]["Colloc"]==coloc_sel){
-			if (data[i]["Staut"]==1){
+			if (data[i]["Statut"]==1){
 				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ouvert"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+				mymap.setView([data[i]["N"],data[i]["E"]],17);
 			}
-			if (data[i]["Staut"]==2){
+			if (data[i]["Statut"]==2){
 				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement beaucoup de monde"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+				mymap.setView([data[i]["N"],data[i]["E"]],17);
 			}
-			if (data[i]["Staut"]==3){
+			if (data[i]["Statut"]==3){
 				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ferme"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+				mymap.setView([data[i]["N"],data[i]["E"]],17);
 			}
-			if (data[i]["Staut"]==4){
-				main.innerHTML=data[i]["Colloc"]+"</br>Definitivement ferme"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+			if (data[i]["Statut"]==4){
+				main.innerHTML=data[i]["Colloc"]+"</br>Stacks en cours. Bieres bienvenues."+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+				mymap.setView([data[i]["N"],data[i]["E"]],17);
+			}
+			if (data[i]["Statut"]==5){
+				main.innerHTML=data[i]["Colloc"]+"</br>Fin de soiree.</br> Pensez a remercier vos hotes."+"</br>Hotes :"+data[i]["Habitants"];
 			}
 		}
 		
