@@ -20,6 +20,7 @@
 		<div id="mapid" style="height: 450px;"></div>
 	</body>
 	<script>
+	var markers = [];
 	var main = document.getElementById("affichage");
     	var selecteur = document.getElementById("select");
 	var data_text = {{{appart}}};
@@ -66,18 +67,22 @@ for (i=0;i<data.length;i++){
 	if (data[i]["Statut"]==1){
 		var marker = L.marker([data[i]["N"], data[i]["E"]],{icon: st1}).addTo(mymap);
 		marker.bindPopup(data[i]["Colloc"]+"</br>Actuellement ouvert"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"]);
+		markers.push([marker,data[i]["Colloc"]]);
 	}
 	if (data[i]["Statut"]==2){
 		var marker = L.marker([data[i]["N"], data[i]["E"]],{icon: st2}).addTo(mymap);
 		marker.bindPopup(data[i]["Colloc"]+"</br>Beaucoup de monde actuellement"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"]);
+		markers.push([marker,data[i]["Colloc"]]);
 	}
 	if (data[i]["Statut"]==3){
 		var marker = L.marker([data[i]["N"], data[i]["E"]],{icon: st3}).addTo(mymap);
 		marker.bindPopup(data[i]["Colloc"]+"</br>Actuellement fermé"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"]);
+		markers.push([marker,data[i]["Colloc"]]);
 	}
 	if (data[i]["Statut"]==4){
 		var marker = L.marker([data[i]["N"], data[i]["E"]],{icon: kro}).addTo(mymap);
 		marker.bindPopup(data[i]["Colloc"]+"</br>Actuellement en train de stackser.</br>Bières bienvenues."+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"]);
+		markers.push([marker,data[i]["Colloc"]]);
 	}
 }
 var bt_afficher = document.getElementById("submit");
@@ -86,21 +91,31 @@ bt_afficher.addEventListener("click",function(){
 	var coloc_sel = selection.value;
 	for (i=0;i<data.length;i++){
 		if (data[i]["Colloc"]==coloc_sel){
+			for (j=0;j<markers.length;j++){
+				if (markers[j][1]==coloc_sel){
+					var marker = markers[j][0];
+				}
+				
+			}
 			if (data[i]["Statut"]==1){
 				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ouvert"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
 				mymap.setView([data[i]["N"],data[i]["E"]],17);
+				marker.openPopup();
 			}
 			if (data[i]["Statut"]==2){
 				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement beaucoup de monde"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
 				mymap.setView([data[i]["N"],data[i]["E"]],17);
+				marker.openPopup();
 			}
 			if (data[i]["Statut"]==3){
 				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ferme"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
 				mymap.setView([data[i]["N"],data[i]["E"]],17);
+				marker.openPopup();
 			}
 			if (data[i]["Statut"]==4){
 				main.innerHTML=data[i]["Colloc"]+"</br>Stacks en cours. Bieres bienvenues."+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
 				mymap.setView([data[i]["N"],data[i]["E"]],17);
+				marker.openPopup();
 			}
 			if (data[i]["Statut"]==5){
 				main.innerHTML=data[i]["Colloc"]+"</br>Fin de soiree.</br> Pensez a remercier vos hotes."+"</br>Hotes :"+data[i]["Habitants"];
