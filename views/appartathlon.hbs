@@ -15,7 +15,7 @@
 		<form>
 			<select name='colloc' id ='select'>
 			</select>
-			<input id='submit' type='submit' value='Afficher'>
+			<input id='submit' type='button' value='Afficher'>
 		</form>
 		<div id="mapid" style="height: 70%;width:90%;"></div>
 	</body>
@@ -80,8 +80,8 @@ for (i=0;i<data.length;i++){
 		marker.bindPopup(data[i]["Colloc"]+"</br>Actuellement en train de stackser.</br>Bières bienvenues."+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"]);
 	}
 }
-var bt_afficher = document.getElementById("formu");
-bt_afficher.addEventListener("submit",function(){
+var bt_afficher = document.getElementById("submit");
+bt_afficher.addEventListener("click",function(){
 	var selection = document.getElementById("select");
 	var coloc_sel = selection.value;
 	for (i=0;i<data.length;i++){
