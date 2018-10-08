@@ -201,12 +201,12 @@ app.post('/updateAppart', (req, res) => {
             req.session.isloggedin = true;
             req.session.login = login[i]["Colloc"];
             appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
-        for (i=0;i<appart.length;i++){
-            if (req.session.login == appart[i]["Colloc"]){
-                transfert = appart[i];   
-                infos = JSON.stringify(transfert);
+            for (j=0;j<appart.length;j++){
+                if (req.session.login == appart[i]["Colloc"]){
+                    transfert = appart[i];   
+                    infos = JSON.stringify(transfert);
+                }
             }
-        }
             res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",colloc :req.session.login,infos:infos});
             success = true;
            }
