@@ -11,19 +11,17 @@
    crossorigin=""></script>
 	</header>
 	<body>
-		<p id ="main"></p>
+		<p id ="affichage"></p>
 		<form>
 			<select name='colloc' id ='select'>
 			</select>
-			<input name='mdp' type ='password' id ='mdp'>
 			<input id='submit' type='submit'>
-			<div id="mapid" style="height: 300px;"></div>
+		</form>
+		<div id="mapid" style="height: 300px;"></div>
 	</body>
 	<script>
-window.onload = function()
-{
-
-    var selecteur = document.getElementById("select");
+	var main = document.getElementById("affichage");
+    	var selecteur = document.getElementById("select");
 	var data_text = {{{appart}}};
 	var data = JSON.parse(data_text);
 	var st1 = L.icon({
@@ -82,7 +80,16 @@ for (i=0;i<data.length;i++){
 		marker.bindPopup(data[i]["Colloc"]+"</br>Actuellement en train de stackser.</br>Bières bienvenues."+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"]);
 	}
 }
-
-}
+var bt_afficher = document.getElementById("formu");
+bt_afficher.addEventListener("submit",function(){
+	var selection = document.getElementById("select");
+	var coloc_sel = selection.value;
+	for (i=0;i<data.length;i++){
+		if (data[i]["Colloc"]==coloc_sel){
+			main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ouvert"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+		}
+		
+	}
+});
 </script>
 </html>
