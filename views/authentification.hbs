@@ -11,9 +11,22 @@
 <form id="formLogin" class="oxy col-6 col-sm-3 text-center container-fluid" action="/updateAppart" method="post">
     <h3 class="viga" style="margin-bottom: 1em">Authentification colloc</h3>
     <div class="form-group">
+      <select name ='inputLogin" id="select">
+      </select>
       <label for="inputPassword">Password</label>
       <input class="form-control form-control-sm" name="inputLogin" type="text" value="">
       <input class="form-control form-control-sm" name="inputPassword" type="password" value="">
     </div>
     <input name="inputLogin" class="btn btn-dark" type="submit" value="Log in">
 </form>
+<script>
+    var selecteur = document.getElementById("select");
+	var data_text = {{{appart}}};
+	var data = JSON.parse(data_text);
+    for (i=0;i<data.length;i++){
+		var node = document.createElement("option");
+		var texte = document.createTextNode(data[i]["Colloc"]);
+		node.appendChild(texte);
+		selecteur.appendChild(node);
+	}
+</script>
