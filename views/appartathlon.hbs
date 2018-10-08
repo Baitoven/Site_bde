@@ -17,7 +17,7 @@
 			</select>
 			<input id='submit' type='button' value='Afficher'>
 		</form>
-		<div id="mapid" style="height: 70%;width:90%;"></div>
+		<div id="mapid" style="height: 70%;"></div>
 	</body>
 	<script>
 	var main = document.getElementById("affichage");
@@ -86,7 +86,18 @@ bt_afficher.addEventListener("click",function(){
 	var coloc_sel = selection.value;
 	for (i=0;i<data.length;i++){
 		if (data[i]["Colloc"]==coloc_sel){
-			main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ouvert"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+			if (data[i]["Staut"]==1){
+				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ouvert"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+			}
+			if (data[i]["Staut"]==2){
+				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement beaucoup de monde"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+			}
+			if (data[i]["Staut"]==3){
+				main.innerHTML=data[i]["Colloc"]+"</br>Actuellement ferme"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+			}
+			if (data[i]["Staut"]==4){
+				main.innerHTML=data[i]["Colloc"]+"</br>Definitivement ferme"+"</br>Hotes :"+data[i]["Habitants"]+"</br>Adresse :"+data[i]["Adresse"]+"</br>"+data[i]["Divers"];
+			}
 		}
 		
 	}
