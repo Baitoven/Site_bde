@@ -186,14 +186,16 @@ app.get('/updateAppart', (req, res) => {
 });
 app.post('/updateAppart', (req, res) => {
     login = JSON.parse(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
+    success = false;
     for (i=0;i<login.length;i++){
         if (req.body.inputLogin == login[i]["Colloc"] && req.body.inputPassword == login[i]["mdp"]) {
             req.session.isloggedin = true;
             req.session.login = login[i]["Colloc"];
             res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",colloc :req.session.login});
+            success = true;
+            
     }
-    }
-    else {
+    if(!success){
         res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !" })
     }
 });
