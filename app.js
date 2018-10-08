@@ -196,7 +196,7 @@ app.post('/updateAppart', (req, res) => {
            }
     }
     if(!success){
-        res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !" })
+        res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !"+ JSON.stringify(login) })
     }
 });
 
