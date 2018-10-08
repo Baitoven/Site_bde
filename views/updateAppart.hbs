@@ -8,4 +8,12 @@
 {{/if}}
 <div>
     <p>Connecté en tant que {{Colloc}}</p>
+    <form>
+        <input id='horaires' type ='text' name ="horaires">
+    </form>
 </div>
+<script>
+infos = JSON.parse({{infos}});
+horaires = document.getElementsById('horaires');
+horaires.value = infos["Statut"];
+</script>
