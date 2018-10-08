@@ -181,7 +181,8 @@ app.get('/updateAppart', (req, res) => {
         res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",colloc: req.session.login})
     }
     else {
-        res.render('authentification', { title: "BDE | Authentification Appartathlon" })
+        appart = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
+        res.render('authentification', { title: "BDE | Authentification Appartathlon",appart:appart })
     }
 });
 app.post('/updateAppart', (req, res) => {
@@ -196,7 +197,8 @@ app.post('/updateAppart', (req, res) => {
            }
     }
     if(!success){
-        res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !"+ JSON.stringify(login) })
+        appart = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
+        res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !",appart:appart })
     }
 });
 
