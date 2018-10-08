@@ -178,7 +178,15 @@ app.get('/admin', (req, res) => {
 });
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
-        res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",colloc: req.session.login})
+        appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
+        for (i=0;i<appart.length;i++){
+            if (req.session.login == appart[i]["Colloc"]){
+                transfert = appart[i];   
+                infos = JSON.stringify(transfert);                          
+            }
+                                               
+        }
+        res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",colloc: req.session.login,infos:infos})
     }
     else {
         appart = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
@@ -192,7 +200,13 @@ app.post('/updateAppart', (req, res) => {
         if (req.body.inputLogin == login[i]["Colloc"] && req.body.inputPassword == login[i]["mdp"]) {
             req.session.isloggedin = true;
             req.session.login = login[i]["Colloc"];
-            res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",colloc :req.session.login});
+            appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
+        for (i=0;i<appart.length;i++){
+            if (req.session.login == appart[i]["Colloc"]){
+                transfert = appart[i];   
+                infos = JSON.stringify(transfert);
+            }
+            res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",colloc :req.session.login,infos:infos});
             success = true;
            }
     }
