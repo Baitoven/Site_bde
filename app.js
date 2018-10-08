@@ -202,8 +202,8 @@ app.post('/updateAppart', (req, res) => {
             req.session.login = login[i]["Colloc"];
             appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
             for (j=0;j<appart.length;j++){
-                if (req.session.login == appart[i]["Colloc"]){
-                    transfert = appart[i];   
+                if (req.session.login == appart[j]["Colloc"]){
+                    transfert = appart[j];   
                     infos = JSON.stringify(transfert);
                 }
             }
