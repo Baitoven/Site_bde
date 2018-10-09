@@ -181,7 +181,7 @@ app.get('/updateAppart', (req, res) => {
         appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
         apparts = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
         for (i=0;i<appart.length;i++){
-            cosole.log(appart[i]["Colloc"];
+            cosole.log(appart[i]["Colloc"]);
             if (req.session.colloc == appart[i]["Colloc"]){
                 console.log("Hello");
                 transfert = appart[i];   
