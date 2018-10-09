@@ -207,7 +207,7 @@ app.post('/updateAppart', (req, res) => {
                     infos = JSON.stringify(transfert);
                 }
             }
-            res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",colloc :req.session.login,infos:infos});
+            res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",colloc :req.session.login});
             success = true;
            }
     }
