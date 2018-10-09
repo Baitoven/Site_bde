@@ -176,6 +176,21 @@ app.get('/admin', (req, res) => {
         res.render('login', { title: "BDE | Admin" })
     }
 });
+app.get('/updateAppartMo', (req,res) =>{
+    var statut = req.body.statut;
+    var colloc = req.body.colloc;
+    appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
+    for (i=0;i<appart.length;i++){
+        if (colloc == appart[i]["Colloc"]){
+            appart[i]["Statut"] = statut;
+            fs.writeFile("./public/data/appart.json", appart);
+        }
+    }
+    appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
+    res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart});
+    
+}
+        );
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
         appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
