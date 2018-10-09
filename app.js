@@ -190,7 +190,7 @@ app.get('/updateAppart', (req, res) => {
         res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",Colloc: req.session.colloc})
     }
     else {
-        appart = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
+        apparts = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
         res.render('authentification', { title: "BDE | Authentification Appartathlon",appart:apparts })
     }
 });
