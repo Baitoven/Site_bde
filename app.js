@@ -179,13 +179,16 @@ app.get('/admin', (req, res) => {
 app.get('/updateAppartMo', (req,res) =>{
     var statut = req.body.statut;
     var colloc = req.body.colloc;
+    console.log("Av parse");
     appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
     for (i=0;i<appart.length;i++){
         if (colloc == appart[i]["Colloc"]){
             appart[i]["Statut"] = statut;
+            console.log("Av FS");
             fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
     }
+    
         
     appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
     res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart});   
