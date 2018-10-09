@@ -14,7 +14,7 @@
 </div>
 <script>
 var data = {{{infos}}};
-infos = JSON.parse();
+var infos = JSON.parse(data);
 horaires = document.getElementsById('horaires');
 horaires.value = infos["Statut"];
 </script>
