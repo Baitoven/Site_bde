@@ -187,7 +187,7 @@ app.get('/updateAppart', (req, res) => {
             }
                                                
         }
-        res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",Colloc: req.session.colloc})
+        res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",Colloc: req.session.colloc,infos:infos})
     }
     else {
         apparts = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
@@ -209,7 +209,7 @@ app.post('/updateAppart', (req, res) => {
                     infos = JSON.stringify(transfert);
                 }
             }
-            res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",Colloc : req.session.colloc});
+            res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",Colloc : req.session.colloc,infos:infos});
             success = true;
            }
     }
