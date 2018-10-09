@@ -179,13 +179,9 @@ app.get('/admin', (req, res) => {
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
         appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
-        apparts = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
         for (i=0;i<appart.length;i++){
-            cosole.log(appart[i]["Colloc"]);
-            if (req.session.colloc == appart[i]["Colloc"]){
-                console.log("Hello");
-                transfert = appart[i];   
-                infos = JSON.stringify(transfert);                          
+            if (req.session.colloc == appart[i]["Colloc"]){ 
+                infos = JSON.stringify(appart[i]);                          
             }
                                                
         }
@@ -198,7 +194,6 @@ app.get('/updateAppart', (req, res) => {
 });
 app.post('/updateAppart', (req, res) => {
     login = JSON.parse(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
-    apparts = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
     success = false;
     for (i=0;i<login.length;i++){
         if (req.body.inputLogin == login[i]["Colloc"] && req.body.inputPassword == login[i]["mdp"]) {
@@ -206,11 +201,8 @@ app.post('/updateAppart', (req, res) => {
             req.session.colloc = login[i]["Colloc"];
             appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
             for (j=0;j<appart.length;j++){
-                console.log(req.session.colloc);
                 if (req.session.colloc == appart[j]["Colloc"]){
-                    console.log("Hello post");
-                    transfert = appart[j];   
-                    infos = JSON.stringify(transfert);
+                    infos = JSON.stringify(appart[j]);
                 }
             }
             res.render('updateAppart', { title: "BDE | Mise à, jour de l'appart", message: "Authentification effectuée avec succès!",Colloc : req.session.colloc,infos:infos});
@@ -218,6 +210,7 @@ app.post('/updateAppart', (req, res) => {
            }
     }
     if(!success){
+        apparts = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
         res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !",appart:apparts })
     }
 });
