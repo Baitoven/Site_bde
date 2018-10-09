@@ -178,7 +178,8 @@ app.get('/admin', (req, res) => {
 });
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
-        appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
+        appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
+        apparts = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
         for (i=0;i<appart.length;i++){
             if (req.session.colloc == appart[i]["Colloc"]){
                 transfert = appart[i];   
@@ -190,17 +191,18 @@ app.get('/updateAppart', (req, res) => {
     }
     else {
         appart = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
-        res.render('authentification', { title: "BDE | Authentification Appartathlon",appart:appart })
+        res.render('authentification', { title: "BDE | Authentification Appartathlon",appart:apparts })
     }
 });
 app.post('/updateAppart', (req, res) => {
     login = JSON.parse(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
+    apparts = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
     success = false;
     for (i=0;i<login.length;i++){
         if (req.body.inputLogin == login[i]["Colloc"] && req.body.inputPassword == login[i]["mdp"]) {
             req.session.isloggedin = true;
             req.session.colloc = login[i]["Colloc"];
-            appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
+            appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
             for (j=0;j<appart.length;j++){
                 if (req.session.login == appart[j]["Colloc"]){
                     transfert = appart[j];   
@@ -212,8 +214,7 @@ app.post('/updateAppart', (req, res) => {
            }
     }
     if(!success){
-        appart = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
-        res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !",appart:appart })
+        res.render('authentification', { title: "BDE | Authentification", message: "Mot de passe incorret !",appart:apparts })
     }
 });
 
