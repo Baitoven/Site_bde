@@ -183,14 +183,13 @@ app.get('/updateAppartMo', (req,res) =>{
     for (i=0;i<appart.length;i++){
         if (colloc == appart[i]["Colloc"]){
             appart[i]["Statut"] = statut;
-            fs.writeFile("./public/data/appart.json", appart);
-        }
+            fs.writeFile("./public/data/appart.json", appart,function (err) {
+            if (err) return console.log(err);
+                    }
     }
     appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
-    res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart});
-    
-}
-        );
+    res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart});   
+});
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
         appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
