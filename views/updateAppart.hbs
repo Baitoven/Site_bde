@@ -9,6 +9,11 @@
 <div>
     <p>Connecté en tant que {{Colloc}}</p>
     <form>
+        <input id='statut1' type ='radio' name='statut'>
+        <input id='statut2' type ='radio' name='statut'>
+        <input id='statut3' type ='radio' name='statut'>
+        <input id='statut4' type ='radio' name='statut'>
+        <input id='statut5' type ='radio' name='statut'>
         <input id='horaires' type ='text' name ="horaires">
     </form>
 </div>
@@ -17,4 +22,20 @@ var data = '{{{infos}}}';
 var infos = JSON.parse(data);
 horaires = document.getElementById('horaires');
 horaires.value = infos["Statut"];
+var statut = infos["Statut"];
+if (statut ==1){
+document.getElementById('statut1').checked = true;
+}
+if (statut ==2){
+document.getElementById('statut2').checked = true;
+}
+if (statut ==3){
+document.getElementById('statut3').checked = true;
+}
+if (statut ==4){
+document.getElementById('statut4').checked = true;
+}
+if (statut ==5){
+document.getElementById('statut5').checked = true;
+}
 </script>
