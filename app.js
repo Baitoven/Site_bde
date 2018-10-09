@@ -183,11 +183,10 @@ app.get('/updateAppartMo', (req,res) =>{
     for (i=0;i<appart.length;i++){
         if (colloc == appart[i]["Colloc"]){
             appart[i]["Statut"] = statut;
-            fs.writeFile("./public/data/appart.json", appart,function (err) {
-            if (err) return console.log(err);
-                    });
+            fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
     }
+        
     appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
     res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart});   
 });
