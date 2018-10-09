@@ -186,6 +186,7 @@ app.get('/updateAppartMo', (req,res) =>{
             fs.writeFile("./public/data/appart.json", appart,function (err) {
             if (err) return console.log(err);
                     });
+        }
     }
     appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
     res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart});   
