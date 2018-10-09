@@ -186,7 +186,7 @@ app.get('/updateAppart', (req, res) => {
             }
                                                
         }
-        res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",colloc: req.session.login,infos:infos})
+        res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",colloc: req.session.login})
     }
     else {
         appart = JSON.stringify(fs.readFileSync('./public/data/loginAppart.json', 'utf8'));
