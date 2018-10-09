@@ -13,7 +13,8 @@
     </form>
 </div>
 <script>
-infos = JSON.parse('{{{infos}}}');
+var data = {{{infos}}};
+infos = JSON.parse();
 horaires = document.getElementsById('horaires');
 horaires.value = infos["Statut"];
 </script>
