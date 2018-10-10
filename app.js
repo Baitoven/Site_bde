@@ -8,6 +8,7 @@ var fs = require('fs');
 var url = require('url');
 var session = require('express-session');
 var MongoClient = require('mongodb').MongoClient;
+var querystring = require('querystring');  
 var urldb = "mongodb://admin:adminbdeecn@ds115625.mlab.com:15625/heroku_cjzk1rpq";
 
 var app = express();
@@ -62,7 +63,13 @@ app.get('/adminMDE', (req, res) => {
 });
 app.get('/appartathlon',(req,res)=>{
     appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
+    var succes = req.query.succes;
+    if (succes){
+        res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart,message:"Modifications enregistrées"})
+    }
+    else{
     res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart})
+    }
 });
 
 app.post('/adminMDE', (req, res) => {
@@ -178,7 +185,7 @@ app.post('/updateAppartMo', (req, res) => {
             fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
     }
-   res.redirect('/appartathlon');
+   res.redirect('/appartathlon?succes=true');
 });
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
