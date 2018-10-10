@@ -7,7 +7,8 @@
     </div>
 {{/if}}
 <div>
-    <p>Connecté en tant que {{Colloc}}</p>
+    <h3>Connecté en tant que {{Colloc}}</h3>
+    <p id='resume'></p>
     <form class="oxy col-6 col-sm-3 text-center container-fluid" action="/updateAppartMo" method="post">
         <h3>Statut de la colloc</h3>
         <p>Ouverte</p><input id='statut1' type ='radio' name='statut' value='1'></br>
@@ -15,6 +16,7 @@
         <p>Fermée</p><input id='statut3' type ='radio' name='statut' value='3'></br>
         <p>Stacks en cours. Need beer</p><input id='statut4' type ='radio' name='statut' value='4'></br>
         <p>Fermer définitivement (disparaitre de la carte)</p><input id='statut5' type ='radio' name='statut' value='5'></br>
+        <h3>Horaires</h3>
         <input id='horaires' type ='text' name ="horaires"></br>
         <input name="colloc" type="hidden" value="{{Colloc}}">
         <input name="submit" type="submit">
@@ -24,7 +26,9 @@
 var data = '{{{infos}}}';
 var infos = JSON.parse(data);
 horaires = document.getElementById('horaires');
-horaires.value = infos["Statut"];
+resume = document.getElementById('resume');
+resume.innerHTML = infos[i]["Colloc"]+"</br>Hotes :"+infos[i]["Habitants"]+"</br>Adresse :"+infos[i]["Adresse"]+"</br>"+infos[i]["Divers"]
+horaires.value = infos["Horaires"];
 var statut = infos["Statut"];
 if (statut ==1){
 document.getElementById('statut1').checked = true;
