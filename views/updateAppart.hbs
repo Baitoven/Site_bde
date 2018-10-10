@@ -27,7 +27,7 @@ var data = '{{{infos}}}';
 var infos = JSON.parse(data);
 horaires = document.getElementById('horaires');
 resume = document.getElementById('resume');
-resume.innerHTML = infos[i]["Colloc"]+"</br>Hotes :"+infos[i]["Habitants"]+"</br>Adresse :"+infos[i]["Adresse"]+"</br>"+infos[i]["Divers"]
+resume.innerHTML = infos["Colloc"]+"</br>Hotes :"+infos["Habitants"]+"</br>Adresse :"+infos["Adresse"]+"</br>"+infos["Divers"]
 horaires.value = infos["Horaires"];
 var statut = infos["Statut"];
 if (statut ==1){
