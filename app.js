@@ -169,11 +169,12 @@ app.get('/admin', (req, res) => {
 app.post('/updateAppartMo', (req, res) => {
     statut = req.body.statut;
     colloc = req.body.colloc;
+    horaires = req.body.horaires;
     appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
     for (i=0;i<appart.length;i++){
         if (colloc == appart[i]["Colloc"]){
             appart[i]["Statut"] = statut;
-            console.log("Av FS");
+            appart[i]["Horaires"] = horaires;
             fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
     }
