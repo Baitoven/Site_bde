@@ -36,19 +36,7 @@ app.get('/partenaires', (req, res) => {
     partenaires = JSON.parse(fs.readFileSync('./public/data/partenaires.json', 'utf8'));
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
 });
-app.get('/campagnes', (req, res) => {
-    res.render('campagnes', {title: "BDE | Campagnes"})
-});
-app.get('/output', (req, res) => {
-    if (req.method === 'POST') {
-    collectRequestData(req, result => {
-            console.log(result);
-            //res.end(`Parsed data belonging to ${result.association}`);
-        
-});
-    }
-    res.render('output', {title: "BDE | Statuts "})
-});
+
 
 app.get('/mde', (req, res) => {
     MongoClient.connect(urldb, function(err, db) {
@@ -176,7 +164,7 @@ app.get('/admin', (req, res) => {
         res.render('login', { title: "BDE | Admin" })
     }
 });
-app.get('/updateAppartMo', (req, res) => {
+/*app.get('/updateAppartMo', (req, res) => {
     //statut = req.body.statut;
     //colloc = req.body.colloc;
     /*console.log("Av parse");
@@ -187,11 +175,11 @@ app.get('/updateAppartMo', (req, res) => {
             console.log("Av FS");
             fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
-    }*/
+    }
    appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
     res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart})
     //res.redirect('/appartathlon');
-});
+});*/
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
         appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
