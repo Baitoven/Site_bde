@@ -10,6 +10,14 @@
    crossorigin=""></script>
 	</header>
 	<body>
+	{{#if message}}
+    <div  id="alertScore" class="alert alert-success alert-dismissible fade show" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      {{message}}
+    </div>
+{{/if}}
 		<form action="https://bdeecn.herokuapp.com/updateAppart" style='right: 50px';>
     			<input type="submit" value="Modifier ma colloc" />
 		</form>
