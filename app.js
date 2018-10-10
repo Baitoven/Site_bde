@@ -28,8 +28,7 @@ app.use(session({ secret: '781227' }))
 
 
 app.get('/', (req, res) => {
-    familles = JSON.parse(fs.readFileSync('./public/data/familles.json', 'utf8'));
-    res.render('index', { title: "BDE | Accueil", familles: familles})
+    res.render('index', { title: "BDE | Accueil"})
 });
 
 app.get('/partenaires', (req, res) => {
@@ -163,6 +162,9 @@ app.get('/admin', (req, res) => {
     else {
         res.render('login', { title: "BDE | Admin" })
     }
+});
+app.get('/updateAppartMo', (req, res) => {
+    res.render('index', { title: "BDE | Accueil"})
 });
 /*app.get('/updateAppartMo', (req, res) => {
     //statut = req.body.statut;
