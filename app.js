@@ -177,7 +177,6 @@ app.get('/admin', (req, res) => {
     }
 });
 app.get('/updateAppartMo', (req, res) => {
-    res.render('appartathlon', {title:"BDE | Appartathlon})
     statut = req.body.statut;
     colloc = req.body.colloc;
     /*console.log("Av parse");
