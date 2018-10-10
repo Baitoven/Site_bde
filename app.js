@@ -176,10 +176,10 @@ app.get('/admin', (req, res) => {
         res.render('login', { title: "BDE | Admin" })
     }
 });
-app.get('/updateAppartMo', (req,res) =>{
+app.get('/updateAppartMo', (req, res) => {
     var statut = req.body.statut;
     var colloc = req.body.colloc;
-    console.log("Av parse");
+    /*console.log("Av parse");
     appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
     for (i=0;i<appart.length;i++){
         if (colloc == appart[i]["Colloc"]){
@@ -187,10 +187,7 @@ app.get('/updateAppartMo', (req,res) =>{
             console.log("Av FS");
             fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
-    }
-    
-        
-    appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
+    }*/
     res.redirect('/appartathlon');
 });
 app.get('/updateAppart', (req, res) => {
