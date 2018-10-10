@@ -7,7 +7,8 @@
     "N": 47.215766,
     "E": -1.551578,
     "Interphone": "Interphone 13\n 1er etage",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Le Gobi",
@@ -17,7 +18,8 @@
     "N": 47.22881,
     "E": -1.569187,
     "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "KT",
@@ -27,7 +29,8 @@
     "N": 47.21616,
     "E": -1.555044,
     "Interphone": "interphone du bas",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Space Mountain",
@@ -37,7 +40,8 @@
     "N": 47.220114,
     "E": -1.561206,
     "Interphone": "interphone 3 1er etage",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Uranus",
@@ -47,7 +51,8 @@
     "N": 47.23752,
     "E": -1.601368,
     "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Bento",
@@ -57,7 +62,8 @@
     "N": 47.218767,
     "E": -1.55656,
     "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Les Trois Fromages",
@@ -67,7 +73,8 @@
     "N": 47.227088,
     "E": -1.567257,
     "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Roulotte",
@@ -77,7 +84,8 @@
     "N": 47.216233,
     "E": -1.558972,
     "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Kame House",
@@ -87,7 +95,8 @@
     "N": 47.215074,
     "E": -1.557231,
     "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Le Concorde",
@@ -97,7 +106,8 @@
     "N": 47.215218,
     "E": -1.556603,
     "Interphone": "interphone 19 5eme etage",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Port Picon",
@@ -107,7 +117,8 @@
     "N": 47.220555,
     "E": -1.558102,
     "Interphone": "RDC",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Krolocs",
@@ -117,7 +128,8 @@
     "N": 47.217663,
     "E": -1.547675,
     "Interphone": "interphone 5",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "La Trachee",
@@ -127,17 +139,8 @@
     "N": 47.216578,
     "E": -1.552493,
     "Interphone": "1er etage",
-    "Statut": 1
-  },
-  {
-    "Colloc": "La Taga",
-    "Habitants": "",
-    "Adresse": "7 quater rue Pare",
-    "Divers": "Pastaga ou sangria passe a la taga tu nous y verras si avant minuit tu passeras",
-    "N": 47.216379,
-    "E": -1.559466,
-    "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Le Donjon",
@@ -147,7 +150,8 @@
     "N": 47.210839,
     "E": -1.565819,
     "Interphone": "Interphone 2 5eme etage",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Le Royaume",
@@ -157,7 +161,8 @@
     "N": 47.220008,
     "E": -1.559514,
     "Interphone": "2eme etage",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "La MAP",
@@ -167,7 +172,8 @@
     "N": 47.213773,
     "E": -1.556682,
     "Interphone": "4eme Etage a gauche interphone 3428A",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Chez Elmer",
@@ -177,7 +183,8 @@
     "N": 47.214962,
     "E": -1.560115,
     "Interphone": "interphone en haut a droite",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Duplex",
@@ -187,7 +194,8 @@
     "N": 47.213741,
     "E": -1.5543,
     "Interphone": "interphone 5&6  etage 2&3",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Harem",
@@ -197,7 +205,8 @@
     "N": 47.217415,
     "E": -1.556174,
     "Interphone": "3eme etage interphone 8",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Les Extremes",
@@ -207,7 +216,8 @@
     "N": 47.213043,
     "E": -1.554786,
     "Interphone": "1er etage",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Le Terminal",
@@ -217,7 +227,8 @@
     "N": 47.214834,
     "E": -1.554844,
     "Interphone": "Interphone C2",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "22h-2h"
   },
   {
     "Colloc": "Le Comptoir",
@@ -227,7 +238,8 @@
     "N": 47.213773,
     "E": -1.556682,
     "Interphone": "",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "La Niche",
@@ -237,7 +249,8 @@
     "N": 47.212389,
     "E": -1.556398,
     "Interphone": "3e etage porte de gauche Interphone 4",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "La Glotte",
@@ -247,7 +260,8 @@
     "N": 47.217151,
     "E": -1.553138,
     "Interphone": "2956 interphone glotte",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": 112,
@@ -257,7 +271,8 @@
     "N": 47.213613,
     "E": -1.563685,
     "Interphone": "2 etage interphone 13",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Corridor",
@@ -267,7 +282,8 @@
     "N": 47.212458,
     "E": -1.552486,
     "Interphone": "Interphone 8",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "La Grange Qui Roule",
@@ -277,7 +293,8 @@
     "N": 47.212389,
     "E": -1.556398,
     "Interphone": "Interphone 5 3eme etage porte droite",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "3M",
@@ -287,7 +304,8 @@
     "N": 47.219322,
     "E": -1.554788,
     "Interphone": "Interphone 30 Escalier Gauche Deuxieme Etage Porte a Tribord",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h30"
   },
   {
     "Colloc": "Saloon",
@@ -297,6 +315,18 @@
     "N": 47.219322,
     "E": -1.554788,
     "Interphone": "gauche 2 droite tout droit gauche",
-    "Statut": 1
+    "Statut": 3,
+    "Horaires": "21h-0h31"
+  },
+  {
+    "Colloc": "Le Manoir",
+    "Habitants": "Lea Roussel et PA Castellani",
+    "Adresse": "19 rue du Roi Albert, 44000 Nantes",
+    "Divers": "Yo les srabs ! Ramenez vos culs et votre tise pour decouvrir la plus grande coloc nantaise !",
+    "N": 47.21983,
+    "E": -1.552467,
+    "Interphone": "appt 1",
+    "Statut": 3,
+    "Horaires": "21h - 0h"
   }
 ]
