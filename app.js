@@ -177,8 +177,8 @@ app.get('/admin', (req, res) => {
     }
 });
 app.get('/updateAppartMo', (req, res) => {
-    statut = req.body.statut;
-    colloc = req.body.colloc;
+    //statut = req.body.statut;
+    //colloc = req.body.colloc;
     /*console.log("Av parse");
     appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
     for (i=0;i<appart.length;i++){
