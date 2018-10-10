@@ -177,6 +177,7 @@ app.get('/admin', (req, res) => {
     }
 });
 app.get('/updateAppartMo', (req, res) => {
+    res.render('appartathlon', {title:"BDE | Appartathlon})
     statut = req.body.statut;
     colloc = req.body.colloc;
     /*console.log("Av parse");
@@ -188,7 +189,8 @@ app.get('/updateAppartMo', (req, res) => {
             fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
     }*/
-    res.redirect('/appartathlon');
+   res.render('appartathlon', {title:"BDE | Appartathlon})
+    //res.redirect('/appartathlon');
 });
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
