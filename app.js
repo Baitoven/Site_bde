@@ -189,7 +189,7 @@ app.get('/updateAppartMo', (req, res) => {
             fs.writeFileSync('./public/data/appart.json', JSON.stringify(appart, null, 4));
         }
     }*/
-   res.render('appartathlon', {title:"BDE | Appartathlon})
+   res.render('appartathlon', {title:"BDE | Appartathlon"})
     //res.redirect('/appartathlon');
 });
 app.get('/updateAppart', (req, res) => {
