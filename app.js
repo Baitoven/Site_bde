@@ -191,7 +191,7 @@ app.get('/updateAppartMo', (req,res) =>{
     
         
     appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
-    res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart});   
+    res.redirect('/appartathlon');
 });
 app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
