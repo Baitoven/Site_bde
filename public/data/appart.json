@@ -44,17 +44,6 @@
     "Horaires": "21h-0h30"
   },
   {
-    "Colloc": "Les Trois Fromages",
-    "Habitants": "Glauber  Douglas et Caroline",
-    "Adresse": "30 rue Alphonse Daudet appt 15",
-    "Divers": "Une petite coloc bresilien avec de l amour et de la bonne bouffe",
-    "N": 47.227088,
-    "E": -1.567257,
-    "Interphone": "",
-    "Statut": 3,
-    "Horaires": "21h-0h30"
-  },
-  {
     "Colloc": "Roulotte",
     "Habitants": "Alexandre Chamley Thibaud Ritoux Gaston Phan Theo Protais",
     "Adresse": "5 rue Guepin",
@@ -150,17 +139,6 @@
     "N": 47.213773,
     "E": -1.556682,
     "Interphone": "4eme Etage a gauche interphone 3428A",
-    "Statut": 3,
-    "Horaires": "21h-0h30"
-  },
-  {
-    "Colloc": "Chez Elmer",
-    "Habitants": "Guenille Tritus Planes",
-    "Adresse": "3 rue du Chapeau Rouge",
-    "Divers": "On est des vieux mais on est gentils ! ;)",
-    "N": 47.214962,
-    "E": -1.560115,
-    "Interphone": "interphone en haut a droite",
     "Statut": 3,
     "Horaires": "21h-0h30"
   },
