@@ -5,7 +5,8 @@
     "Divers": "Bat B, Appt 3, 1er etage a gauche",
     "Habitants": "Loic TOUX, Pierre PUPPINCK, Hugo GAYRARD, Guillaume CNAPELYNCK",
     "N": 47.2202273,
-    "E": -1.5611264000000347
+    "E": -1.5611264000000347,
+    "Statut": 2
   },
   {
     "Colloc": "Le Donjon",
@@ -13,7 +14,8 @@
     "Divers": "Interphone 2, 5eme etage",
     "Habitants": "Nicolas Collot, Clement Nader, Antoine Colson, Adrien Bersier",
     "N": 47.2108385,
-    "E": -1.5658191999999644
+    "E": -1.5658191999999644,
+    "Statut": 2
   },
   {
     "Colloc": "Les trois fromages ????????????",
@@ -21,7 +23,8 @@
     "Divers": "Appt 15",
     "Habitants": "Glauber, Douglas et Caroline",
     "N": 47.2270877,
-    "E": -1.5672568999999612
+    "E": -1.5672568999999612,
+    "Statut": 2
   },
   {
     "Colloc": "Le Bordel",
@@ -29,7 +32,8 @@
     "Divers": "L'interphone ne marche pas, frapper la porte",
     "Habitants": "Gala Ortega, Louise Terrien, Alba Thio",
     "N": 47.2302032,
-    "E": -1.5465447000000268
+    "E": -1.5465447000000268,
+    "Statut": 2
   },
   {
     "Colloc": "La Grange",
@@ -37,7 +41,8 @@
     "Divers": "3e gauche (faites pas de bruits au 2)",
     "Habitants": "De Montureux, de Maleyssie,  Canard, Frecon",
     "N": 47.2123886,
-    "E": -1.5563975000000028
+    "E": -1.5563975000000028,
+    "Statut": 2
   },
   {
     "Colloc": "Manoir",
@@ -45,7 +50,8 @@
     "Divers": "Interphone 1, pas de bruit dans les parties communes",
     "Habitants": "Allais Roman, Bleuze Alexandre, Castellani PA, Madar Sasha, Roussel Lea",
     "N": 47.2198297,
-    "E": -1.5524674000000687
+    "E": -1.5524674000000687,
+    "Statut": 2
   },
   {
     "Colloc": "Le Corridor",
@@ -53,7 +59,8 @@
     "Divers": "interphone 8, 3eme etage a gauche, les initiatives personnelles sont vivement encouragees et appreciees, ne pas hesiter a venir avec de la bouffe a toute heure",
     "Habitants": "Stifler, Flexion, Perf, Chita",
     "N": 47.2124575,
-    "E": -1.5524858999999651
+    "E": -1.5524858999999651,
+    "Statut": 2
   },
   {
     "Colloc": "Le Piano Bar (PB pour les intimes)",
@@ -61,7 +68,8 @@
     "Divers": "Interphone 13 (la porte souvre pas depuis la colloc)",
     "Habitants": "Remy Maige Vincent Espinasse Aurelien Joncour",
     "N": 47.215707,
-    "E": -1.551557
+    "E": -1.551557,
+    "Statut": 2
   },
   {
     "Colloc": "L'Odyssee",
@@ -69,7 +77,8 @@
     "Divers": "Interphone 9",
     "Habitants": "Olla Romain, Coustenoble Guillaume, Gosset Arthur",
     "N": 47.212448,
-    "E": -1.556458
+    "E": -1.556458,
+    "Statut": 2
   },
   {
     "Colloc": "Le Squa",
@@ -77,7 +86,8 @@
     "Divers": "Code : 6973, premier etage",
     "Habitants": "Boudet Bastien, Rokneddine Sebastien, Cazeneuve Titouan",
     "N": 47.217695,
-    "E": -1.555234
+    "E": -1.555234,
+    "Statut": 2
   },
   {
     "Colloc": "La Crypte",
@@ -85,7 +95,8 @@
     "Divers": "Interphone 7",
     "Habitants": "Gaetan MF, Samuel Trebaul, Andrei Furtuna",
     "N": 47.212827,
-    "E": -1.560376
+    "E": -1.560376,
+    "Statut": 2
   },
   {
     "Colloc": "La glace Praslin",
@@ -93,7 +104,8 @@
     "Divers": "1357 premier interphone ensuite interphone numero 14 qui est en pls : hurlez pour entrer ou appelez thomas friedland",
     "Habitants": "Toufik elise Thomas B et Thomas F et Paul",
     "N": 47.213096,
-    "E": -1.56174
+    "E": -1.56174,
+    "Statut": 2
   },
   {
     "Colloc": "Le port",
@@ -101,7 +113,8 @@
     "Divers": "interphone 11, appartement 11 (3eme etage), chuut dans l'escalier",
     "Habitants": "Marine, Corentin, Antoine",
     "N": 47.239243,
-    "E": -1.561093
+    "E": -1.561093,
+    "Statut": 2
   },
   {
     "Colloc": "Gobillard",
@@ -109,7 +122,8 @@
     "Divers": "pas de sonnette, faut juste taper a la porte.",
     "Habitants": "Morgan Louedec, Samuel Delabre, Jules Tisseyre, Guillaume Heger",
     "N": 47.228792,
-    "E": -1.569128
+    "E": -1.569128,
+    "Statut": 2
   },
   {
     "Colloc": "Le refuge",
@@ -117,7 +131,8 @@
     "Divers": "Interphone Perrin, voisins cools, avant dernier etage",
     "Habitants": "CHARLY PERRIN (MOUSQUECERFS); ADRIEN VIN (DJINN)",
     "N": 47.222818,
-    "E": -1.554644
+    "E": -1.554644,
+    "Statut": 2
   },
   {
     "Colloc": "Le Comptoir",
@@ -125,7 +140,8 @@
     "Divers": "Interphone : Baumer, Beucler, Metzger\n3eme etage, cote gauche",
     "Habitants": "Josselyn Baumer, Victor Beucler, Lucas Metzger",
     "N": 47.213756,
-    "E": -1.556578
+    "E": -1.556578,
+    "Statut": 2
   },
   {
     "Colloc": "Terrier",
@@ -133,7 +149,8 @@
     "Divers": "Interphone Delattre Thibaut Herve",
     "Habitants": "Lucie Adrien Olivia",
     "N": 47.221774,
-    "E": -1.546711
+    "E": -1.546711,
+    "Statut": 2
   },
   {
     "Colloc": "Port Picon",
@@ -141,7 +158,8 @@
     "Divers": "interphone Bouchet Bruneau De Beco",
     "Habitants": "Bouchet Bruneau De Beco",
     "N": 47.221774,
-    "E": -1.546711
+    "E": -1.546711,
+    "Statut": 2
   },
   {
     "Colloc": "La kerv",
@@ -149,15 +167,17 @@
     "Divers": "Interphone 3 4eme etage porte de droite",
     "Habitants": "Axel Dumont, Antoine Daroux, Pierre Veillard",
     "N": 47.212441,
-    "E": -1.556454
+    "E": -1.556454,
+    "Statut": 2
   },
   {
-    "Colloc": "3/4",
+    "Colloc": "03-avr",
     "Adresse": "21 rue deshoulieres",
     "Divers": "Pas de bruit sur le palier tu coco",
     "Habitants": "Arnau G%uFFFDiza, Adrien Marion, Rayane el Bouzaini, Thomas Bideux",
     "N": 47.218259,
-    "E": -1.565987
+    "E": -1.565987,
+    "Statut": 2
   },
   {
     "Colloc": "KT",
@@ -165,7 +185,8 @@
     "Divers": "Interphone : Vayssie Lamielle Bellouard",
     "Habitants": "Rapha%uFFFDl Vayssie, Matthieu Lamielle, Quentin Bellouard",
     "N": 47.216153,
-    "E": -1.555136
+    "E": -1.555136,
+    "Statut": 2
   },
   {
     "Colloc": "Coloc sans nom",
@@ -173,7 +194,8 @@
     "Divers": "Interphone Gilart de Keranflec'h, voisins chiants mais ambiance chill plutot prevue de toute facon",
     "Habitants": "Come Keranflec'h et Augustin Boudy",
     "N": 47.21885,
-    "E": -1.564064
+    "E": -1.564064,
+    "Statut": 2
   },
   {
     "Colloc": "Le MP",
@@ -181,7 +203,8 @@
     "Divers": "voisins chiants",
     "Habitants": "Aube demolder Chaillot remond",
     "N": 47.252889,
-    "E": -1.565151
+    "E": -1.565151,
+    "Statut": 2
   },
   {
     "Colloc": "La Trachee",
@@ -189,7 +212,8 @@
     "Divers": "Interphone La Trachee 1 er etage",
     "Habitants": "Dr Max Bvt Caspor / Arthur J Neige Lemasson / Tom Natash Oviste / Antonio SPQR Pillot",
     "N": 47.21664,
-    "E": -1.552581
+    "E": -1.552581,
+    "Statut": 2
   },
   {
     "Colloc": "Duplex",
@@ -197,7 +221,8 @@
     "Divers": "Interphone 6 pour les 2 etages \nNe surtout pas sonner au premier etage ! On est au 2 eme et 3 eme !!",
     "Habitants": "Chloe Bensoussan, Oriane Jourdan, Evan G1g1, Antoine Marullaz, Yohann Reveillon, Lohan Le Berrigaud",
     "N": 47.21377,
-    "E": -1.554333
+    "E": -1.554333,
+    "Statut": 2
   },
   {
     "Colloc": "La Trotinette",
@@ -205,7 +230,8 @@
     "Divers": "RAS",
     "Habitants": "Roueavant (Thom's) et Rouearriere (Vin's)",
     "N": 47.216963,
-    "E": -1.553174
+    "E": -1.553174,
+    "Statut": 2
   },
   {
     "Colloc": "La MAP",
@@ -213,7 +239,8 @@
     "Divers": "4eme etage, voisins du dessous tres chiants",
     "Habitants": "Credeville Margaux Biard Emma Fraisse Eugenie",
     "N": 47.213756,
-    "E": -1.556578
+    "E": -1.556578,
+    "Statut": 2
   },
   {
     "Colloc": "Cockpit",
@@ -221,7 +248,8 @@
     "Divers": "Deconnez pas",
     "Habitants": "Fromentin, Haas, Villa, Delcourt",
     "N": 47.220352,
-    "E": -1.545485
+    "E": -1.545485,
+    "Statut": 2
   },
   {
     "Colloc": "Le consulat",
@@ -229,7 +257,8 @@
     "Divers": "Interphone chevron Harraq Nyam Palmier",
     "Habitants": "Chevron Harraq Nyam Paulmier",
     "N": 47.221625,
-    "E": -1.555907
+    "E": -1.555907,
+    "Statut": 2
   },
   {
     "Colloc": "Kremlin",
@@ -237,7 +266,8 @@
     "Divers": "Interphone blanc en face de \"van goethem",
     "Habitants": "Reda Lalhou /Lucas Sanciet--Munier/ Corentin Bourdeix",
     "N": 47.218865,
-    "E": -1.548161
+    "E": -1.548161,
+    "Statut": 2
   },
   {
     "Colloc": "Le terminal",
@@ -245,7 +275,8 @@
     "Divers": "Interphone C2",
     "Habitants": "Robin TROESCH, Sylvain Baud, Vincent Biscaccienti",
     "N": 47.214752,
-    "E": -1.554852
+    "E": -1.554852,
+    "Statut": 2
   },
   {
     "Colloc": "Roulotte",
@@ -253,7 +284,8 @@
     "Divers": "Interphone Roulotte",
     "Habitants": "Chamley Ritoux Gaston Protais",
     "N": 47.216252,
-    "E": -1.558972
+    "E": -1.558972,
+    "Statut": 2
   },
   {
     "Colloc": "La Chambre rouge",
@@ -261,7 +293,8 @@
     "Divers": "Interphone Diop-Lierdeman / 2eme etage",
     "Habitants": "Sarah & Anna",
     "N": 47.214007,
-    "E": -1.553694
+    "E": -1.553694,
+    "Statut": 2
   },
   {
     "Colloc": "Le Bastion",
@@ -269,7 +302,8 @@
     "Divers": "Interphone 8",
     "Habitants": "Mitsi Geoffroy et Pierre",
     "N": 47.249517,
-    "E": -1.550781
+    "E": -1.550781,
+    "Statut": 2
   },
   {
     "Colloc": "Le Concorde",
@@ -277,7 +311,8 @@
     "Divers": "Interphone 19, 5eme etage",
     "Habitants": "Erick Ah-Mouck, Thomas Duchemin, Paul-Henri Francois, Damien Helier, Clement Lelong",
     "N": 47.221774,
-    "E": -1.546711
+    "E": -1.546711,
+    "Statut": 2
   },
   {
     "Colloc": "CCCP",
@@ -285,7 +320,8 @@
     "Divers": "Interphone 11",
     "Habitants": "Tuc, Kalyan, Octave",
     "N": 47.227001,
-    "E": -1.567275
+    "E": -1.567275,
+    "Statut": 2
   },
   {
     "Colloc": "3M",
@@ -293,7 +329,8 @@
     "Divers": "Interphone 30, voisins potentiellement armes (bate de baseball, pistolet...)",
     "Habitants": "Beno%uFFFDt Billard Thomas Lucaora Nicolas Piecko",
     "N": 47.219385,
-    "E": -1.554764
+    "E": -1.554764,
+    "Statut": 2
   },
   {
     "Colloc": "Le Chalet",
@@ -301,7 +338,8 @@
     "Divers": "Interphone 8, 2eme etage",
     "Habitants": "Laurene Fox Wat, Lena Fox Costecalde et Zoe Fox Barjot",
     "N": 47.215707,
-    "E": -1.551557
+    "E": -1.551557,
+    "Statut": 2
   },
   {
     "Colloc": "L%uFFFDimprobable",
@@ -309,7 +347,8 @@
     "Divers": "Apt 13",
     "Habitants": "Anne Badinier et Lucas Ponsin",
     "N": 47.219045,
-    "E": -1.538747
+    "E": -1.538747,
+    "Statut": 2
   },
   {
     "Colloc": "L'antre du sheitan",
@@ -317,7 +356,8 @@
     "Divers": "Interphone: 25",
     "Habitants": "Maravat Alicia",
     "N": 47.249331,
-    "E": -1.554793
+    "E": -1.554793,
+    "Statut": 2
   },
   {
     "Colloc": "La taga",
@@ -325,7 +365,8 @@
     "Divers": "Interphone Freour le Portz Bolac",
     "Habitants": "Manu Laurane Sarah",
     "N": 47.216194,
-    "E": -1.559439
+    "E": -1.559439,
+    "Statut": 2
   },
   {
     "Colloc": "La Piste",
@@ -333,7 +374,8 @@
     "Divers": "Attention, ya 2 7av..., nous c'est celui avec deux marches au nvx de l'Interphone, le deuxieme",
     "Habitants": "Daweed et Victor",
     "N": 47.221774,
-    "E": -1.546711
+    "E": -1.546711,
+    "Statut": 2
   },
   {
     "Colloc": "Bento",
@@ -341,7 +383,8 @@
     "Divers": "Apto 14 - Interphone Dupont",
     "Habitants": "Guilherme I, Guilherme B, Michael",
     "N": 47.218785,
-    "E": -1.556613
+    "E": -1.556613,
+    "Statut": 2
   },
   {
     "Colloc": "Justonade",
@@ -349,6 +392,7 @@
     "Divers": "interphone Juston-Avequin-Hureau etage 4 (5 si tu prends les escaliers il y a un etage 1/2)",
     "Habitants": "Thibaut, Damien, Fantine",
     "N": 47.21519,
-    "E": -1.56202
+    "E": -1.56202,
+    "Statut": 2
   }
 ]
