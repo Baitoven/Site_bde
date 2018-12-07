@@ -21,6 +21,7 @@
 		<!--<form action="https://bdeecn.herokuapp.com/updateAppart" style='right: 50px';>
     			<input type="submit" value="Modifier ma colloc" />
 		</form>-->
+		 <button type="button" id="loca">Où suis je ?</button> 
 		<form>
 			<p id='affichage'></p>
 			<select name='colloc' id ='select'>
@@ -60,6 +61,16 @@ var kro = L.icon({
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
+function currentLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition((function (position) {
+                var marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(map);
+                marker.bindPopup("Ma position :<br> Latitude : " + position.coords.latitude + ',<br>Longitude ' + position.coords.longitude).openPopup();
+            }));
+        } else {
+            alert("La géolocalisation n'est pas supportée par ce navigateur.");
+        }
+}
 	
 	for (i=0;i<data.length;i++){
 		var node = document.createElement("option");
@@ -97,7 +108,13 @@ for (i=0;i<data.length;i++){
 		markers.push([marker,data[i]["Colloc"]]);
 	}
 }
+var bt_loca = document.getElementById("loca");
+
+bt_loca.addEventListener("click",function(){
+	currentLocation();
+});
 var bt_afficher = document.getElementById("submit");
+
 bt_afficher.addEventListener("click",function(){
 	var selection = document.getElementById("select");
 	var coloc_sel = selection.value;
