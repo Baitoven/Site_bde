@@ -64,7 +64,7 @@ var kro = L.icon({
 function currentLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition((function (position) {
-                var marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(map);
+                var marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(mymap);
                 marker.bindPopup("Ma position :<br> Latitude : " + position.coords.latitude + ',<br>Longitude ' + position.coords.longitude).openPopup();
             }));
         } else {
