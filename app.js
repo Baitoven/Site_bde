@@ -61,14 +61,14 @@ app.get('/adminMDE', (req, res) => {
       });
     });
 });
-app.get('/appartathlon',(req,res)=>{
+app.get('/carte',(req,res)=>{
     appart = JSON.stringify(fs.readFileSync('./public/data/appart.json', 'utf8'));
     var succes = req.query.succes;
     if (succes){
-        res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart,message:"Modifications enregistrées"})
+        res.render('appartathlon', { title: "BDE | Campagnes 2019",appart:appart,message:"Modifications enregistrées"})
     }
     else{
-    res.render('appartathlon', { title: "BDE | Appartathlon",appart:appart})
+    res.render('appartathlon', { title: "BDE | Campagnes 2019",appart:appart})
     }
 });
 
