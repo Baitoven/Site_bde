@@ -36,6 +36,9 @@ app.get('/partenaires', (req, res) => {
     partenaires = JSON.parse(fs.readFileSync('./public/data/partenaires.json', 'utf8'));
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
 });
+app.get('/signature',(req,res)=>{
+    res.render('signature',{ title: "BDE | Signature ECN"})
+});
 
 
 app.get('/mde', (req, res) => {
