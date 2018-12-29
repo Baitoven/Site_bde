@@ -1,64 +1,104 @@
-<form class="oxy adminForm col-6 col-sm-5 text-center container-fluid">
-<label for="nom">Nom : </label></br>
-<input type="text" name="nom" value="Nom"></br>
-<label for="prenom">Prénom : </label></br>
-<input type="text" name="prenom" value="Prénom"></br>
-<label for="annee">Annee : </label></br>
-<input type="text" name="annee" value="Annee"></br>
-<label for="option">Option : </label></br>
-<input type="text" name="option" value="Option"></br>
-<label for="misc">Autre (webmaster, J.E...) : </label></br>
-<textarea name="misc" cols="20" rows="2">Autre</textarea></br>
-<label for="tel">Tel : </label></br>
-<input type="text" name="tel" value="+33"></br>
-<label for="mail">Mail : </label></br>
-<input type="text" name="mail" value="@eleves.ec-nantes.fr"></br>
-</form>
-<button id='generer'>Générer</button>
-<table id="signature">
-  <tr>
-    <td rowspan="7" width="200" valign="top">
-      <img src="https://ci3.googleusercontent.com/proxy/b8YEcJJIZJwNiYngX3Hj1BnWgSGLl1-6wAhW5YCq31hcRbXjUXJceTwIrkhxQul0YaiXCHdsDe86-9GYb40NAmpojRJkk3ny55uE4IgrVmQj-T9zhoQ=s0-d-e1-ft#https://www.ec-nantes.fr/medias/photo/v_logo-sign_1492585942308-png"
-        alt="Logo CN" class="CToWUd" width="184">
-    </td>
-    <td id="np" style="color:#102648;font-family:Titillium,times;font-size:medium;font-weight:900" valign="top">Arnaud POITOU</td>
-  </tr>
-  <tr>
-    <td style="color:#102648;font-family:Titillium,times;font-size:small;font-style:italic" valign="top">Elève Ingénieur en <span id="an">Xème</span> Année</td>
-  </tr>
-  </br>
-  <tr>
-    <td height="12">
-      <img src="https://ci5.googleusercontent.com/proxy/nyh4uQGLFFuxSIZGFJxvcDcBu5z-GFtT9h6SxuNLWYCv2k8H6LcsqeUIxKOQ4WkNST_qG6Rqv5OVx7JxWZDMpYIPHCXT2-vcUdH4HFtCj4YcUQvg9Qg5=s0-d-e1-ft#https://www.ec-nantes.fr/medias/photo/v_tiret-sign_1492585977585-png"
-        alt="----" class="CToWUd" width="30" height="12"></td>
-  </tr>
-  <tr>
-    <td style="color:#102648;font-family:Titillium,times;font-size:small" valign="top"><span id="op">Option Cassage de Lyonnais</br></br></span>
-      <span id="divers">
-      Directeur d'Ecole<br>
-      Gardien de crèche<br>
-    </span></td>
-  </tr>
-  <tr id="barre">
-    <td height="12">
-      <img src="https://ci5.googleusercontent.com/proxy/nyh4uQGLFFuxSIZGFJxvcDcBu5z-GFtT9h6SxuNLWYCv2k8H6LcsqeUIxKOQ4WkNST_qG6Rqv5OVx7JxWZDMpYIPHCXT2-vcUdH4HFtCj4YcUQvg9Qg5=s0-d-e1-ft#https://www.ec-nantes.fr/medias/photo/v_tiret-sign_1492585977585-png"
-        alt="----" class="CToWUd" width="30" height="12"></td>
-  </tr>
-  </br>
-  <tr>
-    <td id="tel" style="color:#102648;font-family:Titillium,times;font-size:small" valign="top">Tel: +33 2 40 37 16 00</td>
-  </tr>
-  <tr>
-    <td style="color:#102648;font-family:Titillium,times;font-size:small" valign="top">Mail: <a id="maillink" href="mailto: arnaud.poitou@eleves.ec-nantes.fr" target="_blank">
-        <span id="mail" class="il">arnaud.poitou@eleves.ec-nantes.fr</span></a></td>
-  </tr>
-</table>
-<p>Pour intégrer la signature :</p>
-<ul>
-  <li>Selectionner la signature en entier (Image comprise)</li>
-  <li>Ctrl+C</li>
-  <li>Dans votre webmail ajouter une nouvelle signature et Ctrl+V dans le cadre</li>
-</ul>
+
+<div class='container row'>
+  <div class='col-md-6 col-sm-12'>
+  <form class='oxy adminForm'>
+    <label for="nom">Nom : </label></br>
+    <input type="text" name="nom" value="Nom"></br>
+    <label for="prenom">Prénom : </label></br>
+    <input type="text" name="prenom" value="Prénom"></br>
+    <label for="annee">Annee : </label></br>
+    <input type="text" name="annee" value="Annee"></br>
+    <label for="option">Option : </label></br>
+    <input type="text" name="option" value="Option"></br>
+    <label for="misc">Autre (webmaster, J.E...) : </label></br>
+    <textarea name="misc" cols="20" rows="2">Autre</textarea></br>
+    <label for="tel">Tel : </label></br>
+    <input type="text" name="tel" value="+33"></br>
+    <label for="mail">Mail : </label></br>
+    <input type="text" name="mail" value="@eleves.ec-nantes.fr"></br>
+    </form>
+    <button id='generer'>Générer</button>
+  </div>
+  <div class='col-md-6 col-sm-12'>
+    <table id="signature">
+      <tr>
+        <td rowspan="7" width="200" valign="top">
+          <img src="https://ci3.googleusercontent.com/proxy/b8YEcJJIZJwNiYngX3Hj1BnWgSGLl1-6wAhW5YCq31hcRbXjUXJceTwIrkhxQul0YaiXCHdsDe86-9GYb40NAmpojRJkk3ny55uE4IgrVmQj-T9zhoQ=s0-d-e1-ft#https://www.ec-nantes.fr/medias/photo/v_logo-sign_1492585942308-png"
+            alt="Logo CN" class="CToWUd" width="184">
+        </td>
+        <td id="np" style="color:#102648;font-family:Titillium,times;font-size:medium;font-weight:900" valign="top">Arnaud POITOU</td>
+      </tr>
+      <tr>
+        <td style="color:#102648;font-family:Titillium,times;font-size:small;font-style:italic" valign="top">Elève Ingénieur en <span id="an">Xème</span> Année</td>
+      </tr>
+      </br>
+      <tr>
+        <td height="12">
+          <img src="https://ci5.googleusercontent.com/proxy/nyh4uQGLFFuxSIZGFJxvcDcBu5z-GFtT9h6SxuNLWYCv2k8H6LcsqeUIxKOQ4WkNST_qG6Rqv5OVx7JxWZDMpYIPHCXT2-vcUdH4HFtCj4YcUQvg9Qg5=s0-d-e1-ft#https://www.ec-nantes.fr/medias/photo/v_tiret-sign_1492585977585-png"
+            alt="----" class="CToWUd" width="30" height="12"></td>
+      </tr>
+      <tr>
+        <td style="color:#102648;font-family:Titillium,times;font-size:small" valign="top"><span id="op">Option Cassage de Lyonnais</br></br></span>
+          <span id="divers">
+            Directeur d'Ecole<br>
+            Gardien de crèche<br>
+          </span></td>
+      </tr>
+      <tr id="barre">
+        <td height="12">
+          <img src="https://ci5.googleusercontent.com/proxy/nyh4uQGLFFuxSIZGFJxvcDcBu5z-GFtT9h6SxuNLWYCv2k8H6LcsqeUIxKOQ4WkNST_qG6Rqv5OVx7JxWZDMpYIPHCXT2-vcUdH4HFtCj4YcUQvg9Qg5=s0-d-e1-ft#https://www.ec-nantes.fr/medias/photo/v_tiret-sign_1492585977585-png"
+            alt="----" class="CToWUd" width="30" height="12"></td>
+      </tr>
+      </br>
+      <tr>
+        <td id="tel" style="color:#102648;font-family:Titillium,times;font-size:small" valign="top">Tel: +33 2 40 37 16 00</td>
+      </tr>
+      <tr>
+        <td style="color:#102648;font-family:Titillium,times;font-size:small" valign="top">Mail: <a id="maillink" href="mailto: arnaud.poitou@eleves.ec-nantes.fr" target="_blank">
+            <span id="mail" class="il">arnaud.poitou@eleves.ec-nantes.fr</span></a></td>
+      </tr>
+    </table>
+  </div>
+  <p>Pour intégrer la signature :</p>
+  <ul>
+    <li>Selectionner la signature en entier (Image comprise)</li>
+    <li>Ctrl+C</li>
+    <li>Dans votre webmail ajouter une nouvelle signature et Ctrl+V dans le cadre</li>
+  </ul>
+</div>
 <script src="http://code.jquery.com/jquery.min.js">
 </script>
-<script src="sign.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#generer').click(function() {
+      $('#np').html($('input[name="prenom"]').val() + " " + $('input[name="nom"]').val());
+      if ($('input[name="annee"]').val() == 1) {
+        $("#an").html("1ère");
+      } else {
+        $("#an").html($('input[name="annee"]').val() + "ème");
+      }
+      if ($('input[name="option"]').val() == "") {
+        $('#op').html("");
+      } else {
+        $('#op').html("Option " + $('input[name="option"]').val() + "</br></br>");
+      }
+      $('#tel').html("Tel: " + $('input[name="tel"]').val());
+      $('#mail').html($('input[name="mail"]').val());
+      $('#maillink').attr("href", "mailto: " + $('input[name="mail"]').val());
+      if ($('textarea[name="misc"]').val() != "") {
+        var divers = $('textarea[name="misc"]').val().split("\n");
+        var htmlString = "";
+        for (i in divers) {
+          htmlString += divers[i] + "</br>";
+        }
+        $('#divers').html(htmlString);
+      } else {
+        $('#divers').remove();
+      }
+      if ($('input[name="option"]').val() == "" && $('textarea[name="misc"]').val() == "") {
+        $('#barre').remove();
+      }
+    });
+
+  });
+</script>
