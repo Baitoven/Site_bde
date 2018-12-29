@@ -97,7 +97,7 @@
         $('#op').remove();
       } else {
         $('#op').text("Option " + $('input[name="option"]').val());
-        $('#op').append("</br></br>");
+        $('#op').append("</br>");
       }
       $('#tel').text("Tel: " + $('input[name="tel"]').val());
       $('#mail').text($('input[name="mail"]').val());
@@ -109,6 +109,7 @@
           $('#divers').append(document.createTextNode(divers[i]));
           $('#divers').append("<br>");
         }
+        $('#divers:last-child').remove();
         
       } else {
         $('#divers').html("");
