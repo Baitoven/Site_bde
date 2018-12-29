@@ -97,7 +97,7 @@
         $('#op').remove();
       } else {
         $('#op').text("Option " + $('input[name="option"]').val());
-        $('#op').append("</br>");
+        $('#op').append("</br></br>");
       }
       $('#tel').text("Tel: " + $('input[name="tel"]').val());
       $('#mail').text($('input[name="mail"]').val());
@@ -107,7 +107,9 @@
         var divers = $('textarea[name="misc"]').val().split("\n");
         for (i in divers) {
           $('#divers').append(document.createTextNode(divers[i]));
+          if (i<divers.length-1){
           $('#divers').append("<br>");
+          }
         }
               
       } else {
