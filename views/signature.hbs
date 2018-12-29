@@ -87,14 +87,14 @@
 <script>
   $(document).ready(function() {
     $('#generer').click(function() {
-      $('#np').html($('input[name="prenom"]').val() + " " + $('input[name="nom"]').val());
+      $('#np').text($('input[name="prenom"]').val() + " " + $('input[name="nom"]').val());
       if ($('input[name="annee"]').val() == 1) {
-        $("#an").html("1ère");
+        $("#an").text("1ère");
       } else {
-        $("#an").html($('input[name="annee"]').val() + "ème");
+        $("#an").text($('input[name="annee"]').val() + "ème");
       }
       if ($('input[name="option"]').val() == "") {
-        $('#op').html("");
+        $('#op').remove();
       } else {
         $('#op').html("Option " + $('input[name="option"]').val() + "</br></br>");
       }
