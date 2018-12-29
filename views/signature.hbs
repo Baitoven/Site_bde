@@ -96,18 +96,19 @@
       if ($('input[name="option"]').val() == "") {
         $('#op').remove();
       } else {
-        $('#op').html("Option " + $('input[name="option"]').val() + "</br></br>");
+        $('#op').text("Option " + $('input[name="option"]').val());
+        $('#op').append("</br></br>");
       }
-      $('#tel').html("Tel: " + $('input[name="tel"]').val());
-      $('#mail').html($('input[name="mail"]').val());
+      $('#tel').text("Tel: " + $('input[name="tel"]').val());
+      $('#mail').text($('input[name="mail"]').val());
       $('#maillink').attr("href", "mailto: " + $('input[name="mail"]').val());
       if ($('textarea[name="misc"]').val() != "") {
         var divers = $('textarea[name="misc"]').val().split("\n");
-        var htmlString = "";
         for (i in divers) {
-          htmlString += divers[i] + "</br>";
+          $('#divers').text(divers[i]);
+          $('#divers').append("<br>");
         }
-        $('#divers').html(htmlString);
+        
       } else {
         $('#divers').remove();
       }
