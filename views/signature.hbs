@@ -103,6 +103,7 @@
       $('#mail').text($('input[name="mail"]').val());
       $('#maillink').attr("href", "mailto: " + $('input[name="mail"]').val());
       if ($('textarea[name="misc"]').val() != "") {
+      $('#divers').html("");
         var divers = $('textarea[name="misc"]').val().split("\n");
         for (i in divers) {
           $('#divers').append(document.createTextNode(divers[i]));
@@ -110,10 +111,10 @@
         }
         
       } else {
-        $('#divers').remove();
+        $('#divers').html("");
       }
       if ($('input[name="option"]').val() == "" && $('textarea[name="misc"]').val() == "") {
-        $('#barre').remove();
+        $('#barre').html('');
       }
     });
 
