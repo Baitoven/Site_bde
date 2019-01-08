@@ -8,10 +8,23 @@ var fs = require('fs');
 var url = require('url');
 var session = require('express-session');
 var MongoClient = require('mongodb').MongoClient;
-var querystring = require('querystring');  
+var querystring = require('querystring');
 var urldb = "mongodb://admin:adminbdeecn@ds115625.mlab.com:15625/heroku_cjzk1rpq";
-
+var generatePassword = require('password-generator');
 var app = express();
+var api_key = 'a0f0dd114ed7fe9001457d72d50b1ab9-49a2671e-599e0823';
+var DOMAIN = 'sandbox0efee7c8eea44aea97d6fb71c3bee77b.mailgun.org';
+var mailgun = require('mailgun-js')({apiKey: api_key, domain: DOMAIN});
+var data = {
+  from: 'Excited User <me@samples.mailgun.org>',
+  to: 'robin.troesch@eleves.ec-nantes.fr',
+  subject: 'Hello',
+  text: 'Testing some Mailgun awesomness!'
+};
+
+mailgun.messages().send(data, function (error, body) {
+  console.log(body);
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -31,7 +44,24 @@ app.use(session({ secret: '781227' }))
 app.get('/', (req, res) => {
     res.render('index', { title: "BDE | Accueil"})
 });
+app.get('/SAT_inscriptions', (req, res) => {
+    res.render('sat_inscriptions', { title: "BDE | Killer SAT"})
+});
+app.post('/SAT_inscriptions', (req, res)=>{
+  MongoClient.connect(urldb, function(err, db) {
+    if (err) throw err;
+    var mdp = generatePassword(5,true);
 
+    var agent = { "prenom": req.body.prenom, "nom": req.body.nom, "mail": req.body.email,"score":0,"alive":true,"team":1,"mdp":mdp,"code":code };
+    db.collection("KillerSAT").insertOne(agent, function(err, res) {
+      if (err) throw err;
+      console.log("Agent ajoute dans db");
+      db.close();
+    });
+    res.render('sat_inscriptions', { title: "BDE | Killer SAT", message: "Inscription confirmée !"})
+  });
+
+});
 app.get('/partenaires', (req, res) => {
     partenaires = JSON.parse(fs.readFileSync('./public/data/partenaires.json', 'utf8'));
     res.render('partenaires', { title: "BDE | Partenaires", partenaires: partenaires })
@@ -194,10 +224,10 @@ app.get('/updateAppart', (req, res) => {
     if (req.session.isloggedin) {
         appart = JSON.parse(fs.readFileSync('./public/data/appart.json', 'utf8'));
         for (i=0;i<appart.length;i++){
-            if (req.session.colloc == appart[i]["Colloc"]){ 
-                infos = JSON.stringify(appart[i]);                          
+            if (req.session.colloc == appart[i]["Colloc"]){
+                infos = JSON.stringify(appart[i]);
             }
-                                               
+
         }
         res.render('updateAppart', { title: "BDE | Mise à jour de l'appart",Colloc: req.session.colloc,infos:infos})
     }

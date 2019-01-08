@@ -1,0 +1,16 @@
+<form action="KillerSAT" method="Post">
+  <select name="agent" id="select">
+  </select>
+</form>
+<script>
+var selecteur = document.getElementById("select");
+var data_text = {{{appart}}};
+var data = JSON.parse(data_text);
+for (i=0;i<data.length;i++){
+  var node = document.createElement("option");
+  var texte = document.createTextNode(data[i]["Colloc"]);
+
+  node.appendChild(texte);
+  selecteur.appendChild(node);
+}
+</script>
