@@ -1,16 +1,20 @@
-<form action="KillerSAT" method="Post">
-  <select name="agent" id="select">
+{{#if message}}
+    <div id="alertScore" class="alert alert-success alert-dismissible fade show" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      {{message}}
+    </div>
+{{/if}}
+<form action="\killer" method="Post">
+  <select name="agent">
+    {{#each agent}}
+    <option>{{this.nom}} {{this.prenom}}</option>
+    {{/each}}
   </select>
+  <select name="team">
+    <option>MI6</option>
+    <option>KGB</option>
+  </select>
+  <button type=input>Envoyer</button>
 </form>
-<script>
-var selecteur = document.getElementById("select");
-var data_text = {{{appart}}};
-var data = JSON.parse(data_text);
-for (i=0;i<data.length;i++){
-  var node = document.createElement("option");
-  var texte = document.createTextNode(data[i]["Colloc"]);
-
-  node.appendChild(texte);
-  selecteur.appendChild(node);
-}
-</script>
