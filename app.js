@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var fs = require('fs');
 var url = require('url');
 var session = require('express-session');
+var cookie = require('cookie-session');
 var MongoClient = require('mongodb').MongoClient;
 var querystring = require('querystring');
 var urldb = "mongodb://admin:adminbdeecn@ds115625.mlab.com:15625/heroku_cjzk1rpq";
@@ -18,16 +19,9 @@ var mailgun = require('mailgun-js')({
   apiKey: api_key,
   domain: DOMAIN
 });
-var data = {
-  from: 'Excited User <me@samples.mailgun.org>',
-  to: 'robin.troesch@eleves.ec-nantes.fr',
-  subject: 'Hello',
-  text: 'Testing some Mailgun awesomness!'
-};
 
-mailgun.messages().send(data, function(error, body) {
-  console.log(body);
-});
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -53,77 +47,202 @@ app.get('/', (req, res) => {
     title: "BDE | Accueil"
   })
 });
+//Inscription aux activitées numériques de la semaine à thème 2019 Air Fox one
 app.get('/SAT_inscriptions', (req, res) => {
   res.render('sat_inscriptions', {
     title: "BDE | Killer SAT"
   })
 });
+//Inscription effective SAT vérification de non doublon.
 app.post('/SAT_inscriptions', (req, res) => {
+if (req.body.email.includes("eleves.ec-nantes.fr")) {
   MongoClient.connect(urldb, function(err, db) {
-    if (err) throw err;
-    var mdp = generatePassword(5, true);
+    console.log("0");
+    db.collection("KillerSAT").find({mail: req.body.email}).toArray(function(err, resMail) {
+      console.log("1");
+      if (resMail.length == 0) {
+        db.collection("KillerSAT").find({pseudo: req.body.pseudo}).toArray(function(err, resPseudo) {
+          console.log("2");
+          if (resPseudo.length == 0) {
+            var mdp = generatePassword(5, true);
+            var code = generatePassword(4,true);
 
-    var agent = {
-      "prenom": req.body.prenom,
-      "nom": req.body.nom,
-      "mail": req.body.email,
-      "score": 0,
-      "alive": true,
-      "team": 1,
-      "mdp": mdp,
-      //"code": code
-    };
-    db.collection("KillerSAT").insertOne(agent, function(err, res) {
-      if (err) throw err;
-      console.log("Agent ajoute dans db");
-      db.close();
+            var agent = {
+              "prenom": req.body.prenom,
+              "nom": req.body.nom,
+              "mail": req.body.email,
+              "pseudo": req.body.pseudo,
+              "score": 0,
+              "alive": true,
+              "team": 1,
+              "mdp": mdp,
+              //"code": code
+            };
+            db.collection("KillerSAT").insertOne(agent, function(err, res) {
+              console.log("3");
+              if (err) throw err;
+              console.log("Agent ajoute dans db");
+
+              db.close();
+              //envoi du mail
+              var mailData = {
+                from: 'BDE <me@samples.mailgun.org>',
+                to: mail,
+                subject: "[SAT][Inscription]Code daccès",
+                text: 'Bonjour agent' +req.body.pseudo +", /n Vous avez été activé. Votre code d'accès : "+mdp +" /n Votre code en cas de kill : "+code+" /n votre équipe est :"
+              };
+              mailgun.messages().send(data, function(error, body) {
+                console.log(body);
+              });
+
+            });
+
+            res.render('sat_inscriptions', {
+              title: "BDE | Killer SAT",
+              message: "Inscription confirmée !"
+            })
+
+          } else {
+            res.render('sat_inscriptions', {
+              title: "BDE | Killer SAT",
+              message: "Erreur le pseudo est déjà utilisé"
+            })
+          }
+        });
+      } else {
+        res.render('sat_inscriptions', {
+          title: "BDE | Killer SAT",
+          message: "Erreur l'adresse mail est déjà utilisée. Si vous pensez que c'est une erreur veuillez contacter le webmaster"
+        })
+      }
+
     });
-    res.render('sat_inscriptions', {
-      title: "BDE | Killer SAT",
-      message: "Inscription confirmée !"
-    })
   });
+} else {
+  res.render('sat_inscriptions', {
+    title: "BDE | Inscriptions SAT",
+    message: "Veuillez utiliser votre adresse eleves.ec-nantes.fr"
+  })
+}
 });
 app.get('/killer', (req, res) => {
-  MongoClient.connect(urldb, function(err, db) {
-    if (err) throw err;
-    db.collection("KillerSAT").find({}).toArray(function(err, result) {
+  if (req.session.isloggedin) {
+    MongoClient.connect(urldb, function(err, db) {
       if (err) throw err;
-      console.log(result);
-      db.close();
-      res.render('killer', {
-        title: "BDE | Killer SAT",
-        agent: result
-      })
-    });
-  });
-});
-app.post('/killer', (req, res) => {
-  MongoClient.connect(urldb, function(err, db) {
-    if (err) throw err;
-    db.collection("KillerSAT").find({
-      agent: req.body.agent,
-      team: req.body.team
-    }).toArray(function(err, result) {
-      if (err) throw err;
-      console.log(result);
-      if (result.length == 0) {
-        var message = "Raté";
-      } else {
-        var message = "Gagné";
-      }
-      db.collection("KillerSAT").find({}).toArray(function(err, results) {
+      db.collection("KillerSAT").find({}).toArray(function(err, result) {
         if (err) throw err;
         console.log(result);
-        db.close();
-        res.render('killer', {
-          title: "BDE | Killer SAT",
-          agent: results,
-          message: message
+
+        db.collection("KillerSAT").find({
+          pseudo: req.session.agent
+        }).toArray(function(erro, resultAgent) {
+
+          db.close();
+          res.render('killer', {
+            title: "BDE | Killer SAT",
+            listeAgents: result,
+            pseudo: resultAgent[0]["pseudo"],
+            score: resultAgent[0]["score"],
+            equipe: resultAgent[0]["team"]
+          })
         })
+
       });
     });
+  } else {
+    res.render("loginSAT", {
+      title: "BDE | Login SAT",
+      message: "Vous devez vous connecter pour acceder à cette page"
+    })
+  }
+});
+//Préparation du rendu en cas de post sur la page Killer
+//Vérification d'un kill, d'une déclaration d'équipe, goldenLyon
+app.post('/killer', (req, res) => {
+  if (req.session.isloggedin == true) {
+    MongoClient.connect(urldb, function(err, db) {
+      db.collection("KillerSAT").find({pseudo: req.session.agent}).toArray(function(err, resultAgent) {
+      if (err) throw err;
+      if (req.body.agent && req.body.team && resultAgent[0]["dateDernierEssai"]<Date.prototype.getUTCDate()){
+        db.collection("KillerSAT").find({
+          agent: req.body.agent,
+          team: req.body.team
+        }).toArray(function(err, result) {
+          if (err) throw err;
+          console.log(result);
+          if (result.length == 0) {
+            var message = "Raté";
+          } else {
+            var message = "Gagné";
+          }
+        });
+        db.collection("KillerSAT").update({pseudo: req.session.agent},{$set: {dateDernierEssai:Date.prototype.getUTCDate()}})
+      }
+
+        db.collection("KillerSAT").find({}).toArray(function(err, results) {
+
+            if (err) throw err;
+            console.log(result);
+            db.close();
+            res.render('killer', {
+              title: "BDE | Killer SAT",
+              listeAgents: results,
+              message: message,
+              pseudo: resultAgent[0]["pseudo"],
+              score: resultAgent[0]["score"],
+              equipe: resultAgent[0]["team"]
+            })
+        });
+      });
+    });
+  } else {
+    res.render('loginSAT', {
+      title: "BDE |Killer SAT",
+      message: "Vous devez vous connecter pour acceder à cette page"
+    })
+  }
+});
+app.get('/loginSAT', (req, res) => {
+  res.render('loginSAT', {
+    title: "BDE | Login SAT"
   });
+});
+app.post('/loginSAT', (req, res) => {
+  var agent = req.body.agent;
+  var mdp = req.body.mdp;
+  MongoClient.connect(urldb, function(err, db) {
+    if (err) throw err;
+    try {
+      db.collection("KillerSAT").find({
+        pseudo: agent
+      }).toArray(function(err, result) {
+        console.log("THIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUT");
+        if (result.length > 0) {
+          if (result[0]["mdp"] == mdp) {
+            db.close()
+            req.session.isloggedin = true;
+            console.log("YEEEEEEES");
+            req.session.agent = agent;
+            res.render('loginSAT', {
+              title: "BDE | Login SAT",
+              message: "Bienvenue " + agent
+            })
+          } else {
+            db.close()
+            res.render('loginSAT', {
+              title: "BDE | Login SAT",
+              message: "Erreur de connexion"
+            })
+          }
+        }
+
+      });
+    } catch (except) {
+      console.log(except);
+    }
+  });
+
+
 });
 app.get('/partenaires', (req, res) => {
   partenaires = JSON.parse(fs.readFileSync('./public/data/partenaires.json', 'utf8'));
@@ -135,6 +254,11 @@ app.get('/partenaires', (req, res) => {
 app.get('/signature', (req, res) => {
   res.render('signature', {
     title: "BDE | Signature ECN"
+  })
+});
+app.get('/goldenEye', (req, res) => {
+  res.render('goldenEye', {
+    title: "BDE | GoldenEye"
   })
 });
 
