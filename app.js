@@ -47,6 +47,141 @@ app.get('/', (req, res) => {
     title: "BDE | Accueil"
   })
 });
+//Fonctions semaine a theme
+function donnerRenseignement(db,req,resultAgent,res){
+  var aujourd = new Date();
+  var bonus =0;
+  if (req.body.agent && req.body.team && resultAgent[0]["dateDernierEssai"] < aujourd.getDate()) {
+    db.collection("KillerSAT").find({
+      agent: req.body.agent,
+      team: req.body.team
+    }).toArray(function(err, result) {
+      if (result.length == 0) {
+        message = "Raté";
+        bonus = -10;
+      }
+      else {
+        message = "Gagné";
+        bonus = 100;
+      }
+      db.collection("KillerSAT").update({
+        pseudo: req.session.agent
+      }, {
+        $set: {
+          dateDernierEssai: aujourd.getDate()
+        },
+        $inc:{
+          score: bonus
+        }
+      });
+      db.collection("KillerSAT").find({}).toArray(function(err, results) {
+        db.close();
+        res.render('killer', {
+          title: "BDE | Killer SAT",
+          listeAgents: results,
+          message: message,
+          pseudo: resultAgent[0]["pseudo"],
+          score: resultAgent[0]["score"],
+          equipe: resultAgent[0]["team"]
+        })
+      });
+    });
+
+  } else {
+    db.collection("KillerSAT").find({}).toArray(function(err, results) {
+
+      if (err) throw err;
+      db.close();
+      res.render('killer', {
+        title: "BDE | Killer SAT",
+        listeAgents: results,
+        message: "Vous avez déjà donné un renseignment aujourd'hui",
+        pseudo: resultAgent[0]["pseudo"],
+        score: resultAgent[0]["score"],
+        equipe: resultAgent[0]["team"]
+      })
+    });
+  }
+}
+function declarerKill(db,req,resultAgent,res){
+  db.collection("KillerSAT").find({
+    code: req.body.codeKill
+  }).toArray(function(err, result) {
+    if (result.length>0){
+      missonsEffecutees = resultAgent[0]["missionsEffectuees"];
+      db.collection("KillerSAT").update({
+        pseudo: req.session.agent
+      }, {
+        $set: {
+
+        },
+        $inc:{
+          score: 500
+        }
+      });
+    }
+  });
+}
+function goldenLyon(db,req,resultAgent,res){
+  db.collection("KillerSAT").find({}).toArray(function(err, results) {
+  points = JSON.parse(fs.readFileSync('./public/data/goldenLyon.json', 'utf8'));
+  console.log(points);
+  for (i = 0; i < points.length; i++){
+    if (points[i]['Code']==req.body.goldenCode){
+      console.log("test1");
+      db.collection("KillerSAT").find({pseudo: req.session.agent}).toArray(function(err,result){
+        if (!(result[0]['goldenLyon'].includes(i))){
+          db.collection("KillerSAT").update({
+            pseudo: req.session.agent
+          }, {
+            $set: {
+              goldenLyon: result[0]['goldenLyon']+" "+i
+            },
+            $inc:{
+              score: 50
+            }
+          });
+          res.render('killer', {
+            title: "BDE | Killer SAT",
+            listeAgents: results,
+            message: "Vous avez désactivé un lyonnais",
+            pseudo: resultAgent[0]["pseudo"],
+            score: resultAgent[0]["score"]+50,
+            equipe: resultAgent[0]["team"]
+          })
+        }
+        else{
+          res.render('killer', {
+            title: "BDE | Killer SAT",
+            listeAgents: results,
+            message: "Vous avez déjà trouvé ce code",
+            pseudo: resultAgent[0]["pseudo"],
+            score: resultAgent[0]["score"],
+            equipe: resultAgent[0]["team"]
+          })
+        }
+
+      })
+  }
+
+  else{
+    db.collection("KillerSAT").find({}).toArray(function(err, results) {
+
+      if (err) throw err;
+      db.close();
+      res.render('killer', {
+        title: "BDE | Killer SAT",
+        listeAgents: results,
+        message: "Ce code n'existe pas",
+        pseudo: resultAgent[0]["pseudo"],
+        score: resultAgent[0]["score"],
+        equipe: resultAgent[0]["team"]
+      })
+    });
+  }
+}
+});
+}
 //Inscription aux activitées numériques de la semaine à thème 2019 Air Fox one
 app.get('/SAT_inscriptions', (req, res) => {
   res.render('sat_inscriptions', {
@@ -55,75 +190,79 @@ app.get('/SAT_inscriptions', (req, res) => {
 });
 //Inscription effective SAT vérification de non doublon.
 app.post('/SAT_inscriptions', (req, res) => {
-if (req.body.email.includes("eleves.ec-nantes.fr")) {
-  MongoClient.connect(urldb, function(err, db) {
-    console.log("0");
-    db.collection("KillerSAT").find({mail: req.body.email}).toArray(function(err, resMail) {
-      console.log("1");
-      if (resMail.length == 0) {
-        db.collection("KillerSAT").find({pseudo: req.body.pseudo}).toArray(function(err, resPseudo) {
-          console.log("2");
-          if (resPseudo.length == 0) {
-            var mdp = generatePassword(5, true);
-            var code = generatePassword(4,true);
+  if (req.body.email.includes("eleves.ec-nantes.fr")) {
+    MongoClient.connect(urldb, function(err, db) {
+      console.log("0");
+      db.collection("KillerSAT").find({
+        mail: req.body.email
+      }).toArray(function(err, resMail) {
+        console.log("1");
+        if (resMail.length == 0) {
+          db.collection("KillerSAT").find({
+            pseudo: req.body.pseudo
+          }).toArray(function(err, resPseudo) {
+            console.log("2");
+            if (resPseudo.length == 0) {
+              var mdp = generatePassword(5, true);
+              var code = generatePassword(4, true);
 
-            var agent = {
-              "prenom": req.body.prenom,
-              "nom": req.body.nom,
-              "mail": req.body.email,
-              "pseudo": req.body.pseudo,
-              "score": 0,
-              "alive": true,
-              "team": 1,
-              "mdp": mdp,
-              //"code": code
-            };
-            db.collection("KillerSAT").insertOne(agent, function(err, res) {
-              console.log("3");
-              if (err) throw err;
-              console.log("Agent ajoute dans db");
-
-              db.close();
-              //envoi du mail
-              var mailData = {
-                from: 'BDE <me@samples.mailgun.org>',
-                to: mail,
-                subject: "[SAT][Inscription]Code daccès",
-                text: 'Bonjour agent' +req.body.pseudo +", /n Vous avez été activé. Votre code d'accès : "+mdp +" /n Votre code en cas de kill : "+code+" /n votre équipe est :"
+              var agent = {
+                "prenom": req.body.prenom,
+                "nom": req.body.nom,
+                "mail": req.body.email,
+                "pseudo": req.body.pseudo,
+                "score": 0,
+                "alive": true,
+                "team": 1,
+                "mdp": mdp,
+                //"code": code
               };
-              mailgun.messages().send(data, function(error, body) {
-                console.log(body);
+              db.collection("KillerSAT").insertOne(agent, function(err, res) {
+                console.log("3");
+                if (err) throw err;
+                console.log("Agent ajoute dans db");
+
+                db.close();
+                //envoi du mail
+                var mailData = {
+                  from: 'BDE <me@samples.mailgun.org>',
+                  to: mail,
+                  subject: "[SAT][Inscription]Code daccès",
+                  text: 'Bonjour agent' + req.body.pseudo + ", /n Vous avez été activé. Votre code d'accès : " + mdp + " /n Votre code en cas de kill : " + code + " /n votre équipe est :"
+                };
+                mailgun.messages().send(data, function(error, body) {
+                  console.log(body);
+                });
+
               });
 
-            });
+              res.render('sat_inscriptions', {
+                title: "BDE | Killer SAT",
+                message: "Inscription confirmée !"
+              })
 
-            res.render('sat_inscriptions', {
-              title: "BDE | Killer SAT",
-              message: "Inscription confirmée !"
-            })
+            } else {
+              res.render('sat_inscriptions', {
+                title: "BDE | Killer SAT",
+                message: "Erreur le pseudo est déjà utilisé"
+              })
+            }
+          });
+        } else {
+          res.render('sat_inscriptions', {
+            title: "BDE | Killer SAT",
+            message: "Erreur l'adresse mail est déjà utilisée. Si vous pensez que c'est une erreur veuillez contacter le webmaster"
+          })
+        }
 
-          } else {
-            res.render('sat_inscriptions', {
-              title: "BDE | Killer SAT",
-              message: "Erreur le pseudo est déjà utilisé"
-            })
-          }
-        });
-      } else {
-        res.render('sat_inscriptions', {
-          title: "BDE | Killer SAT",
-          message: "Erreur l'adresse mail est déjà utilisée. Si vous pensez que c'est une erreur veuillez contacter le webmaster"
-        })
-      }
-
+      });
     });
-  });
-} else {
-  res.render('sat_inscriptions', {
-    title: "BDE | Inscriptions SAT",
-    message: "Veuillez utiliser votre adresse eleves.ec-nantes.fr"
-  })
-}
+  } else {
+    res.render('sat_inscriptions', {
+      title: "BDE | Inscriptions SAT",
+      message: "Veuillez utiliser votre adresse eleves.ec-nantes.fr"
+    })
+  }
 });
 app.get('/killer', (req, res) => {
   if (req.session.isloggedin) {
@@ -160,39 +299,18 @@ app.get('/killer', (req, res) => {
 //Vérification d'un kill, d'une déclaration d'équipe, goldenLyon
 app.post('/killer', (req, res) => {
   if (req.session.isloggedin == true) {
+    var message ="";
     MongoClient.connect(urldb, function(err, db) {
-      db.collection("KillerSAT").find({pseudo: req.session.agent}).toArray(function(err, resultAgent) {
-      if (err) throw err;
-      if (req.body.agent && req.body.team && resultAgent[0]["dateDernierEssai"]<Date.prototype.getUTCDate()){
-        db.collection("KillerSAT").find({
-          agent: req.body.agent,
-          team: req.body.team
-        }).toArray(function(err, result) {
-          if (err) throw err;
-          console.log(result);
-          if (result.length == 0) {
-            var message = "Raté";
-          } else {
-            var message = "Gagné";
-          }
-        });
-        db.collection("KillerSAT").update({pseudo: req.session.agent},{$set: {dateDernierEssai:Date.prototype.getUTCDate()}})
+      db.collection("KillerSAT").find({
+        pseudo: req.session.agent
+      }).toArray(function(err, resultAgent) {
+        if (err) throw err;
+        if (req.body.agent){
+        message = donnerRenseignement(db,req,resultAgent,res);
       }
-
-        db.collection("KillerSAT").find({}).toArray(function(err, results) {
-
-            if (err) throw err;
-            console.log(result);
-            db.close();
-            res.render('killer', {
-              title: "BDE | Killer SAT",
-              listeAgents: results,
-              message: message,
-              pseudo: resultAgent[0]["pseudo"],
-              score: resultAgent[0]["score"],
-              equipe: resultAgent[0]["team"]
-            })
-        });
+      if (req.body.goldenCode){
+        goldenLyon(db,req,resultAgent,res);
+      }
       });
     });
   } else {
@@ -203,9 +321,33 @@ app.post('/killer', (req, res) => {
   }
 });
 app.get('/loginSAT', (req, res) => {
+  if (req.session.isloggedin){
+    MongoClient.connect(urldb, function(err, db) {
+      db.collection("KillerSAT").find({
+        pseudo: req.session.agent
+      }).toArray(function(err, resultAgent) {
+        db.collection("KillerSAT").find({}).toArray(function(err, results) {
+
+
+          if (err) throw err;
+          db.close();
+          res.render('killer', {
+            title: "BDE | Killer SAT",
+            listeAgents: results,
+            message: message,
+            pseudo: resultAgent[0]["pseudo"],
+            score: resultAgent[0]["score"],
+            equipe: resultAgent[0]["team"]
+          })
+        });
+      });
+    });
+  }
+  else{
   res.render('loginSAT', {
     title: "BDE | Login SAT"
   });
+}
 });
 app.post('/loginSAT', (req, res) => {
   var agent = req.body.agent;
@@ -221,12 +363,27 @@ app.post('/loginSAT', (req, res) => {
           if (result[0]["mdp"] == mdp) {
             db.close()
             req.session.isloggedin = true;
-            console.log("YEEEEEEES");
             req.session.agent = agent;
-            res.render('loginSAT', {
-              title: "BDE | Login SAT",
-              message: "Bienvenue " + agent
-            })
+            MongoClient.connect(urldb, function(err, db) {
+              db.collection("KillerSAT").find({
+                pseudo: req.session.agent
+              }).toArray(function(err, resultAgent) {
+                db.collection("KillerSAT").find({}).toArray(function(err, results) {
+
+
+                  if (err) throw err;
+                  db.close();
+                  res.render('killer', {
+                    title: "BDE | Killer SAT",
+                    listeAgents: results,
+                    message: "Connexion réussie",
+                    pseudo: resultAgent[0]["pseudo"],
+                    score: resultAgent[0]["score"],
+                    equipe: resultAgent[0]["team"]
+                  })
+                });
+              });
+            });
           } else {
             db.close()
             res.render('loginSAT', {
