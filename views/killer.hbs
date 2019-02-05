@@ -12,50 +12,61 @@
   <hr class="my-4">
   <p>Votre mission actuelle :{{mission}}</p>
   <p>Votre score : {{score}}</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
 </div>
 <div class="container">
   <div class="row">
     <div class="col-6">
-      <h2>Transmettre un renseignement</h2>
-      <p>Vous avez des informations sur un espion ? Chaque jour vous pouvez gagner 100pts en trouvant l'equipe auquelle appartient un espion</p>
-      <p>Attention donner de faux renseignements sur un allié vous enlève des points</p>
       <form action="\killer" method="Post">
-        <select name="agent">
-          {{#each listeAgents}}
-            <option>{{this.nom}} {{this.prenom}}</option>
-          {{/each}}
-        </select>
-        <select name="team">
-          <option value="MI6">MI6</option>
-          <option value="KGB">KGB</option>
-        </select>
-        <button type=input>Envoyer</button>
+        <div class="form-group">
+          <h2>Transmettre un renseignement</h2>
+          <p>Vous avez des informations sur un espion ? Chaque jour vous pouvez gagner 100pts en trouvant l'equipe auquelle appartient un espion</p>
+          <p>Attention donner de faux renseignements sur un allié vous enlève des points</p>
+
+          <select class="form-control" name="agent">
+            {{#each listeAgents}}
+              <option>{{this.nom}} {{this.prenom}}</option>
+            {{/each}}
+          </select>
+          <select class="form-control" name="team">
+            <option value="MI6">MI6</option>
+            <option value="KGB">KGB</option>
+            <option value="DGSE">DGSE</option>
+            <option value="CIA">CIA</option>
+            <option value="Bundesnachrichtendienst">Bundesnachrichtendienst</option>
+          </select>
+          <button class="btn btn-primary mb-2" type="submit">Envoyer</button>
       </form>
     </div>
-    <div class="col-6">
-      <h2>Déclarer un kill</h2>
-      <p>Même les meilleurs agents doivent pointer leurs heures de travail...</p>
-      <p>Chaque kill vous permet de gagner 500pts</p>
-      <form action"\killer" method="post">
-        <input type="text" name="killCode" placeholder="XXXXX">
-        <button type="submit">Déclarer<button>
-      </form>
-      </div>
-      <div class="row">
-        <h2>GoldenLyon</h2>
-        <p>Les lyonnais ont lancé un satellite pour espionner Centrale Nantes et trouver le secret de notre réussite</p>
-        <p>Heuresement ils ont écrit les codes d'accès sur des post-it</p>
-        <p>Chaque code vous rapporte 50pts</p>
-        <form action="\killer" method="post">
-          <input type="text" name="goldenCode" placeholder="XXXX">
-          <button type="submit">Casser du lyonnais</button>
-        </form>
-      </div>
-      <div class="row">
-        <h2>Bons baisers de l'ile</h2>
-        <p>Disponible le dimanche 10 février</p>
-      </div>
-    </div>
+  </div>
+  <div class="col-6">
+    <form action"\killer" method="post">
+      <div class="form-group">
+        <h2>Déclarer un kill</h2>
+        <p>Même les meilleurs agents doivent pointer leurs heures de travail...</p>
+        <p>Chaque kill vous permet de gagner 500pts</p>
+
+        <input class="form-control" type="text" name="killCode" placeholder="XXXXX">
+        <button class="btn btn-primary mb-2" type="submit">Déclarer</button>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="form-group">
+    <form action="\killer" method="post">
+      <h2>GoldenLyon</h2>
+      <p>Les lyonnais ont lancé un satellite pour espionner Centrale Nantes et trouver le secret de notre réussite</p>
+      <p>Heuresement ils ont écrit les codes d'accès sur des post-it</p>
+      <p>Chaque code vous rapporte 50pts</p>
+
+      <input class="form-control" type="text" name="goldenCode" placeholder="XXXX">
+      <button class="btn btn-primary mb-2" type="submit">Casser du lyonnais</button>
+    </form>
+  </div>
+</div>
+</div>
+<div class="row">
+  <div class="form-group" <h2>Bons baisers de l'ile</h2>
+    <p>Disponible le dimanche 10 février</p>
+  </div>
+</div>
+</div>
