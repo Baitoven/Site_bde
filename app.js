@@ -48,6 +48,7 @@ app.get('/', (req, res) => {
   })
 });
 //Fonctions semaine a theme
+
 function donnerRenseignement(db, req, resultAgent, res) {
   var aujourd = new Date();
   var bonus = 0;
@@ -80,7 +81,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
           score: bonus
         }
       });
-      db.collection("KillerSAT").find({}).toArray(function(err, results) {
+      db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
         db.close();
         res.render('killer', {
           title: "BDE | Killer SAT",
@@ -96,7 +97,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
     });
 
   } else {
-    db.collection("KillerSAT").find({}).toArray(function(err, results) {
+    db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
 
       if (err) throw err;
       db.close();
@@ -115,7 +116,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
 }
 
 function declarerKill(db, req, resultAgent, res) {
-  db.collection("KillerSAT").find({}).toArray(function(err, results) {
+  db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
     db.collection("KillerSAT").find({
       code: req.body.killCode
     }).toArray(function(err, resultKill) {
@@ -129,7 +130,7 @@ function declarerKill(db, req, resultAgent, res) {
             $set: {
               kills: killsEffec + " " + resultKill[0]["pseudo"],
               mission:Math.floor(Math.random() * 5),
-              cible:results[Math.floor(Math.random() * results.length)]["pseudo"]
+              cible:results[Math.floor(Math.random() * results.length)]["nom"]+results[Math.floor(Math.random() * results.length)]["prenom"]
             },
             $inc: {
               score: 500
@@ -177,7 +178,7 @@ function declarerKill(db, req, resultAgent, res) {
 }
 
 function goldenLyon(db, req, resultAgent, res) {
-  db.collection("KillerSAT").find({}).toArray(function(err, results) {
+  db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
     db.collection("KillerSAT").find({
       pseudo: req.session.agent
     }).toArray(function(err, result, code) {
@@ -222,7 +223,7 @@ function goldenLyon(db, req, resultAgent, res) {
         }
       }
     });
-    db.collection("KillerSAT").find({}).toArray(function(err, results) {
+    db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
 
       if (err) throw err;
       db.close();
@@ -258,22 +259,24 @@ app.post('/SAT_inscriptions', (req, res) => {
           db.collection("KillerSAT").find({
             pseudo: req.body.pseudo
           }).toArray(function(err, resPseudo) {
-            db.collection("KillerSAT").find({}).toArray(function(err, results) {
+            db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
             if (resPseudo.length == 0) {
+              var teamPos = ["KGB","CIA","DGSE","MI6","Bundesnachrichtendienst"];
               var mdp = generatePassword(5, true);
               var code = generatePassword(4, true);
+              var team =teamPos[Math.floor(Math.random() * 5)];
               if (req.body.email==="thibaut.berthome@eleves.ec-nantes.fr"){
                 mdp = "jtm";
                 code="bsx";
               }
-              var teamPos = ["KGB","CIA","DGSE","MI6","Bundesnachrichtendienst"];
+
               var agent = {
                 "prenom": req.body.prenom,
                 "nom": req.body.nom,
                 "mail": req.body.email,
                 "pseudo": req.body.pseudo,
                 "score": 0,
-                "team": teamPos[Math.floor(Math.random() * 5)],
+                "team": team,
                 "mdp": mdp,
                 "code": code,
                 "kills": req.body.pseudo,
@@ -281,7 +284,7 @@ app.post('/SAT_inscriptions', (req, res) => {
                 "goldenLyon": "undefined",
                 "renseignment": req.body.pseudo,
                 "mission": Math.floor(Math.random() * 11),
-                "cible": results[Math.floor(Math.random() * results.length)]["pseudo"]
+                "cible": results[Math.floor(Math.random() * results.length)]["nom"]+results[Math.floor(Math.random() * results.length)]["prenom"]
               };
               db.collection("KillerSAT").insertOne(agent, function(err, res) {
                 console.log("3");
@@ -294,7 +297,8 @@ app.post('/SAT_inscriptions', (req, res) => {
                   from: 'BDE ECN <postmaster@bdeecn.com>',
                   to: req.body.email,
                   subject: "[SAT][Inscription]Code daccès",
-                  text: 'Bonjour agent' + req.body.pseudo + ", /n Vous avez été activé. Votre code d'accès : " + mdp + " /n Votre code en cas de kill : " + code + " /n votre équipe est :"
+                  text: 'Bonjour agent' + req.body.pseudo + ", Vous avez été activé. Votre code d'accès : " + mdp + " Votre code en cas de kill : " + code + "  votre équipe est : "+team,
+                  html:"<html><h1>Bonjour agent <strong>"+req.body.pseudo+"</strong>,<h1><br/><p> Vous avez été désigné pour la mission Centrale ne meurt jamais.</p><p>Voici vos informations de mission :<ul><li>Votre code d'accès à votre interface : "+mdp+"</li><li>Votre code à communiquer à un autre espion en cas de kill : "+code+"</li></ul><p>Pour vous connecter à votre interface rendez vous <a href='https://bdeecn.herokuapp.com/loginSAT'>ici</a>.</p><p>Sincerly</p></br><p>Agent P</p><img src='https://image.noelshack.com/fichiers/2019/06/3/1549449327-air-fox-one-james-bond-min.jpg' height='300' width='300' alt='le webmaster du bde vous fait des poutous'></html>"
                 };
                 mailgun.messages().send(mailData, function(error, body) {
                   console.log(body);
@@ -335,7 +339,7 @@ app.get('/killer', (req, res) => {
   if (req.session.isloggedin) {
     MongoClient.connect(urldb, function(err, db) {
       if (err) throw err;
-      db.collection("KillerSAT").find({}).toArray(function(err, result) {
+      db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, result) {
         if (err) throw err;
         console.log(result);
 
@@ -415,7 +419,7 @@ app.get('/loginSAT', (req, res) => {
       db.collection("KillerSAT").find({
         pseudo: req.session.agent
       }).toArray(function(err, resultAgent) {
-        db.collection("KillerSAT").find({}).toArray(function(err, results) {
+        db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
 
 
           if (err) throw err;
@@ -457,7 +461,7 @@ app.post('/loginSAT', (req, res) => {
               db.collection("KillerSAT").find({
                 pseudo: req.session.agent
               }).toArray(function(err, resultAgent) {
-                db.collection("KillerSAT").find({}).toArray(function(err, results) {
+                db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
 
 
                   if (err) throw err;
