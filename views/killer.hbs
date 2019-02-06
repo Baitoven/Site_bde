@@ -6,12 +6,31 @@
     {{message}}
   </div>
 {{/if}}
-<div class="jumbotron">
+<div class="row">
+<div class=" col-6 jumbotron">
   <h1 class="display-4">Bonjour agent {{pseudo}}</h1>
   <p class="lead">{{equipe}}</p>
   <hr class="my-4">
-  <p>Votre mission actuelle :{{mission}}</p>
+  <p>Votre mission actuelle : {{mission}}</p>
+  <p>Votre cible : {{cible}}</p>
   <p>Votre score : {{score}}</p>
+</div>
+<div class="col-6 leaderboard">
+  <h1>
+    <svg class="ico-cup">
+      <use xlink:href="#cup"></use>
+    </svg>
+    Totally Spies
+  </h1>
+  <ol>
+    {{#each listeAgents}}
+    <li>
+      <mark>{{this.pseudo}}</mark>
+      <small>{{this.score}}</small>
+    </li>
+    {{/each}}
+  </ol>
+</div>
 </div>
 <div class="container">
   <div class="row">
@@ -20,7 +39,7 @@
         <div class="form-group">
           <h2>Transmettre un renseignement</h2>
           <p>Vous avez des informations sur un espion ? Chaque jour vous pouvez gagner 100pts en trouvant l'equipe auquelle appartient un espion</p>
-          <p>Attention donner de faux renseignements sur un allié vous enlève des points</p>
+          <p>Attention donner de faux renseignements vous enlève des points</p>
 
           <select class="form-control" name="agent">
             {{#each listeAgents}}
@@ -39,7 +58,7 @@
     </div>
   </div>
   <div class="col-6">
-    <form action"\killer" method="post">
+    <form action="\killer" method="post">
       <div class="form-group">
         <h2>Déclarer un kill</h2>
         <p>Même les meilleurs agents doivent pointer leurs heures de travail...</p>
@@ -47,6 +66,7 @@
 
         <input class="form-control" type="text" name="killCode" placeholder="XXXXX">
         <button class="btn btn-primary mb-2" type="submit">Déclarer</button>
+      </div>
     </form>
   </div>
 </div>
@@ -63,9 +83,9 @@
     </form>
   </div>
 </div>
-</div>
 <div class="row">
-  <div class="form-group" <h2>Bons baisers de l'ile</h2>
+  <div class="form-group">
+    <h2>Bons baisers de l'ile</h2>
     <p>Disponible le dimanche 10 février</p>
   </div>
 </div>
