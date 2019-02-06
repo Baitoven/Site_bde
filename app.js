@@ -81,7 +81,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
           score: bonus
         }
       });
-      db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+      db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
         db.close();
         res.render('killer', {
           title: "BDE | Killer SAT",
@@ -97,7 +97,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
     });
 
   } else {
-    db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+    db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
 
       if (err) throw err;
       db.close();
@@ -116,7 +116,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
 }
 
 function declarerKill(db, req, resultAgent, res) {
-  db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+  db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
     db.collection("KillerSAT").find({
       code: req.body.killCode
     }).toArray(function(err, resultKill) {
@@ -178,7 +178,7 @@ function declarerKill(db, req, resultAgent, res) {
 }
 
 function goldenLyon(db, req, resultAgent, res) {
-  db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+  db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
     db.collection("KillerSAT").find({
       pseudo: req.session.agent
     }).toArray(function(err, result, code) {
@@ -223,7 +223,7 @@ function goldenLyon(db, req, resultAgent, res) {
         }
       }
     });
-    db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+    db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
 
       if (err) throw err;
       db.close();
@@ -259,7 +259,7 @@ app.post('/SAT_inscriptions', (req, res) => {
           db.collection("KillerSAT").find({
             pseudo: req.body.pseudo
           }).toArray(function(err, resPseudo) {
-            db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+            db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
             if (resPseudo.length == 0) {
               var teamPos = ["KGB","CIA","DGSE","MI6","Bundesnachrichtendienst"];
               var mdp = generatePassword(5, true);
@@ -339,7 +339,7 @@ app.get('/killer', (req, res) => {
   if (req.session.isloggedin) {
     MongoClient.connect(urldb, function(err, db) {
       if (err) throw err;
-      db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, result) {
+      db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, result) {
         if (err) throw err;
         console.log(result);
 
@@ -419,7 +419,7 @@ app.get('/loginSAT', (req, res) => {
       db.collection("KillerSAT").find({
         pseudo: req.session.agent
       }).toArray(function(err, resultAgent) {
-        db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+        db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
 
 
           if (err) throw err;
@@ -461,7 +461,7 @@ app.post('/loginSAT', (req, res) => {
               db.collection("KillerSAT").find({
                 pseudo: req.session.agent
               }).toArray(function(err, resultAgent) {
-                db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
+                db.collection("KillerSAT").find({}).sort({score:-1}).limit(10).toArray(function(err, results) {
 
 
                   if (err) throw err;

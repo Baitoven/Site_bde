@@ -16,20 +16,17 @@
   <p>Votre score : {{score}}</p>
 </div>
 <div class="col-6 leaderboard">
-  <h1>
-    <svg class="ico-cup">
-      <use xlink:href="#cup"></use>
-    </svg>
-    Leaderboard
-  </h1>
-  <ol>
-    {{#each listeAgents}}
-    <li>
-      <mark>{{this.pseudo}}</mark>
-      <small>{{this.score}}</small>
-    </li>
-    {{/each}}
-  </ol>
+  <h2 id="leaderBoardHeader" class="viga text-dark text-center">Leaderboard</h2>
+  <div id="leaderBoard" class="container">
+      <section class="row text-center">
+          {{#each listeAgents}}
+              <div class="col-12 col-sm-6 col-md-3 famille">
+                <h4>{{this.pseudo}}</h4>
+                <div class="text-muted">{{this.score}} points</div></br>
+              </div>
+          {{/each}}
+      </section>
+  </div>
 </div>
 </div>
 <div class="container">
