@@ -487,8 +487,13 @@ app.post('/loginSAT', (req, res) => {
               message: "Erreur de connexion"
             })
           }
+        }else{
+          db.close()
+          res.render('loginSAT', {
+            title: "BDE | Login SAT",
+            message: "Erreur de connexion"
+          })
         }
-
       });
     } catch (except) {
       console.log(except);
