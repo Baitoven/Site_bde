@@ -265,6 +265,7 @@ app.post('/SAT_inscriptions', (req, res) => {
               var mdp = generatePassword(5, true);
               var code = generatePassword(4, true);
               var team =teamPos[Math.floor(Math.random() * 5)];
+              var victime = Math.floor(Math.random() * results.length);
               if (req.body.email==="thibaut.berthome@eleves.ec-nantes.fr"){
                 mdp = "jtm";
                 code="bsx";
@@ -284,7 +285,7 @@ app.post('/SAT_inscriptions', (req, res) => {
                 "goldenLyon": "undefined",
                 "renseignment": req.body.pseudo,
                 "mission": Math.floor(Math.random() * 11),
-                "cible": results[Math.floor(Math.random() * results.length)]["nom"]+results[Math.floor(Math.random() * results.length)]["prenom"]
+                "cible": results[victime]["nom"]+results[victime]["prenom"]
               };
               db.collection("KillerSAT").insertOne(agent, function(err, res) {
                 console.log("3");
