@@ -481,7 +481,7 @@ app.post('/loginSAT', (req, res) => {
                   res.render('killer', {
                     title: "BDE | Killer SAT",
                     listeAgents: results,
-                    message: message,
+                    message: "connexion réussie",
                     pseudo: resultAgent[0]["pseudo"],
                     score: resultAgent[0]["score"]+bonus,
                     equipe: resultAgent[0]["team"],
