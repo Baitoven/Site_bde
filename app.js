@@ -366,14 +366,14 @@ app.get('/killer', (req, res) => {
           db.close();
           res.render('killer', {
             title: "BDE | Killer SAT",
-            listeAgents: results,
+            listeAgents: result,
             message: "",
             pseudo: resultAgent[0]["pseudo"],
             score: resultAgent[0]["score"],
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
-            leaderBoard: results.slice(0,9)
+            leaderBoard: result.slice(0,9)
           })
         })
 
