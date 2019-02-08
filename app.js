@@ -257,7 +257,7 @@ app.get('/SAT_inscriptions', (req, res) => {
 });
 //Inscription effective SAT vérification de non doublon.
 app.post('/SAT_inscriptions', (req, res) => {
-  if (req.body.email.includes("eleves.ec-nantes.fr")) {
+  if (req.body.email.includes("ec-nantes.fr")) {
     MongoClient.connect(urldb, function(err, db) {
       console.log("0");
       db.collection("KillerSAT").find({
