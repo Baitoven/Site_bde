@@ -139,7 +139,7 @@ function declarerKill(db, req, resultAgent, res) {
           }, {
             $set: {
               kills: killsEffec + " " + resultKill[0]["pseudo"],
-              mission:Math.floor(Math.random() * 5),
+              mission:Math.floor(Math.random() * 10),
               cible:results[Math.floor(Math.random() * results.length)]["nom"]+results[Math.floor(Math.random() * results.length)]["prenom"]
             },
             $inc: {
@@ -300,7 +300,7 @@ app.post('/SAT_inscriptions', (req, res) => {
                 "dateDernierEssai": 0,
                 "goldenLyon": "undefined",
                 "renseignment": req.body.pseudo,
-                "mission": Math.floor(Math.random() * 11),
+                "mission": Math.floor(Math.random() * 10),
                 "cible": results[victime]["nom"]+results[victime]["prenom"]
               };
               db.collection("KillerSAT").insertOne(agent, function(err, res) {
