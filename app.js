@@ -55,7 +55,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
   if (req.body.agent && req.body.team && resultAgent[0]["dateDernierEssai"] < aujourd.getDate()) {
     db.collection("KillerSAT").find({}).toArray(function(err, result) {
       for (i=0;i<result.length;i++){
-      if (result[i]["nom"]+" "+result[i]["prenom"]===req.body.agent && result[i]["team"]===req.body.team) {
+      if (result[i]["nom"]+" "+result[i]["prenom"]===req.body.agent && result[i]["team"]===req.body.team && req.body.agent != resultAgent[0]["nom"]+" "+resultAgent[0]["prenom"]) {
         message = "Gagné";
         bonus = 100;
         if (resultAgent[0]["renseignment"].includes(result[i]["pseudo"])){
@@ -72,10 +72,11 @@ function donnerRenseignement(db, req, resultAgent, res) {
           });
         }
       }
-      else if (req.body.agent === resultAgent[0]["nom"]+" "+resultAgent[0]["prenom"]){
-        message="Encore heureux que tu sais à quelle équipe t'appartient, -30 pour la peine";
-        bonus=-30;
-      }
+
+    }
+    if (req.body.agent === resultAgent[0]["nom"]+" "+resultAgent[0]["prenom"]){
+      message="Encore heureux que tu sais à quelle équipe t'appartient, -30 pour la peine";
+      bonus=-30;
     }
       db.collection("KillerSAT").update({
         pseudo: req.session.agent
