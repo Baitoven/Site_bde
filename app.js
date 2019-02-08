@@ -99,7 +99,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
           equipe: resultAgent[0]["team"],
           mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
           cible: resultAgent[0]["cible"],
-          leaderBoard: results.slice(0,9)
+          leaderBoard: results.slice(0,8)
         })
       });
     });
