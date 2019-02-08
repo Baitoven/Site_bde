@@ -15,19 +15,6 @@
   <p>Votre cible : {{cible}}</p>
   <p>Votre score : {{score}}</p>
 </div>
-<div class="col-sm-6 leaderboard">
-  <h2 id="leaderBoardHeader" class="viga text-dark text-center">Leaderboard</h2>
-  <div id="leaderBoard" class="container">
-      <section class="row text-center">
-          {{#each leaderBoard}}
-              <div class="col-12 col-sm-6 col-md-3 famille">
-                <h4>{{this.pseudo}}</h4>
-                <div class="text-muted">{{this.score}} points</div></br>
-              </div>
-          {{/each}}
-      </section>
-  </div>
-</div>
 </div>
 <div class="container">
   <div class="row">
@@ -55,7 +42,7 @@
             <option value="Woop">Woop</option>
           </select>
           <p>De retour rapidement</p>
-          <button class="btn btn-primary mb-2" type="submit" disabled>Envoyer</button>
+          <button class="btn btn-primary mb-2" type="submit">Envoyer</button>
       </form>
     </div>
   </div>
@@ -89,6 +76,19 @@
   <div class="form-group">
     <h2>Bons baisers de l'ile</h2>
     <p>Disponible le dimanche 10 février</p>
+  </div>
+</div>
+<div class="col-sm-6 leaderboard">
+  <h2 id="leaderBoardHeader" class="viga text-dark text-center">Leaderboard</h2>
+  <div id="leaderBoard" class="container">
+      <section class="row text-center">
+          {{#each leaderBoard}}
+              <div class="col-12 col-sm-6 col-md-3 famille">
+                <h4>{{this.pseudo}}</h4>
+                <div class="text-muted">{{this.score}} points</div></br>
+              </div>
+          {{/each}}
+      </section>
   </div>
 </div>
 </div>
