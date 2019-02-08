@@ -340,7 +340,7 @@ app.post('/SAT_inscriptions', (req, res) => {
   } else {
     res.render('sat_inscriptions', {
       title: "BDE | Inscriptions SAT",
-      message: "Veuillez utiliser votre adresse eleves.ec-nantes.fr"
+      message: "Veuillez utiliser votre adresse ec-nantes.fr"
     })
   }
 });
@@ -362,7 +362,7 @@ app.get('/killer', (req, res) => {
             listeAgents: results,
             message: message,
             pseudo: resultAgent[0]["pseudo"],
-            score: resultAgent[0]["score"]+bonus,
+            score: resultAgent[0]["score"],
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
@@ -408,7 +408,7 @@ app.post('/killer', (req, res) => {
             listeAgents: results,
             message: message,
             pseudo: resultAgent[0]["pseudo"],
-            score: resultAgent[0]["score"]+bonus,
+            score: resultAgent[0]["score"],
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
@@ -440,7 +440,7 @@ app.get('/loginSAT', (req, res) => {
             title: "BDE | Killer SAT",
             listeAgents: results,
             pseudo: resultAgent[0]["pseudo"],
-            score: resultAgent[0]["score"]+bonus,
+            score: resultAgent[0]["score"],
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
@@ -483,7 +483,7 @@ app.post('/loginSAT', (req, res) => {
                     listeAgents: results,
                     message: "connexion réussie",
                     pseudo: resultAgent[0]["pseudo"],
-                    score: resultAgent[0]["score"]+bonus,
+                    score: resultAgent[0]["score"],
                     equipe: resultAgent[0]["team"],
                     mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
                     cible: resultAgent[0]["cible"],
