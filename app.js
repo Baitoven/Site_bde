@@ -99,7 +99,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
           equipe: resultAgent[0]["team"],
           mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
           cible: resultAgent[0]["cible"],
-          leaderBoard: results.slice(9)
+          leaderBoard: results.slice(0,9)
         })
       });
     });
@@ -118,7 +118,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
         equipe: resultAgent[0]["team"],
         mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
         cible: resultAgent[0]["cible"],
-        leaderBoard: results.slice(9)
+        leaderBoard: results.slice(0,9)
       })
     });
   }
@@ -154,7 +154,7 @@ function declarerKill(db, req, resultAgent, res) {
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
-            leaderBoard: results.slice(9)
+            leaderBoard: results.slice(0,9)
           })
           return;
         } else {
@@ -167,7 +167,7 @@ function declarerKill(db, req, resultAgent, res) {
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
-            leaderBoard: results.slice(9)
+            leaderBoard: results.slice(0,9)
           })
           return;
         }
@@ -181,7 +181,7 @@ function declarerKill(db, req, resultAgent, res) {
           equipe: resultAgent[0]["team"],
           mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
           cible: resultAgent[0]["cible"],
-          leaderBoard: results.slice(9)
+          leaderBoard: results.slice(0,9)
         })
         return;
       }
@@ -217,7 +217,7 @@ function goldenLyon(db, req, resultAgent, res) {
               equipe: resultAgent[0]["team"],
               mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
               cible: resultAgent[0]["cible"],
-              leaderBoard: results.slice(9)
+              leaderBoard: results.slice(0,9)
             })
             return;
           } else {
@@ -230,7 +230,7 @@ function goldenLyon(db, req, resultAgent, res) {
               equipe: resultAgent[0]["team"],
               mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
               cible: resultAgent[0]["cible"],
-              leaderBoard: results.slice(9)
+              leaderBoard: results.slice(0,9)
             })
             return;
           }
@@ -250,7 +250,7 @@ function goldenLyon(db, req, resultAgent, res) {
         equipe: resultAgent[0]["team"],
         mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
         cible: resultAgent[0]["cible"],
-        leaderBoard: results.slice(9)
+        leaderBoard: results.slice(0,9)
       })
     });
     return;
@@ -373,7 +373,7 @@ app.get('/killer', (req, res) => {
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
-            leaderBoard: results.slice(9)
+            leaderBoard: results.slice(0,9)
           })
         })
 
@@ -419,7 +419,7 @@ app.post('/killer', (req, res) => {
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
-            leaderBoard: results.slice(9)
+            leaderBoard: results.slice(0,9)
           })
         });
         }
@@ -451,7 +451,7 @@ app.get('/loginSAT', (req, res) => {
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
-            leaderBoard: results.slice(9)
+            leaderBoard: results.slice(0,9)
           })
         });
       });
@@ -494,7 +494,7 @@ app.post('/loginSAT', (req, res) => {
                     equipe: resultAgent[0]["team"],
                     mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
                     cible: resultAgent[0]["cible"],
-                    leaderBoard: results.slice(9)
+                    leaderBoard: results.slice(0,9)
                   })
                 });
               });
