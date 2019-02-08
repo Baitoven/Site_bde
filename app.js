@@ -53,24 +53,30 @@ function donnerRenseignement(db, req, resultAgent, res) {
   var aujourd = new Date();
   var bonus = 0;
   if (req.body.agent && req.body.team && resultAgent[0]["dateDernierEssai"] < aujourd.getDate()) {
-    db.collection("KillerSAT").find({
-      agent: req.body.agent,
-      team: req.body.team
-    }).toArray(function(err, result) {
-      if (result.length == 0) {
-        message = "Raté";
-        bonus = -10;
-      }
-      else if (result[0]["pseudo"] === resultAgent[0]["pseudo"]){
-        message="Encore heureux que tu sais à quelle équipe t'appartient, -1 pour la peine";
-        bonus=-1;
-      }
-      else if (resultAgent[0]["renseignement"].includes(result[0]["pseudo"])){
-        message="Vous avez déjà transmis ce renseignment";
-      } else {
+    db.collection("KillerSAT").find({}).toArray(function(err, result) {
+      for (i=0;i<result.length;i++){
+      if (result[i]["nom"]+" "+result[i]["prenom"]===req.body.agent && result[i]["team"]===req.body.team) {
         message = "Gagné";
         bonus = 100;
+        if (resultAgent[0]["renseignment"].includes(result[i]["pseudo"])){
+          message="Vous avez déjà transmis ce renseignment";
+          bonus=0;
+        }
+        else{
+          db.collection("KillerSAT").update({
+            pseudo: req.session.agent
+          }, {
+            $set: {
+              renseignment: resultAgent[0]["renseignment"]+" "+result[i]["pseudo"]
+            }
+          });
+        }
       }
+      else if (req.body.agent === resultAgent[0]["nom"]+" "+resultAgent[0]["prenom"]){
+        message="Encore heureux que tu sais à quelle équipe t'appartient, -30 pour la peine";
+        bonus=-30;
+      }
+    }
       db.collection("KillerSAT").update({
         pseudo: req.session.agent
       }, {
@@ -81,6 +87,7 @@ function donnerRenseignement(db, req, resultAgent, res) {
           score: bonus
         }
       });
+
       db.collection("KillerSAT").find({}).sort({score:-1}).toArray(function(err, results) {
         db.close();
         res.render('killer', {
@@ -105,9 +112,9 @@ function donnerRenseignement(db, req, resultAgent, res) {
       res.render('killer', {
         title: "BDE | Killer SAT",
         listeAgents: results,
-        message: message,
+        message: "Vous avez déjà transmis un renseignment aujourd'hui",
         pseudo: resultAgent[0]["pseudo"],
-        score: resultAgent[0]["score"]+bonus,
+        score: resultAgent[0]["score"],
         equipe: resultAgent[0]["team"],
         mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
         cible: resultAgent[0]["cible"],
@@ -141,9 +148,9 @@ function declarerKill(db, req, resultAgent, res) {
           res.render('killer', {
             title: "BDE | Killer SAT",
             listeAgents: results,
-            message: message,
+            message: "Vous avez tué "+resultKill[0]["pseudo"]+" aussi connu sous le nom de "+resultKill[0]["nom"]+" "+resultKill[0]["prenom"],
             pseudo: resultAgent[0]["pseudo"],
-            score: resultAgent[0]["score"]+bonus,
+            score: resultAgent[0]["score"]+500,
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
@@ -154,9 +161,9 @@ function declarerKill(db, req, resultAgent, res) {
           res.render('killer', {
             title: "BDE | Killer SAT",
             listeAgents: results,
-            message: message,
+            message: "Vous avez déjà kill cette personne",
             pseudo: resultAgent[0]["pseudo"],
-            score: resultAgent[0]["score"]+bonus,
+            score: resultAgent[0]["score"],
             equipe: resultAgent[0]["team"],
             mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
             cible: resultAgent[0]["cible"],
@@ -168,9 +175,9 @@ function declarerKill(db, req, resultAgent, res) {
         res.render('killer', {
           title: "BDE | Killer SAT",
           listeAgents: results,
-          message: message,
+          message: "Kill raté",
           pseudo: resultAgent[0]["pseudo"],
-          score: resultAgent[0]["score"]+bonus,
+          score: resultAgent[0]["score"],
           equipe: resultAgent[0]["team"],
           mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
           cible: resultAgent[0]["cible"],
@@ -204,9 +211,9 @@ function goldenLyon(db, req, resultAgent, res) {
             res.render('killer', {
               title: "BDE | Killer SAT",
               listeAgents: results,
-              message: message,
+              message: "Vous avez desactivé un Lyonnais",
               pseudo: resultAgent[0]["pseudo"],
-              score: resultAgent[0]["score"]+bonus,
+              score: resultAgent[0]["score"]+50,
               equipe: resultAgent[0]["team"],
               mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
               cible: resultAgent[0]["cible"],
@@ -217,9 +224,9 @@ function goldenLyon(db, req, resultAgent, res) {
             res.render('killer', {
               title: "BDE | Killer SAT",
               listeAgents: results,
-              message: message,
+              message: "Vous avez déjà trouvé ce code",
               pseudo: resultAgent[0]["pseudo"],
-              score: resultAgent[0]["score"]+bonus,
+              score: resultAgent[0]["score"],
               equipe: resultAgent[0]["team"],
               mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
               cible: resultAgent[0]["cible"],
@@ -237,9 +244,9 @@ function goldenLyon(db, req, resultAgent, res) {
       res.render('killer', {
         title: "BDE | Killer SAT",
         listeAgents: results,
-        message: message,
+        message: "Ce code n'existe pas",
         pseudo: resultAgent[0]["pseudo"],
-        score: resultAgent[0]["score"]+bonus,
+        score: resultAgent[0]["score"],
         equipe: resultAgent[0]["team"],
         mission: JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'))[resultAgent[0]["mission"]]["Description"],
         cible: resultAgent[0]["cible"],
@@ -360,7 +367,7 @@ app.get('/killer', (req, res) => {
           res.render('killer', {
             title: "BDE | Killer SAT",
             listeAgents: results,
-            message: message,
+            message: "",
             pseudo: resultAgent[0]["pseudo"],
             score: resultAgent[0]["score"],
             equipe: resultAgent[0]["team"],

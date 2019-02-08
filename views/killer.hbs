@@ -40,7 +40,10 @@
 
           <select class="form-control" name="agent">
             {{#each listeAgents}}
-              <option>{{this.nom}} {{this.prenom}}</option>
+              <option>{{this.nom}} {{this.prenom}}
+              <!--<input type="hidden" value="{{this.nom}}" name="nom">
+              <input type="hidden" value ="{{this.prenom}}" name="prenom">--></option>
+
             {{/each}}
           </select>
           <select class="form-control" name="team">
