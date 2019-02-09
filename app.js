@@ -196,7 +196,8 @@ function goldenLyon(db, req, resultAgent, res) {
     db.collection("KillerSAT").find({
       pseudo: req.session.agent
     }).toArray(function(err, result, code) {
-      points = JSON.parse(fs.readFileSync('./public/data/satMissions.json', 'utf8'));
+      points = JSON.parse(fs.readFileSync('./public/data/goldenLyon.json', 'utf8'));
+      console.log(points);
       for (i = 0; i < points.length; i++) {
         if (points[i]['Code'] === req.body.goldenCode) {
           if (!(result[0]['goldenLyon'].includes(points[i]["Id"]))) {
