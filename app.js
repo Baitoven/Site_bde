@@ -134,13 +134,14 @@ function declarerKill(db, req, resultAgent, res) {
         console.log("test4");
         killsEffec = resultAgent[0]["kills"];
         if (!killsEffec.includes(resultKill[0]["pseudo"])) {
+          var rand = Math.floor(Math.random() * results.length)
           db.collection("KillerSAT").update({
             pseudo: req.session.agent
           }, {
             $set: {
               kills: killsEffec + " " + resultKill[0]["pseudo"],
               mission:Math.floor(Math.random() * 10),
-              cible:results[Math.floor(Math.random() * results.length)]["nom"]+results[Math.floor(Math.random() * results.length)]["prenom"]
+              cible:results[rand]["nom"]+results[rand]["prenom"]
             },
             $inc: {
               score: 500
