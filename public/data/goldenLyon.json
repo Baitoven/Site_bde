@@ -57,5 +57,49 @@
  {
     "Code": "JAMES",
     "Id": "O"
+  },
+ {
+    "Code": "MI6",
+    "Id": "P"
+  },
+ {
+    "Code": "Martini",
+    "Id": "Q"
+  },
+ {
+    "Code": "Q",
+    "Id": "R"
+  },
+ {
+    "Code": "REST",
+    "Id": "S"
+  },
+ {
+    "Code": "POMPETTE",
+    "Id": "T"
+  },
+ {
+    "Code": "<3",
+    "Id": "U"
+  },
+ {
+    "Code": "SH20H",
+    "Id": "V"
+  },
+ {
+    "Code": "POITOU",
+    "Id": "W"
+  },
+ {
+    "Code": "SAT",
+    "Id": "X"
+  },
+ {
+    "Code": "777",
+    "Id": "Y"
+  },
+ {
+    "Code": "TELEMATIQUE",
+    "Id": "Z"
   }
 ]
